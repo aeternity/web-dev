@@ -1,6 +1,7 @@
 body {
     font-family: "Roboto", -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-    font-size: 17px;
+    font-size: 18px;
+    line-height: 26px;
     margin: 0;
     overflow-x: hidden;
     width: 100vw;
@@ -26,7 +27,30 @@ p {
     margin: 1em 0;
 }
 
+h2 {
+    font-size: 45px;
+    font-weight: 900;
+    line-height: 48px;
+}
+
 h3 {
     font-size: 24px;
     line-height: 26px;
+}
+
+@media screen and (max-width: 1366px) {
+    body {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    h2 {
+        font-size: 30px;
+        line-height: 48px;
+    }
+
+    h3 {
+        font-size: 24px;
+        line-height: 26px;
+    }
 }
