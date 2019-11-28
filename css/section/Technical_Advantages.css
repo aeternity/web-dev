@@ -1,7 +1,7 @@
 #technical_advantages {
     background-image: url("../../img/section-back.jpg");
     background-size: cover;
-    padding-top: 50px;
+    padding: 50px 0 0;
 }
 
 #technical_advantages h2 {
@@ -9,9 +9,11 @@
 }
 
 .orbits {
+    box-sizing: border-box;
     display: flex;
     height: 100%;
     justify-content: center;
+    padding: 0 50px;
     width: 100%;
 }
 
@@ -141,6 +143,107 @@
     top: 76.78%;
 }
 
+.advantages-footer {
+    align-items: center;
+    display: flex;
+    margin: 70px 20px 50px;
+}
+
+.advantages-footer img {
+    margin-right: 7px;
+    vertical-align: middle;
+}
+
+.advantages-footer a {
+    color: #f7296e;
+}
+
+@media screen and (max-width: 1366px) {
+    #technical_advantages {
+        padding-top: 86px;
+    }
+
+    .orbits {
+        margin-top: 30px;
+        padding: 0;
+    }
+
+    .advantages {
+        background-size: 105%;
+        height: 57vw;
+        max-height: none;
+    }
+
+    .advantages-footer {
+        font-size: 18px;
+        line-height: 22px;
+        margin: 112px 20px 100px;
+    }
+
+    .advantage {
+        font-weight: 500;
+        height: 12.5%;
+        width: 7.1%;
+    }
+
+    .advantage span {
+        left: -83%;
+        margin-top: 17%;
+        position: absolute;
+        width: 263%;
+    }
+
+    .advantage:nth-child(1) {
+        left: 29.3%;
+        top: 12.04%;
+    }
+
+    .advantage:nth-child(2) {
+        left: 60.05%;
+        top: 12.66%;
+    }
+
+    .advantage:nth-child(3) {
+        left: 6.66%;
+        top: 29.07%;
+    }
+
+    .advantage:nth-child(4) {
+        left: 81.6%;
+        top: 30.37%;
+    }
+
+    .advantage:nth-child(5) {
+        left: 5.8%;
+        top: 53.77%;
+    }
+
+    .advantage:nth-child(6) {
+        left: 86.8%;
+        top: 57.77%;
+    }
+
+    .advantage:nth-child(7) {
+        left: 19.48%;
+        top: 71.25%;
+    }
+
+    .advantage:nth-child(8) {
+        left: 67.4%;
+        top: 74.65%;
+    }
+
+    .advantage:nth-child(9) {
+        left: 45.32%;
+        top: 77.28%;
+    }
+
+    .advantages-footer {
+        align-items: center;
+        display: flex;
+        margin: 112px 20px 104px;
+    }
+}
 
 @media screen and (max-width: 1023px) {
     .advantage a {
@@ -221,19 +324,4 @@
     .advantage:nth-child(9) a:focus {
         background-image: url("../../img/Highly_Flexible_Icon-alt.svg");
     }
-}
-
-.advantages-footer {
-    align-items: center;
-    display: flex;
-    margin: 70px 20px 50px;
-}
-
-.advantages-footer img {
-    margin-right: 7px;
-    vertical-align: middle;
-}
-
-.advantages-footer a {
-    color: #f7296e;
 }

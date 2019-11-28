@@ -136,4 +136,10 @@
     .section-content--normal > p {
         max-width: 900px;
     }
+
+    .section--fancy h2 {
+        font-size: 30px;
+        line-height: 50px;
+        max-width: 460px;
+    }
 }
