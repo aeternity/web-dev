@@ -1,5 +1,13 @@
 #sophia {
-    padding-top: 35px;
+    padding-top: 40px;
+}
+
+#sophia .section-content p:last-child {
+    margin-bottom: 0;
+}
+
+#sophia h2 {
+    margin: 40px 0 45px;
 }
 
 .sophia-caption {
@@ -10,7 +18,7 @@
 
 .sophia-content {
     display: flex;
-    margin: 55px 0 40px;
+    margin: 90px 0 30px;
     max-width: 1480px;
 }
 
@@ -18,41 +26,48 @@
     line-height: 36px;
 }
 
-.sophia-content p {
-    display: flex;
-}
-
 .sophia-text {
     box-sizing: border-box;
-    padding: 0 60px 0 30px;
+    padding: 0 56px 0 27px;
     width: 50%;
 }
 
 .sophia-text h3 {
     display: inline-flex;
-    margin-bottom: 0;
+    line-height: 26px;
+    margin: 0;
 }
 
 .sophia-text p {
     align-items: flex-start;
     display: inline-flex;
+    margin-bottom: 41px;
+}
+
+.sophia-text p + p {
+    margin-top: 0;
+}
+
+.sophia-text ul {
+    margin-bottom: 35px;
+    margin-top: 10px;
 }
 
 .sophia-graphic {
     background-image: url('../../img/Path_Sophia.svg');
     background-position: top right;
-    margin-top: 36px;
-    padding: 0 35px 0 15px;
+    margin-top: 13px;
+    padding: 0 20px 0 18px;
     width: 50%;
 }
 
 .sophia-graphic img {
-    margin-top: 50px;
+    margin-top: 52px;
 }
 
 .sophia-content p img {
     margin-right: 18px;
-    margin-top: 8px;
+    margin-top: 3px;
 }
 
 .sophia-content p small {
