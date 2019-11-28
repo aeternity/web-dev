@@ -19,6 +19,7 @@
 }
 
 .button--large {
+    font-size: 18px;
     height: 60px;
     line-height: 25px;
     width: 450px;

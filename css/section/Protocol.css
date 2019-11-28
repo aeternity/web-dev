@@ -69,20 +69,27 @@
     box-sizing: border-box;
     display: none;
     line-height: 30px;
-    padding: 42px;
+    padding: 142px 45px 42px;
     position: absolute;
     right: 0;
     top: 0;
     width: 50%;
 }
 
+.protocol-content > img:first-child {
+    position: absolute;
+    top: 61px;
+}
+
 .protocol-content h3 {
     color: #f7296e;
     line-height: 60px;
-    margin: 0;
+    margin-bottom: 15px;
+    margin-top: 0;
 }
 
 .protocol-content p {
+    margin-top: 0;
     max-height: 80%;
     overflow: auto;
 }

@@ -2,8 +2,8 @@
     align-items: center;
     display: flex;
     flex-direction: column;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 .section-content {
@@ -97,7 +97,8 @@
 }
 
 .section--hero p {
-    font-size: 30px;
+    font-size: 28px;
+    line-height: 33px;
     margin-top: 0;
     text-align: center;
 }
