@@ -108,3 +108,32 @@
     margin: 0 0 60px;
     max-width: 940px;
 }
+
+@media screen and (max-width: 1366px) {
+    .section-content p {
+        text-align: center;
+    }
+
+    .section--hero h1 {
+        font-size: 50px;
+        line-height: 66px;
+        margin-bottom: 40px;
+        text-transform: uppercase;
+    }
+
+    .section--hero p {
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 33px;
+    }
+
+    .section-content--hero {
+        color: #fff;
+        margin: 0 0 36px;
+        max-width: 700px;
+    }
+
+    .section-content--normal > p {
+        max-width: 900px;
+    }
+}

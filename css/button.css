@@ -68,3 +68,9 @@ input {
     padding: 10px 20px;
     width: 100%;
 }
+
+@media screen and (max-width: 1366px) {
+    .button--large {
+        height: 50px;
+    }
+}
