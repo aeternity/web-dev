@@ -29,3 +29,7 @@
     flex-direction: column;
     width: 100%;
 }
+
+.card .button--small {
+    margin-top: 6px;
+}

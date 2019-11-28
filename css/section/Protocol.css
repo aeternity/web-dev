@@ -2,6 +2,10 @@
     margin: 65px 30px 25px;
 }
 
+#protocol .button--large {
+    margin-top: 20px;
+}
+
 .protocol {
     margin-bottom: 40px;
     margin-top: 50px;

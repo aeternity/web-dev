@@ -4,12 +4,13 @@
 }
 
 #community h2 {
+    font-weight: 700;
     margin-bottom: 0;
 }
 
 .communities {
     margin-bottom: 65px;
-    margin-top: 55px;
+    margin-top: 49px;
     max-width: 1400px;
 }
 

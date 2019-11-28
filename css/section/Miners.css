@@ -1,20 +1,24 @@
 #miners {
     padding-bottom: 105px;
-    padding-top: 50px;
+    padding-top: 69px;
 }
 
 #miners h2 {
-    margin: 53px 0 24px;
+    margin-bottom: 0;
+}
+
+#miners h2 + p {
+    margin-top: 24px;
 }
 
 .miners {
-    margin: 37px 30px 0;
+    margin: 42px 30px 0;
     position: relative;
 }
 
 .miner {
     flex-basis: 360px;
-    padding: 38px 17px;
+    padding: 29px 17px 43px;
 }
 
 .miner .card-content {
