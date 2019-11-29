@@ -1,8 +1,6 @@
 .cards {
     display: flex;
     justify-content: center;
-    margin-left: 30px;
-    margin-right: 30px;
     width: 100%;
 }
 
@@ -32,4 +30,14 @@
 
 .card .button--small {
     margin-top: 6px;
+}
+
+.card p {
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 1366px) {
+    .card {
+        margin-right: 22px;
+    }
 }

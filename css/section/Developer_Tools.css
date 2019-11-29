@@ -14,11 +14,35 @@
 
 .api {
     flex-basis: 360px;
+    justify-content: center;
     padding: 35px;
 }
 
 .api h3 {
     line-height: 48px;
-    margin: 50px 0 0;
+    margin: 50px 0 24px;
     text-align: center;
+}
+
+@media screen and (max-width: 1366px) {
+    .apis {
+        margin-top: 48px;
+    }
+
+    .api h3 {
+        font-size: 20px;
+        margin-top: 24px;
+    }
+
+    .api {
+        padding: 30px 10px;
+    }
+
+    .api p {
+        margin: 0 auto;
+    }
+
+    #developer_tools .developer_tools-caption {
+        max-width: 790px;
+    }
 }

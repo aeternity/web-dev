@@ -21,8 +21,16 @@
     align-items: center;
     display: flex;
     flex-direction: column;
-    margin: 0 25px;
+    margin-right: 50px;
     text-align: center;
+}
+
+.section-button:first-child {
+    margin-left: 0;
+}
+
+.section-button:last-child {
+    margin-right: 0;
 }
 
 .section-buttons--reverse .section-button {
@@ -134,12 +142,16 @@
     }
 
     .section-content--normal > p {
-        max-width: 900px;
+        max-width: 780px;
     }
 
     .section--fancy h2 {
         font-size: 30px;
         line-height: 50px;
         max-width: 460px;
+    }
+
+    .section-button {
+        margin-right: 56px;
     }
 }
