@@ -25,6 +25,9 @@ a {
 
 p {
     margin: 26px 0;
+    overflow-x: hidden;
+    overflow-y: auto;
+    text-overflow: ellipsis;
 }
 
 h2 {

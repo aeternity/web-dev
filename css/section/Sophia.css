@@ -63,6 +63,7 @@
 
 .sophia-graphic img {
     margin-top: 52px;
+    max-width: 100%;
 }
 
 .sophia-content p img {

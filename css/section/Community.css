@@ -25,3 +25,21 @@
     position: absolute;
     width: 100%;
 }
+
+@media screen and (max-width: 1366px) {
+    #community {
+        padding: 30px 20px;
+    }
+
+    .communities {
+        margin-top: 75px;
+    }
+
+    .community span {
+        max-width: 230px;
+    }
+
+    .community {
+        flex-basis: 260px;
+    }
+}

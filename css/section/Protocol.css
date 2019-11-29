@@ -54,7 +54,7 @@
     height: 0;
     margin-right: 40px;
     margin-top: 27px;
-    width: 40%;
+    width: 35%;
 }
 
 .protocol-menu-item :checked + label + .protocol-content {
@@ -90,7 +90,6 @@
 .protocol-content p {
     margin: 0;
     max-height: 80%;
-    overflow: auto;
 }
 
 @media screen and (max-width: 1366px) {
