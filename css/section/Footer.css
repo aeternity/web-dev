@@ -41,6 +41,13 @@
 .footer-icons {
     align-items: center;
     display: flex;
+    justify-content: space-between;
+    max-width: 567px;
+    width: 100%;
+}
+
+.footer-icon {
+    flex-basis: 100%;
 }
 
 .footer-icon a {
@@ -51,9 +58,38 @@
     font-family: SegoeUI, Segoe UI, serif;
     font-size: 16px;
     letter-spacing: -0.029em;
-    margin-right: 60px;
+}
+
+.footer-logo {
+    margin: 0 30px;
+}
+
+.footer-icon:last-child a {
+    margin-right: 0;
 }
 
 .footer-icon img {
     margin-right: 43px;
+}
+
+@media screen and (max-width: 1366px) {
+    #footer h2 {
+        font-size: 50px;
+    }
+
+    .footer-icons {
+        max-width: 420px;
+    }
+
+    .footer-icon img {
+        margin-right: 20px;
+    }
+
+    .footer-icon a {
+        margin-right: 50px;
+    }
+
+    .subscribe {
+        margin-top: 15px;
+    }
 }
