@@ -44,7 +44,7 @@
     background-position: left center;
     background-repeat: no-repeat;
     font-size: 14px;
-    line-height: 60px;
+    line-height: 40px;
 }
 
 .button-text--logo {
@@ -72,5 +72,9 @@ input {
 @media screen and (max-width: 1366px) {
     .button--large {
         height: 50px;
+    }
+
+    .button-text {
+        line-height: 35px;
     }
 }

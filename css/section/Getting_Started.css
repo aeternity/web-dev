@@ -1,11 +1,16 @@
 #getting_started {
     background-image: url("../../img/section-back.jpg");
     background-size: cover;
-    height: 1343px;
+    padding-bottom: 80px;
+    padding-top: 50px;
 }
 
 .getting_started-buttons {
     display: flex;
+}
+
+#getting_started h2 {
+    margin-top: 0;
 }
 
 .getting_started-button {
@@ -52,6 +57,7 @@
     font-size: 24px;
     font-weight: bold;
     line-height: 26px;
+    text-align: center;
     text-decoration: underline;
 }
 
@@ -96,10 +102,17 @@
     align-items: center;
     display: flex;
     flex-direction: column;
-    flex-shrink: 0;
-    margin: 0 9px 45px;
+    flex-shrink: 1;
+    margin: 0 18px 45px 0;
 }
 
+.try-browser-options li:last-child {
+    margin-right: 0;
+}
+
+.try-browser-options li img {
+    width: 100%;
+}
 
 .try-browser-options a {
     margin-top: 45px;
@@ -110,7 +123,6 @@
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
-    margin-top: 10px;
     padding: 0 0 45px 70px;
     width: 50%;
 }
@@ -127,4 +139,68 @@
 
 .try-locally-aeproject a {
     margin-top: 8px;
+}
+
+@media screen and (max-width: 1366px) {
+    #getting_started {
+        padding-bottom: 50px;
+        padding-top: 67px;
+    }
+
+    #getting_started h2 {
+        margin-bottom: 34px;
+    }
+
+    .getting_started-caption {
+        max-width: 740px;
+    }
+
+    .try {
+        margin: 67px 20px 108px;
+    }
+
+    .try h3 {
+        font-size: 24px;
+        margin-bottom: 10px;
+        max-width: 350px;
+    }
+
+    .try h4 {
+        font-size: 18px;
+        max-width: 350px;
+    }
+
+    .try a {
+        font-size: 20px;
+        margin-top: 54px;
+    }
+
+    .try-browser p {
+        text-align: initial;
+    }
+
+    .try-browser-options li {
+        margin-bottom: 27px;
+        margin-right: 15px;
+    }
+
+    .try-browser-options li img {
+        width: 100%;
+    }
+
+    .try-browser {
+        padding: 0 33px 15px 0;
+    }
+
+    .try-locally {
+        padding: 0 0 15px 33px;
+    }
+
+    .try-locally-options {
+        margin-top: 67px;
+    }
+
+    .try-locally-aeproject a {
+        margin-top: 13px;
+    }
 }
