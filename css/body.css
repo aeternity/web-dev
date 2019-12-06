@@ -1,6 +1,8 @@
 body {
-    font-family: "Roboto", -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-family: "Roboto", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
     font-size: 18px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
     line-height: 26px;
     margin: 0;
     overflow-x: hidden;
