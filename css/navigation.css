@@ -148,3 +148,23 @@
         flex-basis: 56px;
     }
 }
+
+@media screen and (max-width: 1023px) {
+    .main-nav {
+        height: 50px;
+        padding: 0 15px;
+    }
+
+    .logo {
+        flex-basis: 106px;
+        height: 17px;
+    }
+
+    .lang-switcher {
+        display: none;
+    }
+
+    .pages {
+        display: none;
+    }
+}

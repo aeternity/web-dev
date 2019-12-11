@@ -157,8 +157,8 @@
 
 @media screen and (max-width: 1023px) {
     .section {
-        padding-left: 15px;
-        padding-right: 15px;
+        padding-left: 0;
+        padding-right: 0;
     }
 
     .section--hero h1 {
@@ -172,6 +172,12 @@
         font-size: 18px;
         font-weight: normal;
         line-height: 24px;
+    }
+
+    .section-content {
+        box-sizing: border-box;
+        padding-left: 15px;
+        padding-right: 15px;
     }
 
     .section-content--hero {
@@ -191,6 +197,10 @@
     }
 
     .section-button {
-        margin-right: 56px;
+        margin-right: 0;
+    }
+
+    .section-buttons {
+        flex-direction: column;
     }
 }

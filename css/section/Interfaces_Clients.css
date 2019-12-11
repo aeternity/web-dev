@@ -23,7 +23,6 @@
 #interfaces .section-content p {
     margin: 35px 0 0;
     max-width: 762px;
-    width: max-content;
 }
 
 #interfaces h2 {
@@ -58,4 +57,25 @@
 
 .interface li {
     line-height: 35px;
+}
+
+@media screen and (max-width: 1023px) {
+    .interfaces {
+        flex-direction: column;
+    }
+
+    .interface {
+        margin: 20px 15px !important;
+    }
+
+    #interfaces .section-content > ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 38px 0 30px;
+    }
+
+    #interfaces .section-content > ul > li {
+        margin: 5px;
+    }
 }

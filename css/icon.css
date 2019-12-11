@@ -51,3 +51,18 @@
         font-size: 20px;
     }
 }
+
+
+@media screen and (max-width: 1023px) {
+    .icons {
+        flex-wrap: wrap;
+        margin: 5px;
+    }
+
+    .icon {
+        font-size: 16px;
+    }
+    .icon > a {
+        padding-top: 70px;
+    }
+}

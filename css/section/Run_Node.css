@@ -1,11 +1,11 @@
 #run_node {
-    padding-bottom: 110px;
+    padding-bottom: 90px;
     padding-top: 50px;
 }
 
 .howtos {
     margin: 35px 30px 0;
-    padding-bottom: 74px;
+    padding-bottom: 99px;
     position: relative;
 }
 
@@ -21,6 +21,9 @@
 }
 
 .howto .button {
-    bottom: 0;
+    bottom: 25px;
     position: absolute;
+}
+
+@media screen and (max-width: 1023px) {
 }
