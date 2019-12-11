@@ -136,9 +136,23 @@
         <h2>The æternity protocol is</h2>
     </div>
     <div class="protocol">
-        <ul class="protocol-menu">
-            <li class="protocol-menu-item">
-                <input type="radio" name="protocol-menu" id="Universal" checked>
+        <div class="protocol-bullets">
+            <label for="Universal"></label>
+            <label for="Secure"></label>
+            <label for="Scalable"></label>
+            <label for="Efficient-low-to-no-fees"></label>
+            <label for="Interoperable-Oracles"></label>
+            <label for="Open-Source"></label>
+            <label for="Decentralized"></label>
+            <label for="Public-and-Private"></label>
+            <label for="User-Friendly"></label>
+            <label for="Governance"></label>
+            <label for="Development-Sustainability"></label>
+        </div>
+
+        <div class="protocol-menu">
+            <input type="radio" name="protocol-menu" id="Universal" checked>
+            <div class="protocol-menu-item">
                 <label for="Universal">Universal</label>
                 <div class="protocol-content">
                     <img src="img/No_fees.svg" alt="">
@@ -147,9 +161,9 @@
                         The aeternity protocol can do everything that you expect from a Smart Contract Blockchain platform like Ethereum or others. It can be used to power <b>Games, Payments, Identity, Decentralized Finance, Registries, Token-Economy, Logistics and more.</b> Some of the things are not yet invented that will be built with aeternity. <strong>The future is yours.</strong>
                     </p>
                 </div>
-            </li>
-            <li class="protocol-menu-item">
-                <input type="radio" name="protocol-menu" id="Secure">
+            </div>
+            <input type="radio" name="protocol-menu" id="Secure">
+            <div class="protocol-menu-item">
                 <label for="Secure">Secure</label>
                 <div class="protocol-content">
                     <img src="img/No_fees.svg" alt="">
@@ -158,9 +172,9 @@
                         aeternity is built with security in mind. The reference implementation is written in Erlang, following all standards of high-quality software engineering. Recurring security audits and intensive property based testing are part of the daily work of the protocol developers. In its security aspects on Blockchain, the aeternity protocol gets shipped with a type safe virtual machine called FATE (Fast aeternity Transaction Engine) which was engineered to boost efficiency (gas consumption) and security (type safe). Together with Sophia, a functional smart contract language that supports formal verification, the aeternity protocol provides an unique take on Blockchain and smart contract security. A highly paid bug bounty program is available for security researchers.
                     </p>
                 </div>
-            </li>
-            <li class="protocol-menu-item">
-                <input type="radio" name="protocol-menu" id="Scalable">
+            </div>
+            <input type="radio" name="protocol-menu" id="Scalable">
+            <div class="protocol-menu-item">
                 <label for="Scalable">Scalable</label>
                 <div class="protocol-content">
                     <img src="img/No_fees.svg" alt="">
@@ -169,9 +183,9 @@
                         In order to scale to billions of users and transactions the aeternity protocol provides trustless scaling through off-chain state channels. Without compromising on security state channels allow peer to peer transaction between users and the execution of smart contracts off-chain. This way aeternity has no limits in scaling. The network consensus of the protocol is fast. In average up to 15 times faster with a higher transaction throughput then comparable protocols. The confirmation time is as less as three seconds, which especially comes into account when looking at user experience.
                     </p>
                 </div>
-            </li>
-            <li class="protocol-menu-item">
-                <input type="radio" name="protocol-menu" id="Efficient-low-to-no-fees">
+            </div>
+            <input type="radio" name="protocol-menu" id="Efficient-low-to-no-fees">
+            <div class="protocol-menu-item">
                 <label for="Efficient-low-to-no-fees">Efficient low-to-no fees</label>
                 <div class="protocol-content">
                     <img src="img/No_fees.svg" alt="">
@@ -180,9 +194,9 @@
                         aeternity is equipped with dozens of unique native transactions types for State Channels, Oracles, Names among others. All functionality is optimized to work with minimal gas cost. Additionally, once established, within off-chain State Channels, there are no fees for transactions or smart contract executions. On-chain, with Bitcoin-NG, the consensus mechanism of the protocol allows for more transactions and gas (smart contract executions) per block. This relaxes the fee and gas market and leads to lower cost. Combined with the execution of smart contracts through the highly efficient FATE VM, less overall Gas is needed. Additionally with off-chain State Channels, the aeternity protocol reduces the on-chain transaction and smart contract execution volumes massively, which lowers the fees.
                     </p>
                 </div>
-            </li>
-            <li class="protocol-menu-item">
-                <input type="radio" name="protocol-menu" id="Interoperable-Oracles">
+            </div>
+            <input type="radio" name="protocol-menu" id="Interoperable-Oracles">
+            <div class="protocol-menu-item">
                 <label for="Interoperable-Oracles">Interoperable Oracles</label>
                 <div class="protocol-content">
                     <img src="img/No_fees.svg" alt="">
@@ -191,9 +205,9 @@
                         Oracles are a special type of transactions on aeternity to request and provide data from data providers and APIs. If a smart contract for example is in need of today's weather data, a oracle request transaction including a data schema can be broadcasted on chain. Data providers can respond to data and charge a fee for providing the response. The other way around oracle provides can register on-chain and provide all types of data for free or by charging a fee. This allows smart contract developers to interact and build upon all sorts of APIs and create applications which are dependent on outside data (for example the current price of Bitcoin at a certain time).
                     </p>
                 </div>
-            </li>
-            <li class="protocol-menu-item">
-                <input type="radio" name="protocol-menu" id="Open-Source">
+            </div>
+            <input type="radio" name="protocol-menu" id="Open-Source">
+            <div class="protocol-menu-item">
                 <label for="Open-Source">Open Source</label>
                 <div class="protocol-content">
                     <img src="img/No_fees.svg" alt="">
@@ -202,9 +216,9 @@
                         The protocol and all essential developer resources are fully open source. There is no proprietary license whatsoever. The development is transparent and everyone can start contributing via GitHub, the Forum or physical Meetups.
                     </p>
                 </div>
-            </li>
-            <li class="protocol-menu-item">
-                <input type="radio" name="protocol-menu" id="Decentralized">
+            </div>
+            <input type="radio" name="protocol-menu" id="Decentralized">
+            <div class="protocol-menu-item">
                 <label for="Decentralized">Decentralized</label>
                 <div class="protocol-content">
                     <img src="img/No_fees.svg" alt="">
@@ -213,9 +227,9 @@
                         With Satoshi’s heritage in its core (Nakamoto Consensus) the protocol is build to be decentralized. Everyone can host a node and start mining, connect to the network and help to secure the chain or verify transaction. The network is operated by an community of thousands of nodes. It is fully trustless, there is no central authority, no master nodes or kill-switches. With Cuckoo Circle, aeternity has chosen a highly efficient proof-of-work algorithm which is the first graph-theoretic proof-of-work, and the most memory bound, yet with instant verification.
                     </p>
                 </div>
-            </li>
-            <li class="protocol-menu-item">
-                <input type="radio" name="protocol-menu" id="Public-and-Private">
+            </div>
+            <input type="radio" name="protocol-menu" id="Public-and-Private">
+            <div class="protocol-menu-item">
                 <label for="Public-and-Private">Public and Private</label>
                 <div class="protocol-content">
                     <img src="img/No_fees.svg" alt="">
@@ -224,9 +238,9 @@
                         The aeternity protocol is using the accounts model. All transactions are public by default. Aeternity allows a very flexible and open design of accounts, which is called Generalized Accounts that enable signing transactions with a high flexibility. Cryptographically the protocol uses Blake2b (256 bits digest) and ed25519. It supports Schnorr Signatures. The communication between nodes is encrypted with the noise protocol. Off-chain State Channel transactions and smart contract executions are fully private unless published on-chain for dispute resolution. It is easy to setup a private Blockchain network (example for Enterprise or Public Institutions).
                     </p>
                 </div>
-            </li>
-            <li class="protocol-menu-item">
-                <input type="radio" name="protocol-menu" id="User-Friendly">
+            </div>
+            <input type="radio" name="protocol-menu" id="User-Friendly">
+            <div class="protocol-menu-item">
                 <label for="User-Friendly">User Friendly</label>
                 <div class="protocol-content">
                     <img src="img/No_fees.svg" alt="">
@@ -235,9 +249,9 @@
                         A build in Naming System for human readable names allows you to point names to accounts and contracts (Example: ak_XbqHD3RYPb3w3eVopLyc... becomes yourname.chain). This makes transacting tokens between peers easiest and can help to make smart contract code more readable and upgradable.
                     </p>
                 </div>
-            </li>
-            <li class="protocol-menu-item">
-                <input type="radio" name="protocol-menu" id="Governance">
+            </div>
+            <input type="radio" name="protocol-menu" id="Governance">
+            <div class="protocol-menu-item">
                 <label for="Governance">Governance</label>
                 <div class="protocol-content">
                     <img src="img/No_fees.svg" alt="">
@@ -246,9 +260,9 @@
                         The aeternity community is governed by miners, users and developers. Through hard-fork signaling node operators can show their support for hard upgrades. All token holders can join a weighted delegated polling mechanism through an mobile and user friendly app with verifiable results on the aeternity Blockchain. Discussions are taking place in chat rooms, online forums, public events and in the aexpansions repository on GitHub.
                     </p>
                 </div>
-            </li>
-            <li class="protocol-menu-item">
-                <input type="radio" name="protocol-menu" id="Development-Sustainability">
+            </div>
+            <input type="radio" name="protocol-menu" id="Development-Sustainability">
+            <div class="protocol-menu-item">
                 <label for="Development-Sustainability">Development Sustainability</label>
                 <div class="protocol-content">
                     <img src="img/No_fees.svg" alt="">
@@ -257,8 +271,8 @@
                         The protocol is robust and reliable and build to last for aeternity even without maintenance or the development of new features. Nevertheless, the aeternity crypto foundation currently receive around 10.8% of the mining reward to support the long-term development and maintenance of the core protocol and essential resources. There is an open R&D Grant program available at <a href="https://www.aeternity-foundation.org">www.aeternity-foundation.org</a> as well as a Development Bounty program for contributors. To enable entrepreneurs and business to launch their own startup, there are programs for entrepreneurs <a href="https://www.aeternityStarfleet.com">www.aeternityStarfleet.com</a> and a venture fund <a href="https://www.aeternity-Ventures.com">www.aeternity-Ventures.com</a> to kick-start even more.
                     </p>
                 </div>
-            </li>
-        </ul>
+            </div>
+        </div>
     </div>
     <a href="#" class="button button--large">Get started</a>
 </section>
@@ -267,7 +281,7 @@
     <div class="section-content section-content--alt">
         <h2>Safe Smart Contract Development with Sophia</h2>
         <p class="sophia-caption">
-            An &AElig;ternity BlockChain Language The Sophia is a language in the ML family.<br>
+            An &AElig;ternity BlockChain Language The Sophia is a language in the ML family.
             It is strongly typed and has restricted mutable state.
         </p>
     </div>
