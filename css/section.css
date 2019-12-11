@@ -136,6 +136,45 @@
     }
 
     .section-content--hero {
+        margin: 0 0 36px;
+        max-width: 700px;
+    }
+
+    .section-content--normal > p {
+        max-width: 780px;
+    }
+
+    .section--fancy h2 {
+        font-size: 30px;
+        line-height: 50px;
+        max-width: 460px;
+    }
+
+    .section-button {
+        margin-right: 56px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .section {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .section--hero h1 {
+        font-size: 30px;
+        line-height: 40px;
+        margin-bottom: 23px;
+        text-transform: none;
+    }
+
+    .section--hero p {
+        font-size: 18px;
+        font-weight: normal;
+        line-height: 24px;
+    }
+
+    .section-content--hero {
         color: #fff;
         margin: 0 0 36px;
         max-width: 700px;

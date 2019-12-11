@@ -14,3 +14,13 @@
         padding-top: 100px;
     }
 }
+
+@media screen and (max-width: 1366px) {
+    #header {
+        box-sizing: border-box;
+        height: calc(100vh - 50px);
+        justify-content: center;
+        padding-bottom: 123px;
+        padding-top: 100px;
+    }
+}
