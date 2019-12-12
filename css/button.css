@@ -57,7 +57,7 @@
     padding-left: 28px;
 }
 
-input {
+form input {
     background: #fff;
     border: 1px solid #707070;
     box-sizing: border-box;
@@ -67,6 +67,11 @@ input {
     line-height: 25px;
     padding: 10px 20px;
     width: 100%;
+}
+
+form input::-webkit-input-placeholder {
+    color: inherit;
+    opacity: 0.5;
 }
 
 @media screen and (max-width: 1366px) {
@@ -80,6 +85,10 @@ input {
 }
 
 @media screen and (max-width: 1023px) {
+    form input {
+        font-size: 14px;
+    }
+
     .button--normal,
     .button--large {
         font-size: 16px;
