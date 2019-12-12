@@ -60,8 +60,15 @@
 }
 
 @media screen and (max-width: 1023px) {
+    #interfaces {
+        padding-bottom: 45px;
+    }
+
     .interfaces {
         flex-direction: column;
+        margin-bottom: 15px;
+        margin-top: 25px;
+        padding: 0;
     }
 
     .interface {
@@ -76,6 +83,10 @@
     }
 
     #interfaces .section-content > ul > li {
-        margin: 5px;
+        margin: 15px 30px;
+    }
+
+    #interfaces .section-content p {
+        margin: 35px 0 0;
     }
 }
