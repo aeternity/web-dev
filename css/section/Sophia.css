@@ -10,6 +10,10 @@
     margin: 40px 0 45px;
 }
 
+#sophia .section-button {
+    flex-direction: column-reverse;
+}
+
 .sophia-caption {
     font-size: 24px;
     line-height: 28px;
@@ -80,4 +84,20 @@
 .sophia-content p small a {
     font-size: 18px;
     line-height: 36px;
+}
+
+@media screen and (max-width: 1023px) {
+    .sophia-content {
+        flex-wrap: wrap;
+        margin-top: 20px;
+    }
+
+    .sophia-graphic {
+        background-image: none;
+        margin: 0 auto 20px;
+    }
+
+    .sophia-text {
+        width: auto;
+    }
 }

@@ -62,7 +62,8 @@
     .icon {
         font-size: 16px;
     }
+
     .icon > a {
-        padding-top: 70px;
+        padding-top: 80px;
     }
 }

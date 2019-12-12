@@ -29,6 +29,7 @@
 }
 
 .footer-links {
+    box-sizing: border-box;
     display: flex;
     justify-content: space-between;
     margin-bottom: 87px;
@@ -113,12 +114,13 @@
         flex-wrap: wrap;
         justify-content: space-around;
         margin-top: 67px;
+        padding: 0;
     }
 
     .footer-logo {
         flex-basis: 100%;
         margin: 0 0 45px;
-        order: 1;
+        order: -1;
     }
 
     .footer-icons {
@@ -126,8 +128,11 @@
         flex-basis: 50%;
         flex-direction: column;
         max-width: 120px;
-        order: 2;
         width: 50%;
+    }
+
+    .footer-icon {
+        margin-bottom: 20px;
     }
 
     .footer-icon img {

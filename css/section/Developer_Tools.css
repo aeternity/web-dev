@@ -24,6 +24,10 @@
     text-align: center;
 }
 
+.api ul {
+    text-align: start;
+}
+
 @media screen and (max-width: 1366px) {
     .apis {
         margin-top: 48px;
@@ -49,6 +53,11 @@
 
 @media screen and (max-width: 1023px) {
     .apis {
+        margin-top: 0;
         max-width: 360px;
+    }
+
+    .api {
+        padding: 30px 17px;
     }
 }

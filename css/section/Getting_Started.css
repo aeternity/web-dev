@@ -204,3 +204,24 @@
         margin-top: 13px;
     }
 }
+
+@media screen and (max-width: 1023px) {
+    .try {
+        flex-wrap: wrap;
+    }
+
+    .try-browser {
+        border: 0;
+        padding: 0;
+        width: auto;
+    }
+
+    .try-browser p {
+        text-align: center;
+    }
+
+    .try-locally {
+        padding: 0;
+        width: auto;
+    }
+}

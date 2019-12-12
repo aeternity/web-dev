@@ -28,12 +28,40 @@
     width: 100%;
 }
 
+.card-content h3:nth-child(n+2) {
+    flex-grow: 1;
+}
+
 .card .button--small {
     margin-top: 6px;
 }
 
 .card p {
     margin: 0 auto;
+}
+
+.cards::-webkit-scrollbar {
+    height: 16px;
+    width: 16px;
+}
+
+.cards::-webkit-scrollbar-track:horizontal {
+    border: solid #dcdcdc;
+    border-radius: 15px;
+    border-width: 0 2px;
+}
+
+.cards::-webkit-scrollbar-thumb {
+    background-attachment: scroll;
+    background-image: url(../img/dot.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.cards::-webkit-scrollbar-button {
+    display: flex;
+    opacity: 0;
+    width: 30%;
 }
 
 @media screen and (max-width: 1366px) {
@@ -56,6 +84,13 @@
         width: 100vw;
     }
 
+    .cards:before,
+    .cards:after {
+        content: '';
+        flex: 0 0 auto;
+        width: 1px;
+    }
+
     .card {
         flex: 0 0 auto !important;
         margin-right: 50px;
@@ -63,6 +98,27 @@
         scroll-snap-align: start;
         scroll-snap-stop: always;
         width: calc(100% - 30px);
+    }
+
+    .counter {
+        counter-reset: total;
+        padding-top: 40px;
+    }
+
+    .counter > * {
+        counter-increment: num;
+        position: relative;
+    }
+
+    .counter > :before {
+        content: "( " counter(num) " / " counter(total) " )";
+        font-size: 16px;
+        font-weight: 500;
+        left: 0;
+        position: absolute;
+        right: 0;
+        text-align: center;
+        top: -40px;
     }
 
     .card:first-child {
@@ -73,36 +129,8 @@
         margin-right: 15px;
     }
 
-    .cards:after {
-        content: '';
-        flex: 0 0 auto;
-        width: 1px;
-    }
-
     .card-content {
         align-items: center;
         text-align: center;
-    }
-
-    .cards::-webkit-scrollbar {
-        width: 20px;
-    }
-
-    .cards::-webkit-scrollbar-track {
-        border: 1px solid #dcdcdc;
-        border-radius: 10px;
-    }
-
-    .cards::-webkit-scrollbar-thumb {
-        background-attachment: scroll;
-        background-image: url(../img/dot.svg);
-        background-position: center;
-        background-repeat: no-repeat;
-    }
-
-    .cards::-webkit-scrollbar-button {
-        display: flex;
-        width: 30%;
-        opacity: 0;
     }
 }

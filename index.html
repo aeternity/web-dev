@@ -320,7 +320,7 @@
             </p>
         </div>
     </div>
-    <div class="section-buttons section-buttons--reverse">
+    <div class="section-buttons">
         <div class="section-button">
             <a href="https://forum.aeternity.com/c/development/sophia-smart-contracts" class="button button--small">Get help</a>
             <div class="button-text button-text--logo">in The Forum</div>
@@ -398,7 +398,7 @@
             For a quick start and reference SDK it is recommended to use the JavaScript one.
         </p>
     </div>
-    <div class="cards apis">
+    <div class="cards counter apis">
         <div class="card api">
             <div class="card-content">
                 <img src="img/Developers_Tools_Section_icons.svg" alt="">
@@ -412,12 +412,20 @@
             <div class="card-content">
                 <img src="img/Developers_Tools_Section_icons.svg" alt="">
                 <h3>SDK Frontend APIs</h3>
-                <p>
-                    <a href="https://github.com/aeternity/aepp-sdk-js">JavaScript</a> (recommended)<br>
-                    <a href="https://github.com/aeternity/aepp-sdk-python">Python</a><br>
-                    <a href="https://github.com/aeternity/aepp-sdk-go">Go</a><br>
-                    <a href="https://github.com/kryptokrauts/aepp-sdk-java">Java</a> (Community Maintained)<br>
-                </p>
+                <ul class="unstyled">
+                    <li>
+                        <a href="https://github.com/aeternity/aepp-sdk-js">JavaScript</a> (recommended)<br>
+                    </li>
+                    <li>
+                        <a href="https://github.com/aeternity/aepp-sdk-python">Python</a><br>
+                    </li>
+                    <li>
+                        <a href="https://github.com/aeternity/aepp-sdk-go">Go</a><br>
+                    </li>
+                    <li>
+                        <a href="https://github.com/kryptokrauts/aepp-sdk-java">Java</a> (Community Maintained)<br>
+                    </li>
+                </ul>
             </div>
         </div>
         <div class="card api">
@@ -462,7 +470,7 @@
     <div class="section-content section-content--alt">
         <h2>Useful resources</h2>
     </div>
-    <div class="cards resources">
+    <div class="cards counter resources">
         <div class="card resource">
             <div class="card-content">
                 <h3>Hosted API Server, Public Nodes and Services</h3>
@@ -579,7 +587,7 @@
     <div class="section-content section-content--alt">
         <h2>Run your own Node and Services.</h2>
     </div>
-    <div class="cards howtos">
+    <div class="cards counter howtos">
         <div class="card howto">
             <div class="card-content">
                 <img src="img/Host_a_Node_icon.svg" alt="">
@@ -612,7 +620,7 @@
             <a href="https://github.com/aeternity/aeternity/tree/master/docs/release-notes">release notes</a>
         </p>
     </div>
-    <div class="cards miners">
+    <div class="cards counter miners">
         <div class="card miner">
             <div class="card-content">
                 <h3>Run a node</h3>
@@ -683,23 +691,38 @@
         <h2>&aelig;ternity Newsletter</h2>
         <p>Sign up for the latest content and updates.</p>
         <form action="https://aeternity.us15.list-manage.com/subscribe/post?u=83a504836fa768f10619d053c&id=c2d8c3ba71" method="post" target="_blank" class="subscribe">
-            <input type="email" name="EMAIL" placeholder="your.email@example.com">
+            <label><input type="email" name="EMAIL" placeholder="your.email@example.com"></label>
             <button type="submit" name="subscribe" class="button button--wide">Subscribe</button>
         </form>
     </div>
     <div class="footer-links">
         <ul class="footer-icons">
-            <li class="footer-icon"><a href="https://github.com/aeternity"><img src="img/Footer_Github.svg" alt=""><span>GitHub</span></a></li>
-            <li class="footer-icon"><a href="https://www.reddit.com/r/Aeternity/"><img src="img/Footer_Reddit.svg" alt=""><span>Reddit</span></a></li>
-            <li class="footer-icon"><a href="https://blog.aeternity.com"><img src="img/Footer_Medium.svg" alt=""><span>Medium</span></a></li>
+            <li class="footer-icon"><a href="https://github.com/aeternity">
+                <img src="img/Footer_Github.svg" alt=""><span>GitHub</span></a>
+            </li>
+            <li class="footer-icon"><a href="https://www.reddit.com/r/Aeternity/">
+                <img src="img/Footer_Reddit.svg" alt=""><span>Reddit</span></a>
+            </li>
+            <li class="footer-icon"><a href="https://blog.aeternity.com">
+                <img src="img/Footer_Medium.svg" alt=""><span>Medium</span></a>
+            </li>
         </ul>
         <img src="img/aeternity-logo-white-stacked.svg" alt="" class="footer-logo">
         <ul class="footer-icons">
-            <li class="footer-icon"><a href="https://telegram.me/aeternity"><img src="img/Footer_Telegram.svg" alt=""><span>Telegram</span></a></li>
-            <li class="footer-icon"><a href="https://www.facebook.com/aeternityproject/"><img src="img/Footer_Facebook.svg" alt=""><span>Facebook</span></a></li>
-            <li class="footer-icon"><a href="https://twitter.com/aeternity"><img src="img/Footer_Twitter.svg" alt=""><span>Twitter</span></a></li>
+            <li class="footer-icon"><a href="https://telegram.me/aeternity">
+                <img src="img/Footer_Telegram.svg" alt=""><span>Telegram</span></a>
+            </li>
+            <li class="footer-icon"><a href="https://www.facebook.com/aeternityproject/">
+                <img src="img/Footer_Facebook.svg" alt=""><span>Facebook</span></a>
+            </li>
+            <li class="footer-icon"><a href="https://twitter.com/aeternity">
+                <img src="img/Footer_Twitter.svg" alt=""><span>Twitter</span></a>
+            </li>
         </ul>
     </div>
 </footer>
+<script>
+    document.querySelectorAll('.counter').forEach(el => el.style.counterReset = 'total ' + el.childElementCount);
+</script>
 </body>
 </html>
