@@ -87,9 +87,22 @@
 }
 
 @media screen and (max-width: 1023px) {
+    #sophia {
+        padding: 30px 17px 50px;
+    }
+
+    #sophia h2 {
+        margin: 36px;
+    }
+
+    .sophia-caption {
+        font-size: 16px;
+        font-weight: normal;
+    }
+
     .sophia-content {
         flex-wrap: wrap;
-        margin-top: 20px;
+        margin: 0;
     }
 
     .sophia-graphic {
@@ -97,7 +110,30 @@
         margin: 0 auto 20px;
     }
 
+    .sophia-graphic img {
+        margin-left: -3vw;
+    }
+
     .sophia-text {
+        padding: 0;
+        text-align: center;
         width: auto;
+    }
+
+    .sophia-text p {
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .sophia-content p img {
+        margin: 0 0 15px;
+    }
+
+    .sophia-text h3:first-child {
+        font-size: 24px;
+    }
+
+    .sophia-content p small {
+        font-size: 14px;
     }
 }
