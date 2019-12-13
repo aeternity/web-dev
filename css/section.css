@@ -6,6 +6,10 @@
     padding-right: 50px;
 }
 
+.section h2 {
+    font-weight: 900;
+}
+
 .section-content {
     align-items: center;
     display: flex;

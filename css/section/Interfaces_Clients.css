@@ -23,6 +23,7 @@
 #interfaces .section-content p {
     margin: 35px 0 0;
     max-width: 762px;
+    text-align: center;
 }
 
 #interfaces h2 {

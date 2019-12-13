@@ -9,7 +9,7 @@
 .resource {
     flex-basis: 648px;
     margin-right: 65px;
-    padding: 35px 45px 20px;
+    padding: 35px 45px;
 }
 
 .resource h3 {
@@ -19,30 +19,35 @@
 
 .resource h4 {
     font-size: 24px;
-    font-weight: bold;
+    font-weight: 700;
     line-height: 26px;
     margin: 0 0 10px;
 }
 
 .resource h5 {
     font-size: 24px;
-    font-weight: bold;
+    font-weight: 700;
     line-height: 26px;
     margin: 0 0 10px;
 }
 
-.resource .card-content > p + ul {
-    flex-grow: 1;
-    margin-top: 13px;
+.resource .card-content > * {
+    align-items: start;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.resource .card-content > p {
+    margin-bottom: 1em;
 }
 
 .resource .card-content > ul > li {
     border-bottom: 1px solid #dcdcdc;
-    padding: 19px 0;
+    padding: 20px 0;
 }
 
-.resource .card-content > h3 + ul > li {
-    padding-top: 10px;
+.resource .card-content > ul:first-of-type > li:first-of-type {
+    padding-top: 0;
 }
 
 .resource .faucet {
@@ -67,14 +72,10 @@
 
 .resource .card-content > ul:last-child > li:last-child {
     border: 0;
+    padding-bottom: 0;
 }
 
 @media screen and (max-width: 1366px) {
-    .resource .card-content > p + ul {
-        font-size: 14px;
-        margin: 30px 0;
-    }
-
     .resources {
         margin: 50px 30px;
     }
@@ -82,7 +83,7 @@
     .resource {
         flex-basis: 550px;
         margin-right: 40px;
-        padding: 30px 39px 20px;
+        padding: 30px 39px;
     }
 
     .resource h3 {
@@ -93,9 +94,22 @@
         width: 100%;
     }
 
-    .resource p {
+    .resource .card-content p {
         font-size: 16px;
         line-height: 26px;
+        margin-bottom: 30px;
+    }
+
+    .resource .card-content p:last-child {
+        margin-bottom: 0;
+    }
+
+    .resource .card-content > p + ul {
+        font-size: 14px;
+    }
+
+    .resource .faucet {
+        margin-top: 30px;
     }
 
     .resource h4 {
@@ -103,19 +117,6 @@
         line-height: 26px;
         margin-bottom: 16px;
         margin-top: 0;
-    }
-
-    .resource h4:first-child {
-        margin-top: 0;
-    }
-
-    .resource .card-content > h3 + ul > li:not(:last-child) {
-        margin-bottom: 20px;
-        padding-top: 0;
-    }
-
-    .resource .card-content > ul > li {
-        padding: 20px 0;
     }
 }
 
@@ -125,7 +126,7 @@
     }
 
     .resource {
-        padding: 37px 17px 0;
+        padding: 37px 17px;
     }
 
     .resource .card-content {
@@ -136,11 +137,12 @@
         margin-left: 20px;
     }
 
-    .resource .card-content > ul ul li {
-        line-height: 24px;
+    .resource .card-content > ul > li {
+        border: 0;
+        padding: 10px 0;
     }
 
-    .resource .faucet {
-        margin-top: 0;
+    .resource .card-content > ul ul li {
+        line-height: 24px;
     }
 }

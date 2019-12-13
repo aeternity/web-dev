@@ -52,7 +52,7 @@
 .nav-current .nav-link {
     border-bottom: 1px solid #f7296e;
     color: #f7296e;
-    font-weight: bold;
+    font-weight: 700;
 }
 
 .lang-switcher {
@@ -75,7 +75,7 @@
 
 .lang-current {
     cursor: pointer;
-    font-weight: bold;
+    font-weight: 700;
     text-transform: uppercase;
 }
 
@@ -99,7 +99,7 @@
     display: flex;
     font-family: inherit;
     font-size: inherit;
-    font-weight: bold;
+    font-weight: 700;
     padding: 0;
     text-align: start;
     text-transform: uppercase;

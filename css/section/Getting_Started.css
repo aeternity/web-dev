@@ -55,7 +55,7 @@
 .try a {
     color: white;
     font-size: 24px;
-    font-weight: bold;
+    font-weight: 700;
     line-height: 26px;
     text-align: center;
     text-decoration: underline;
@@ -156,6 +156,7 @@
     }
 
     .try {
+        justify-content: center;
         margin: 67px 20px 108px;
     }
 

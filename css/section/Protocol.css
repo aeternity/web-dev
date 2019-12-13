@@ -68,7 +68,7 @@
     background: linear-gradient(to right, rgba(247, 41, 110, 0.35), transparent 50%, transparent);
     border-left-color: #f7296e;
     color: #f7296e;
-    font-weight: bold;
+    font-weight: 700;
     justify-content: space-between;
     width: 49%;
 }
