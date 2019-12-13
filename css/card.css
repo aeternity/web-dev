@@ -40,30 +40,6 @@
     margin: 0 auto;
 }
 
-.cards::-webkit-scrollbar {
-    height: 16px;
-    width: 16px;
-}
-
-.cards::-webkit-scrollbar-track:horizontal {
-    border: solid #dcdcdc;
-    border-radius: 15px;
-    border-width: 0 2px;
-}
-
-.cards::-webkit-scrollbar-thumb {
-    background-attachment: scroll;
-    background-image: url(../img/dot.svg);
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
-.cards::-webkit-scrollbar-button {
-    display: flex;
-    opacity: 0;
-    width: 30%;
-}
-
 @media screen and (max-width: 1366px) {
     .card {
         margin-right: 22px;

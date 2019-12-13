@@ -1,0 +1,64 @@
+::-webkit-scrollbar {
+    -webkit-appearance: none;
+    background: transparent;
+    height: 15px;
+    width: 17px;
+}
+
+::-webkit-scrollbar-track {
+    border: 2px solid #dcdcdc;
+    border-radius: 15px;
+}
+
+::-webkit-scrollbar-track:vertical {
+    border-left: 2px solid transparent;
+    border-right: 3px solid transparent;
+}
+
+::-webkit-scrollbar-track:horizontal {
+    border-bottom-color: transparent;
+    border-top-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background: url('../img/dot.svg') center no-repeat;
+}
+
+::-webkit-scrollbar-button {
+    display: flex;
+    height: 20%;
+    width: 30%;
+}
+
+body {
+    overflow-y: overlay;
+}
+
+body::-webkit-scrollbar {
+    width: 22px;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-clip: content-box;
+    background-image: linear-gradient(0, #f7296edd, #f7296edd);
+    border: 6px solid transparent;
+    border-radius: 10px;
+}
+
+body::-webkit-scrollbar-track {
+    border-color: transparent;
+}
+
+body::-webkit-scrollbar-track:vertical {
+    background-clip: content-box;
+    background-image: linear-gradient(0, #dcdcdc10, #dcdcdc10);
+    border-left: 3px solid transparent;
+    border-right: 4px solid transparent;
+}
+
+body::-webkit-scrollbar-track:vertical:hover {
+    background-clip: content-box;
+    background-image: linear-gradient(0, #dcdcdc25, #dcdcdc25);
+    border-left-width: 2px;
+    border-right-width: 3px;
+}
