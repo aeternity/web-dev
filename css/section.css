@@ -1,9 +1,28 @@
 .section {
     align-items: center;
+    box-sizing: border-box;
+    color: #fff;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     padding-left: 50px;
     padding-right: 50px;
+    position: relative;
+}
+
+.section::before {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    bottom: 0;
+    content: "";
+    left: 0;
+    position: -webkit-sticky;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transform: translateZ(-1px) scale(1.55);
+    z-index: -1;
 }
 
 .section h2 {
@@ -44,6 +63,7 @@
 /* --- Normal --- */
 
 .section--normal {
+    background: #fff;
     color: #000;
     padding-bottom: 76px;
 }
@@ -78,8 +98,11 @@
 /* --- Fancy --- */
 
 .section--fancy {
-    background-color: #1c0517;
     color: #fff;
+}
+
+.section--fancy::after {
+    background-image: url("../img/section-back-alt.jpg");
 }
 
 .section--fancy h2 {
@@ -99,6 +122,7 @@
 
 .section--hero {
     color: #fff;
+    height: 100%;
 }
 
 .section--hero h1 {
@@ -150,7 +174,7 @@
 
     .section--fancy h2 {
         font-size: 30px;
-        line-height: 50px;
+        line-height: 40px;
         max-width: 460px;
     }
 
@@ -196,7 +220,7 @@
 
     .section--fancy h2 {
         font-size: 30px;
-        line-height: 50px;
+        line-height: 40px;
         max-width: 460px;
     }
 

@@ -1,8 +1,10 @@
 #getting_started {
-    background-image: url("../../img/section-back.jpg");
-    background-size: cover;
     padding-bottom: 80px;
     padding-top: 50px;
+}
+
+#getting_started:before {
+    background-image: url("../../img/section-back-alt.jpg");
 }
 
 .getting_started-buttons {

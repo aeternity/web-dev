@@ -3,7 +3,7 @@
 }
 
 #protocol {
-    margin: 65px 30px 25px;
+    padding: 65px 30px 25px;
 }
 
 #protocol .button--large {
@@ -122,7 +122,7 @@
 
 @media screen and (max-width: 1366px) {
     #protocol {
-        margin: 70px 30px 25px;
+        padding: 70px 30px 25px;
     }
 
     .protocol {

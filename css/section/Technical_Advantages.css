@@ -1,11 +1,13 @@
 #technical_advantages {
-    background-image: url("../../img/section-back.jpg");
-    background-size: cover;
     padding: 50px 0 0;
 }
 
 #technical_advantages h2 {
     margin: 0;
+}
+
+#technical_advantages:before {
+    background-image: url("../../img/section-back-alt.jpg");
 }
 
 .orbits {
@@ -18,7 +20,7 @@
 }
 
 .advantages {
-    background-image: url("../../img/Technical_Advantages_Section_Graphic.svg");
+    background-image: url("../../img/Technical_Advantages_Section_Graphic2.svg");
     background-size: contain;
     height: 51vw;
     max-height: 978px;

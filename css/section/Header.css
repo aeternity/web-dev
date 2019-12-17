@@ -1,11 +1,11 @@
 #header {
-    background-color: #593d4e;
-    background-image: url("../../img/Header_Section_Image_Background.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
     padding-bottom: 161px;
     padding-top: 166px;
+}
+
+#header:before {
+    background-image: url("../../img/Header_Section_Image_Background.jpg");
+    background-position: bottom right;
 }
 
 @media screen and (max-width: 1366px) {

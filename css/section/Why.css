@@ -1,5 +1,6 @@
 #why {
     padding-top: 34px;
+    min-height: 45vh;
 }
 
 #why h2 {
@@ -39,7 +40,6 @@
 @media screen and (max-width: 1023px) {
     #why {
         box-sizing: border-box;
-        min-height: 100vh;
         padding-bottom: 46px;
         padding-top: 34px;
     }

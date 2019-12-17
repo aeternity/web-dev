@@ -1,7 +1,10 @@
 #footer {
-    background: url("../../img/Footer_background.jpg") no-repeat center;
-    background-size: cover;
     padding-top: 90px;
+}
+
+#footer:before {
+    background-image: url("../../img/Footer_background.jpg");
+    transform: none;
 }
 
 .subscribe {
