@@ -39,6 +39,11 @@
     margin-bottom: 20px;
     position: absolute;
     top: 0;
+    transition: all 0.1s;
+}
+
+.icon > a:hover > img {
+    transform: scale(1.05);
 }
 
 @media screen and (max-width: 1366px) {

@@ -31,6 +31,35 @@ a:not([class]):hover {
     text-decoration: underline;
 }
 
+a:not([href]) {
+    color: #ccc;
+    cursor: default;
+    position: relative;
+}
+
+a:not([href]):after {
+    background: white;
+    box-shadow: 0 0 3px 0 #707070;
+    color: #000;
+    content: 'Under development';
+    font-size: 14px;
+    left: 50%;
+    min-width: max-content;
+    opacity: 0;
+    padding: 3px 15px;
+    pointer-events: none;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    transform: translate(-50%, 0%);
+    transition: all 0.1s;
+}
+
+a:not([href]):hover:after {
+    opacity: 1;
+    top: 100%;
+}
+
 p {
     margin: 26px 0;
     text-overflow: ellipsis;

@@ -1,7 +1,8 @@
 .button {
     align-items: center;
     background: #f7296e;
-    border: 0;
+    border: 2px solid #f7296e;
+    box-sizing: border-box;
     color: #fff;
     display: flex;
     flex-shrink: 0;
@@ -9,6 +10,7 @@
     font-weight: 500;
     justify-content: center;
     text-decoration: none;
+    transition: all 0.2s;
 }
 
 .button--small {
@@ -19,10 +21,16 @@
 }
 
 .button--large {
+    background: #311b5890;
     font-size: 20px;
     height: 60px;
     line-height: 25px;
     width: 450px;
+}
+
+.button--large:hover {
+    background: #5f468cb0;
+    border-color: #fff;
 }
 
 .button--normal {
@@ -32,11 +40,34 @@
     width: 350px;
 }
 
+.button--normal:hover {
+    background: #fff;
+    color: #000;
+}
+
+.button--small:hover {
+    background: #fff;
+    color: #000;
+}
+
+.section--fancy .button--small:hover {
+    background: #5f468cb0;
+    border-color: #fff;
+    color: #fff;
+}
+
 .button--wide {
+    cursor: pointer;
     font-size: 16px;
     height: 45px;
     line-height: 25px;
     width: 100%;
+}
+
+.button--wide:hover {
+    background: #5f468cb0;
+    border-color: #fff;
+    color: #fff;
 }
 
 .button-text {
