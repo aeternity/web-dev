@@ -13,6 +13,11 @@
     transition: all 0.2s;
 }
 
+.button:hover {
+    background: #fff;
+    color: #f7296e;
+}
+
 .button--small {
     font-size: 16px;
     height: 40px;
@@ -27,7 +32,8 @@
     width: 450px;
 }
 
-.button--large:hover {
+.section--hero .button:hover,
+.section--fancy .button:hover {
     background: #311b5890;
     color: #f7296e;
 }
@@ -39,34 +45,12 @@
     width: 350px;
 }
 
-.button--normal:hover {
-    background: #fff;
-    color: #000;
-}
-
-.button--small:hover {
-    background: #fff;
-    color: #000;
-}
-
-.section--fancy .button--small:hover {
-    background: #5f468cb0;
-    border-color: #fff;
-    color: #fff;
-}
-
 .button--wide {
     cursor: pointer;
     font-size: 16px;
     height: 45px;
     line-height: 25px;
     width: 100%;
-}
-
-.button--wide:hover {
-    background: #5f468cb0;
-    border-color: #fff;
-    color: #fff;
 }
 
 .button-text {

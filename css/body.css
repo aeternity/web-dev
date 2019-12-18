@@ -33,7 +33,7 @@ a:not([class]):hover {
 
 a:not([href]) {
     color: #ccc;
-    cursor: default;
+    cursor: pointer;
     position: relative;
 }
 

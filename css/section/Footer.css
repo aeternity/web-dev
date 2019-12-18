@@ -1,11 +1,13 @@
 #footer {
+    overflow: hidden;
+    padding-bottom: 90px;
     padding-top: 90px;
 }
 
 #footer:before {
-    background-image: url("../../img/Footer_background.jpg");
+    background-image: url("../../img/section-back-alt.jpg");
     top: -30%;
-    transform-origin: 50% 0%;
+    transform-origin: top;
 }
 
 .subscribe {

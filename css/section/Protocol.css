@@ -191,10 +191,10 @@
     .protocol-menu-item {
         background: #fff;
         height: 100%;
-        opacity: 0;
+        opacity: 1;
         position: absolute;
         text-align: center;
-        transform: translate3d(-100%, 0px, 0px);
+        transform: translate3d(-100%, 0, 0);
         transition: all 0.3s ease-out;
         width: 100%;
         will-change: transform, opacity;
@@ -204,27 +204,34 @@
     .protocol-menu :checked + .protocol-menu-item {
         opacity: 1;
         transform: translate3d(0px, 0px, 0px);
+        transition: all 0.3s ease-out;
         z-index: 1;
     }
 
     .protocol-menu :checked + .protocol-menu-item ~ .protocol-menu-item {
         box-shadow: none;
-        opacity: 0;
-        transform: translate3d(100%, 0px, 0px);
+        opacity: 1;
+        transform: translate3d(100%, 0, 0);
         transition: all 0.3s ease-out;
     }
 
     .protocol-menu-item label {
+        background: url("../../img/chevron-active.svg") no-repeat center;
         border: 0;
-        bottom: 50%;
         height: auto;
+        opacity: 1;
         overflow: hidden;
         padding: 0;
         position: absolute;
         right: -35%;
         text-indent: -100vw;
         top: 60px;
+        transition: opacity 0.5s;
         width: 35%;
+    }
+
+    .protocol-menu-item label:after {
+        content: '';
     }
 
     .protocol-menu :checked + .protocol-menu-item label {
@@ -232,7 +239,9 @@
     }
 
     .protocol-menu :checked + * + * + .protocol-menu-item label {
+        background: url("../../img/chevron-active-right.svg") no-repeat center;
         left: -35%;
+        opacity: 1;
     }
 
 
