@@ -4,7 +4,8 @@
 
 #footer:before {
     background-image: url("../../img/Footer_background.jpg");
-    transform: none;
+    top: -30%;
+    transform-origin: 50% 0%;
 }
 
 .subscribe {
@@ -35,7 +36,6 @@
     box-sizing: border-box;
     display: flex;
     justify-content: space-evenly;
-    margin-bottom: 87px;
     margin-top: 155px;
     max-width: 1800px;
     padding: 0;

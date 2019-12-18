@@ -8,6 +8,7 @@
     padding-left: 50px;
     padding-right: 50px;
     position: relative;
+    transform-style: inherit;
 }
 
 .section::before {
@@ -16,13 +17,20 @@
     background-size: cover;
     bottom: 0;
     content: "";
+    display: none;
     left: 0;
     position: -webkit-sticky;
     position: absolute;
     right: 0;
     top: 0;
-    transform: translateZ(-1px) scale(1.55);
+    transform: translateX(-4px) translateZ(-1px) scale(1.5);
+    transform-origin: center;
     z-index: -1;
+}
+
+.section--hero::before,
+.section--fancy::before {
+    display: initial;
 }
 
 .section h2 {
@@ -66,6 +74,7 @@
     background: #fff;
     color: #000;
     padding-bottom: 76px;
+    z-index: 1;
 }
 
 .section-content--normal > p {
@@ -80,6 +89,7 @@
     background-color: #f7f7f7;
     color: #000;
     padding-bottom: 76px;
+    z-index: 1;
 }
 
 .section-content--alt {
@@ -99,10 +109,12 @@
 
 .section--fancy {
     color: #fff;
+    transform-style: inherit;
 }
 
 .section--fancy::after {
     background-image: url("../img/section-back-alt.jpg");
+    -moz-transform-style: preserve-3d
 }
 
 .section--fancy h2 {

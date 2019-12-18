@@ -21,7 +21,6 @@
 }
 
 .button--large {
-    background: #311b5890;
     font-size: 20px;
     height: 60px;
     line-height: 25px;
@@ -29,8 +28,8 @@
 }
 
 .button--large:hover {
-    background: #5f468cb0;
-    border-color: #fff;
+    background: #311b5890;
+    color: #f7296e;
 }
 
 .button--normal {

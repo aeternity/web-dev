@@ -85,6 +85,8 @@ main {
     perspective: 2px;
     position: absolute;
     top: 125px;
+    transform-style: preserve-3d;
+    transform: perspective(2px);
     width: 100vw;
 }
 
