@@ -64,7 +64,7 @@
     color: #fff;
     display: flex;
     flex-basis: 100%;
-    font-family: SegoeUI, Segoe UI, serif;
+    font-family: "SegoeUI", "Segoe UI", sans-serif;
     font-size: 16px;
     justify-content: center;
     letter-spacing: -0.029em;

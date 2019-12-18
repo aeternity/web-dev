@@ -71,7 +71,7 @@
         flex: 0 0 auto !important;
         margin-right: 50px;
         scroll-margin: 0 15px 0 15px;
-        scroll-snap-align: start;
+        scroll-snap-align: center;
         scroll-snap-stop: always;
         width: calc(100% - 30px);
     }

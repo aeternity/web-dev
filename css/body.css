@@ -79,7 +79,6 @@ h3 {
 main {
     box-sizing: border-box;
     height: calc(100vh - 125px);
-    -webkit-overflow-scrolling: touch;
     overflow-x: hidden;
     overflow-y: overlay;
     perspective: 2px;
