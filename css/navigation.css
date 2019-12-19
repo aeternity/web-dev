@@ -81,7 +81,7 @@ header {
 
 .lang-menu {
     background: #fff;
-    border: 1px solid gray;
+    box-shadow: 0 0 3px 0 #60606090;
     display: none;
     padding: 20px;
     position: absolute;
