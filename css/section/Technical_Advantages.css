@@ -6,10 +6,6 @@
     margin: 50px 0 0;
 }
 
-#technical_advantages:before {
-    background-image: url("../../img/section-back-alt.jpg");
-}
-
 .orbits {
     box-sizing: border-box;
     display: flex;
@@ -183,9 +179,9 @@
     }
 
     .advantage {
-        font-weight: 500;
-        height: 12.5%;
-        width: 7.1%;
+        font-weight: 400;
+        height: 16%;
+        width: 9%;
     }
 
     .advantage span {
@@ -260,10 +256,9 @@
         display: none;
         font-size: 14px;
         font-weight: normal;
-        left: 50%;
+        left: 0;
         line-height: 20px;
         margin-bottom: 20px;
-        margin-left: -25px;
         min-width: 120px;
         padding: 18px 20px 18px 10px;
         position: absolute;
@@ -283,12 +278,19 @@
         width: 0;
     }
 
+    .advantage a:active + span,
     .advantage a:focus + span {
         display: block;
     }
 
-    .advantage a:focus + span:before {
-        display: block;
+    .advantage:nth-child(2n) span {
+        left: 100%;
+        transform: translateX(-100%);
+    }
+
+    .advantage:nth-child(2n) span:before {
+        left: auto;
+        right: 16px;
     }
 
     .advantage:nth-child(1) a:focus {

@@ -19,12 +19,9 @@
     content: "";
     display: none;
     left: 0;
-    position: -webkit-sticky;
     position: absolute;
     right: 0;
     top: 0;
-    transform: translateX(-4px) translateZ(-1px) scale(1.5);
-    transform-origin: center;
     z-index: -1;
 }
 
@@ -113,12 +110,10 @@
 
 .section--fancy {
     color: #fff;
-    transform-style: inherit;
 }
 
-.section--fancy::after {
+.section--fancy::before {
     background-image: url("../img/section-back-alt.jpg");
-    -moz-transform-style: preserve-3d
 }
 
 .section--fancy h2 {

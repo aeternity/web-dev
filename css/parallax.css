@@ -1,0 +1,24 @@
+@supports (perspective: 2px) and (transform: translateZ(-1px)) and (transform: scale(1.5)) {
+    body {
+        overflow-y: hidden;
+    }
+
+    main {
+        overflow-y: overlay;
+        perspective: 2px;
+        transform-style: preserve-3d;
+        -moz-transform-style: preserve-3d;
+    }
+
+    main * {
+        transform-style: inherit;
+        -moz-transform-style: inherit;
+    }
+
+    .section::before {
+        transform: translateZ(-1px) scale(1.5);
+        -moz-transform: translateX(-4px) translateZ(-1px) scale(1.5);
+        transform-origin: center;
+    }
+}
+

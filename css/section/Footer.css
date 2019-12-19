@@ -5,7 +5,6 @@
 }
 
 #footer:before {
-    background-image: url("../../img/section-back-alt.jpg");
     top: -30%;
     transform-origin: top;
 }

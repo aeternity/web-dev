@@ -6,7 +6,7 @@ body {
     margin: 0;
     -moz-osx-font-smoothing: grayscale;
     overflow-x: hidden;
-    overflow-y: hidden;
+    overflow-y: overlay;
     text-rendering: optimizeLegibility;
     width: 100vw;
 }
@@ -80,13 +80,9 @@ main {
     box-sizing: border-box;
     height: calc(100vh - 125px);
     overflow-x: hidden;
-    overflow-y: overlay;
-    perspective: 2px;
     position: absolute;
     top: 125px;
-    transform-style: preserve-3d;
-    transform: perspective(2px);
-    width: 100vw;
+    width: 100%;
 }
 
 @media screen and (max-width: 1366px) {
