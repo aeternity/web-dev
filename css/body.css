@@ -62,6 +62,7 @@ a:not([href]):hover:after {
 
 p {
     margin: 26px 0;
+    text-align: justify;
     text-overflow: ellipsis;
 }
 
