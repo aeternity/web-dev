@@ -157,6 +157,10 @@
 }
 
 @media screen and (max-width: 1366px) {
+    .section {
+        padding-bottom: 50px;
+    }
+
     .section-content p {
         text-align: center;
     }

@@ -85,13 +85,8 @@ main {
     height: calc(100vh - 125px);
     overflow-x: hidden;
     position: absolute;
-    scroll-snap-type: y proximity;
     top: 125px;
     width: 100%;
-}
-
-main > * {
-    scroll-snap-align: start;
 }
 
 @media screen and (max-width: 1366px) {

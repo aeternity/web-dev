@@ -1,5 +1,9 @@
+#developer_tools {
+    padding-top: 30px;
+}
+
 #developer_tools h2 {
-    margin: 60px 0 30px;
+    margin: 30px 0 30px;
 }
 
 .developer_tools-caption {
@@ -7,9 +11,9 @@
 }
 
 .apis {
-    margin-bottom: 93px;
-    margin-top: 70px;
+    margin-top: 50px;
     max-width: 1580px;
+    padding-bottom: 30px;
 }
 
 .api {
@@ -30,10 +34,6 @@
 }
 
 @media screen and (max-width: 1366px) {
-    .apis {
-        margin-top: 48px;
-    }
-
     .api {
         padding: 30px 10px;
     }

@@ -1,6 +1,7 @@
 .cards {
     display: flex;
     justify-content: center;
+    margin: 35px 30px;
     width: 100%;
 }
 
@@ -41,6 +42,10 @@
 }
 
 @media screen and (max-width: 1366px) {
+    .cards {
+        margin: 35px 0;
+    }
+
     .card {
         margin-right: 22px;
     }
@@ -50,8 +55,7 @@
     .cards {
         box-sizing: border-box;
         justify-content: normal;
-        margin-left: 0;
-        margin-right: 0;
+        margin-top: 0;
         max-width: 360px;
         overflow-x: auto;
         overflow-y: hidden;
@@ -78,7 +82,7 @@
 
     .counter {
         counter-reset: total;
-        padding-top: 40px;
+        padding-top: 50px;
     }
 
     .counter > * {
