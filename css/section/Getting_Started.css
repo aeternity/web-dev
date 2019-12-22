@@ -3,13 +3,12 @@
     padding-top: 50px;
 }
 
+#getting_started h2 {
+    margin-top: 0;
+}
 
 .getting_started-buttons {
     display: flex;
-}
-
-#getting_started h2 {
-    margin-top: 0;
 }
 
 .getting_started-button {

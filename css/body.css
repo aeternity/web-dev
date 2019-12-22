@@ -8,7 +8,6 @@ body {
     overflow-x: hidden;
     overflow-y: overlay;
     scroll-snap-type: y proximity;
-    text-rendering: optimizeLegibility;
     width: 100vw;
 }
 
