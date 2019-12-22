@@ -50,10 +50,6 @@
     position: relative;
 }
 
-.protocol-menu-item {
-    transform-style: initial;
-}
-
 .protocol-menu-item label {
     border-left: 5px solid #dedede;
     color: #000;

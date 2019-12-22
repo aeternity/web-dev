@@ -14,5 +14,10 @@
         -moz-transform: translateX(-4px) translateZ(-1px) scale(1.5);
         transform-origin: center;
     }
+
+    .section--hero,
+    .section--fancy {
+        transform-style: preserve-3d;
+    }
 }
 
