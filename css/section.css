@@ -44,6 +44,7 @@
     align-items: center;
     display: flex;
     justify-content: center;
+    width: 100%;
 }
 
 .section-button {
@@ -51,6 +52,7 @@
     display: flex;
     flex-direction: column;
     margin-right: 50px;
+    max-width: 450px;
     padding: 0 20px;
     text-align: center;
     width: 100%;
@@ -238,13 +240,15 @@
         max-width: 460px;
     }
 
-    .section-button {
-        margin-bottom: 15px;
-        margin-right: 0;
-    }
-
     .section-buttons {
         align-items: center;
         flex-direction: column;
+    }
+
+    .section-button {
+        margin-bottom: 15px;
+        margin-right: 0;
+        max-width: 345px;
+        width: calc(100% - 30px);
     }
 }

@@ -1,2 +1,2 @@
-# web-dev
-Website dev
+# Aeternity website
+
