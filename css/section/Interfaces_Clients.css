@@ -20,6 +20,13 @@
     flex-direction: column;
 }
 
+#interfaces .section-content:nth-child(4) > ul > li > a > img {
+    border-radius: 50%;
+    box-shadow: 0 3px 6px 0 #70707070;
+    margin-bottom: 10px;
+    width: 64px;
+}
+
 #interfaces .section-content p {
     margin: 35px 0 0;
     max-width: 762px;
