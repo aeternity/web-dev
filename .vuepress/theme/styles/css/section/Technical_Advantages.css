@@ -16,7 +16,7 @@
 }
 
 .advantages {
-    background-image: url("../../img/Technical_Advantages_Section_Graphic2.svg");
+    background-image: url("/img/Technical_Advantages_Section_Graphic2.svg");
     background-size: contain;
     height: 51vw;
     max-height: 978px;
@@ -61,39 +61,39 @@
 }
 
 .advantage:nth-child(1) a {
-    background-image: url("../../img/No_Scaling_Icon.svg");
+    background-image: url("/img/No_Scaling_Icon.svg");
 }
 
 .advantage:nth-child(2) a {
-    background-image: url("../../img/Security_icon.svg");
+    background-image: url("/img/Security_icon.svg");
 }
 
 .advantage:nth-child(3) a {
-    background-image: url("../../img/Confirmation_Time_icon.svg");
+    background-image: url("/img/Confirmation_Time_icon.svg");
 }
 
 .advantage:nth-child(4) a {
-    background-image: url("../../img/Low_fees_Icon.svg");
+    background-image: url("/img/Low_fees_Icon.svg");
 }
 
 .advantage:nth-child(5) a {
-    background-image: url("../../img/No_fees_Icon.svg");
+    background-image: url("/img/No_fees_Icon.svg");
 }
 
 .advantage:nth-child(6) a {
-    background-image: url("../../img/Naming_System_icon.svg");
+    background-image: url("/img/Naming_System_icon.svg");
 }
 
 .advantage:nth-child(7) a {
-    background-image: url("../../img/Private_Transaction_icon.svg");
+    background-image: url("/img/Private_Transaction_icon.svg");
 }
 
 .advantage:nth-child(8) a {
-    background-image: url("../../img/Build_in_Oracles_icon.svg");
+    background-image: url("/img/Build_in_Oracles_icon.svg");
 }
 
 .advantage:nth-child(9) a {
-    background-image: url("../../img/Highly_Flexible_Icon.svg");
+    background-image: url("/img/Highly_Flexible_Icon.svg");
 }
 
 .advantage:nth-child(1) {
@@ -294,38 +294,38 @@
     }
 
     .advantage:nth-child(1) a:focus {
-        background-image: url("../../img/No_Scaling_Icon-alt.svg");
+        background-image: url("/img/No_Scaling_Icon-alt.svg");
     }
 
     .advantage:nth-child(2) a:focus {
-        background-image: url("../../img/Security_icon-alt.svg");
+        background-image: url("/img/Security_icon-alt.svg");
     }
 
     .advantage:nth-child(3) a:focus {
-        background-image: url("../../img/Confirmation_Time_icon-alt.svg");
+        background-image: url("/img/Confirmation_Time_icon-alt.svg");
     }
 
     .advantage:nth-child(4) a:focus {
-        background-image: url("../../img/Low_fees_Icon-alt.svg");
+        background-image: url("/img/Low_fees_Icon-alt.svg");
     }
 
     .advantage:nth-child(5) a:focus {
-        background-image: url("../../img/No_fees_Icon-alt.svg");
+        background-image: url("/img/No_fees_Icon-alt.svg");
     }
 
     .advantage:nth-child(6) a:focus {
-        background-image: url("../../img/Naming_System_icon-alt.svg");
+        background-image: url("/img/Naming_System_icon-alt.svg");
     }
 
     .advantage:nth-child(7) a:focus {
-        background-image: url("../../img/Private_Transaction_icon-alt.svg");
+        background-image: url("/img/Private_Transaction_icon-alt.svg");
     }
 
     .advantage:nth-child(8) a:focus {
-        background-image: url("../../img/Build_in_Oracles_icon-alt.svg");
+        background-image: url("/img/Build_in_Oracles_icon-alt.svg");
     }
 
     .advantage:nth-child(9) a:focus {
-        background-image: url("../../img/Highly_Flexible_Icon-alt.svg");
+        background-image: url("/img/Highly_Flexible_Icon-alt.svg");
     }
 }

@@ -97,7 +97,7 @@ header {
 
 .lang-current:after {
     align-items: flex-end;
-    background-image: url("../img/Dropdown_Icon.svg");
+    background-image: url("/img/Dropdown_Icon.svg");
     background-position: 5px 3px;
     background-repeat: no-repeat;
     content: '';

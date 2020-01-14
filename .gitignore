@@ -5,3 +5,5 @@
 .Trashes
 Thumbs.db
 CNAME
+node_modules/
+.vuepress/dist

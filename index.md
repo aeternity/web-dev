@@ -1,16 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Aeternity developers</title>
-    <meta name="description"
-          content="Aeternity Blockchain : Lightning Smart Contracts. Turing-Complete State-Channels. Oracles."/>
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <link rel="shortcut icon" type="image/png" href="img/favicon-32x32.png" sizes="32x32">
-    <link rel="shortcut icon" type="image/png" href="img/favicon-32x32.png" sizes="16x16">
-    <link href="main.css" rel="stylesheet">
-</head>
-<body ontouchstart="">
 <header>
     <section class="main-nav">
         <div class="logo">
@@ -77,7 +64,6 @@
 <!--            <a href="https://github.com/aeternity/white-paper" class="button button&#45;&#45;large section-button">Read the White Paper</a>-->
         </div>
     </section>
-
     <section id="why" class="section section--normal">
         <div class="section-content section-content--normal">
             <h2>Why &aelig;ternity</h2>
@@ -91,7 +77,6 @@
         <img src="img/view-at-github.svg" alt="github.com">
         <a href="https://github.com/aeternity" class="button button--normal">View at GitHub</a>
     </section>
-
     <section id="technical_advantages" class="section section--fancy">
         <div class="section-content section-content--fancy">
             <h2>Technical advantages compared to major platforms</h2>
@@ -142,7 +127,6 @@
             </div>
         </div>
     </section>
-
     <section id="protocol" class="section section--normal">
         <div class="section-content section-content--normal">
             <h2>The &aelig;ternity protocol is</h2>
@@ -161,7 +145,6 @@
                 <label for="Governance"></label>
                 <label for="Development-Sustainability"></label>
             </div>
-
             <div class="protocol-menu">
                 <input type="radio" name="protocol-menu" id="Universal" checked>
                 <div class="protocol-menu-item">
@@ -288,7 +271,6 @@
         </div>
         <a href="#getting_started" class="button button--normal">Get started</a>
     </section>
-
     <section id="sophia" class="section section--alt">
         <div class="section-content section-content--alt">
             <h2>Safe smart contract development with Sophia</h2>
@@ -349,7 +331,6 @@
             </div>
         </div>
     </section>
-
     <section id="getting_started" class="section section--fancy">
         <div class="section-content section-content--fancy">
             <h2>Getting started</h2>
@@ -403,7 +384,6 @@
             </div>
         </div>
     </section>
-
     <section id="developer_tools" class="section section--normal">
         <div class="section-content section-content--normal">
             <h2>Developer tools</h2>
@@ -477,7 +457,6 @@
             </div>
         </div>
     </section>
-
     <section id="useful" class="section section--alt">
         <div class="section-content section-content--alt">
             <h2>Useful resources</h2>
@@ -559,7 +538,6 @@
             </div>
         </div>
     </section>
-
     <section id="interfaces" class="section section--normal">
         <div class="section-content section-content--normal">
             <h2>Interfaces and clients</h2>
@@ -612,7 +590,6 @@
             </ul>
         </div>
     </section>
-
     <section id="run_node" class="section section--alt">
         <div class="section-content section-content--alt">
             <h2>Run your own node and services</h2>
@@ -641,7 +618,6 @@
             </div>
         </div>
     </section>
-
     <section id="miners" class="section section--normal">
         <div class="section-content section-content--normal">
             <h2>For miners, pools and node operators</h2>
@@ -676,7 +652,6 @@
             </div>
         </div>
     </section>
-
     <section id="community" class="section section--alt">
         <div class="section-content section-content--alt">
             <h2>Join the community</h2>
@@ -714,7 +689,6 @@
             </li>
         </ul>
     </section>
-
     <footer id="footer" class="section section--fancy">
         <div class="section-content section-content--fancy">
             <h2>&aelig;ternity newsletter</h2>
@@ -755,5 +729,3 @@
 <script>
     document.querySelectorAll('.counter').forEach(el => el.style.counterReset = 'total ' + el.childElementCount);
 </script>
-</body>
-</html>

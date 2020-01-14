@@ -51,7 +51,7 @@
 }
 
 .resource .faucet {
-    background-image: url('../../img/Faucet.svg');
+    background-image: url('/img/Faucet.svg');
     background-position: top left;
     box-sizing: border-box;
     display: inline-block;

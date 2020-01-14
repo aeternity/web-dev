@@ -21,7 +21,7 @@
 }
 
 ::-webkit-scrollbar-thumb {
-    background: url('../img/dot.svg') center no-repeat;
+    background: url('/img/dot.svg') center no-repeat;
 }
 
 ::-webkit-scrollbar-button {

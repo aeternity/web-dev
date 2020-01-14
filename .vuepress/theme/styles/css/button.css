@@ -72,12 +72,12 @@ a.button:not([href]):hover {
 }
 
 .button-text--logo {
-    background-image: url("../img/aeternity-logo-small.svg");
+    background-image: url("/img/aeternity-logo-small.svg");
     padding-left: 38px;
 }
 
 .button-text--github {
-    background-image: url("../img/Github_Icon.svg");
+    background-image: url("/img/Github_Icon.svg");
     padding-left: 28px;
 }
 

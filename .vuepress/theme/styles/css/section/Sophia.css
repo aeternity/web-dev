@@ -58,7 +58,7 @@
 }
 
 .sophia-graphic {
-    background-image: url('../../img/Path_Sophia.svg');
+    background-image: url('/img/Path_Sophia.svg');
     background-position: top right;
     margin-top: 13px;
     padding: 0 20px 0 18px;

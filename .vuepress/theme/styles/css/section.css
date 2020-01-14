@@ -114,7 +114,7 @@
 }
 
 .section--fancy::before {
-    background-image: url("../img/section-back-alt.jpg");
+    background-image: url("/img/section-back-alt.jpg");
 }
 
 .section--fancy h2 {
@@ -127,7 +127,7 @@
 }
 
 .section--fancy .button-text--github {
-    background-image: url("../img/Github_Icon-white.svg");
+    background-image: url("/img/Github_Icon-white.svg");
 }
 
 /* --- Hero --- */

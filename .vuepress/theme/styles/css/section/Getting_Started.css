@@ -27,15 +27,15 @@
 }
 
 .getting_started-button:nth-child(1) div {
-    background-image: url("../../img/aeternity-logo-small.svg");
+    background-image: url("/img/aeternity-logo-small.svg");
 }
 
 .getting_started-button:nth-child(2) div {
-    background-image: url("../../img/aeternity-logo-small.svg");
+    background-image: url("/img/aeternity-logo-small.svg");
 }
 
 .getting_started-button:nth-child(3) div {
-    background-image: url("../../img/Github_Icon-white.svg");
+    background-image: url("/img/Github_Icon-white.svg");
 }
 
 #getting_started .section-content > p {

@@ -215,7 +215,7 @@
     }
 
     .protocol-menu-item label {
-        background: url("../../img/chevron-active.svg") no-repeat center;
+        background: url("/img/chevron-active.svg") no-repeat center;
         border: 0;
         height: auto;
         opacity: 1;
@@ -238,7 +238,7 @@
     }
 
     .protocol-menu :checked + * + * + .protocol-menu-item label {
-        background: url("../../img/chevron-active-right.svg") no-repeat center;
+        background: url("/img/chevron-active-right.svg") no-repeat center;
         left: -35%;
         opacity: 1;
     }
