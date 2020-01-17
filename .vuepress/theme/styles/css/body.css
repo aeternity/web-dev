@@ -62,6 +62,10 @@ a:not([href]):hover:after {
     top: 100%;
 }
 
+.icon.outbound {
+    display: none;
+}
+
 p {
     margin: 26px 0;
     text-align: justify;

@@ -116,8 +116,6 @@
 .protocol-content p {
     margin: 0;
     max-height: 80%;
-    overflow-x: hidden;
-    overflow-y: auto;
 }
 
 @media screen and (max-width: 1366px) {

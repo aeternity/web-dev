@@ -108,7 +108,7 @@
     margin-right: 0;
 }
 
-.try-browser-options li img {
+.try-browser-options li > img {
     width: 100%;
 }
 
@@ -127,6 +127,7 @@
 
 .try-locally-options {
     margin-top: 35px;
+    text-align: center;
 }
 
 .try-locally-aeproject {

@@ -20,7 +20,7 @@
     flex-direction: column;
 }
 
-#interfaces .section-content:nth-child(4) > ul > li > a > img {
+#interfaces .section-content > p + ul:last-child > li > a > img {
     border-radius: 50%;
     box-shadow: 0 3px 6px 0 #70707070;
     margin-bottom: 10px;
@@ -37,33 +37,33 @@
     margin-bottom: 0;
 }
 
-.interfaces {
+#interfaces .cards > ul {
     margin-bottom: 30px;
     margin-top: 46px;
 }
 
-.interface {
+#interfaces .cards > ul > li {
     flex-basis: 360px;
     margin-right: 47px;
     padding: 36px 39px 27px;
 }
 
-.interface h3 {
+#interfaces .cards > ul > li > h3 {
     align-items: flex-end;
     display: flex;
     flex-grow: 1;
     margin: 0;
 }
 
-.interface .card-content > ul {
+#interfaces .cards > ul > li ul {
     margin-top: 6px;
 }
 
-.interface .card-content > a {
+#interfaces .cards > ul > li > a {
     margin: 26px 0 16px;
 }
 
-.interface li {
+#interfaces .cards > ul > li li {
     line-height: 35px;
 }
 
@@ -72,15 +72,16 @@
         padding-bottom: 45px;
     }
 
-    .interfaces {
-        flex-direction: column;
-        margin-bottom: 15px;
-        margin-top: 25px;
+    #interfaces .cards > ul {
+        flex-wrap: wrap;
+        margin: 25px 0 15px;
         padding: 0;
     }
 
-    .interface {
+    #interfaces .cards > ul > li {
+        align-items: center;
         margin: 20px 15px !important;
+        text-align: center;
     }
 
     #interfaces .section-content > ul {

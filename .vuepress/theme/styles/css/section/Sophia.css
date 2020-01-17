@@ -10,7 +10,7 @@
     margin: 40px 0 45px;
 }
 
-#sophia .section-buttons > div {
+#sophia .section-buttons > * > * {
     flex-direction: column-reverse;
 }
 

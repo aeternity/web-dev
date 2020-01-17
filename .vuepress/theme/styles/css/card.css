@@ -5,6 +5,83 @@
     width: 100%;
 }
 
+.cards > ul {
+    display: flex;
+    justify-content: center;
+    margin: 35px 30px;
+    width: 100%;
+}
+
+.cards > ul > li {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px #072a441a;
+    box-sizing: border-box;
+    display: flex;
+    flex-basis: 100%;
+    margin-right: 47px;
+}
+
+.cards > ul > li:first-child {
+    margin-left: 0;
+}
+
+.cards > ul > li:last-child {
+    margin-right: 0;
+}
+
+.cards > ul > li {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.cards > ul > li > h3:nth-child(n+2) {
+    flex-grow: 1;
+}
+
+.cards > ul > li > a {
+    margin-top: 6px;
+}
+
+.cards p {
+    margin: 0 auto;
+}
+
+.cards > ul > li > a {
+    align-items: center;
+    background: #f7296e;
+    border: 2px solid #f7296e;
+    box-sizing: border-box;
+    color: #fff;
+    display: flex;
+    flex-shrink: 0;
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 500;
+    height: 40px;
+    justify-content: center;
+    line-height: 25px;
+    text-decoration: none;
+    transition: all 0.2s;
+    width: 165px;
+}
+
+.cards > ul > li > a:hover {
+    background: #fff;
+    color: #f7296e;
+}
+
+.cards > ul > li > a:not([href]) {
+    color: #fff;
+    opacity: 0.4;
+}
+
+.cards > ul > li > a:not([href]):hover {
+    color: #f7296e;
+    opacity: 0.7;
+}
+
 .card {
     background-color: #fff;
     border-radius: 10px;
@@ -46,6 +123,7 @@
         margin: 35px 0;
     }
 
+    .cards > ul > li,
     .card {
         margin-right: 22px;
     }
@@ -64,6 +142,8 @@
         width: 100vw;
     }
 
+    .cards > ul:before,
+    .cards > ul:after,
     .cards:before,
     .cards:after {
         content: '';
@@ -71,6 +151,7 @@
         width: 1px;
     }
 
+    .cards > ul > li,
     .card {
         flex: 0 0 auto !important;
         margin-right: 50px;
@@ -101,10 +182,12 @@
         top: -40px;
     }
 
+    .cards > ul > li:first-child,
     .card:first-child {
         margin-left: 15px;
     }
 
+    .cards > ul > li:last-child,
     .card:last-child {
         margin-right: 15px;
     }

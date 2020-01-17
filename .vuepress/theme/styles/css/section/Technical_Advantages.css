@@ -16,8 +16,6 @@
 }
 
 .advantages {
-    background-image: url("../../../../../img/Technical_Advantages_Section_Graphic2.svg");
-    background-size: contain;
     height: 51vw;
     max-height: 978px;
     max-width: 1780px;
@@ -58,42 +56,6 @@
     margin-top: 17%;
     position: absolute;
     width: 239%;
-}
-
-.advantage:nth-child(1) a {
-    background-image: url("../../../../../img/No_Scaling_Icon.svg");
-}
-
-.advantage:nth-child(2) a {
-    background-image: url("../../../../../img/Security_icon.svg");
-}
-
-.advantage:nth-child(3) a {
-    background-image: url("../../../../../img/Confirmation_Time_icon.svg");
-}
-
-.advantage:nth-child(4) a {
-    background-image: url("../../../../../img/Low_fees_Icon.svg");
-}
-
-.advantage:nth-child(5) a {
-    background-image: url("../../../../../img/No_fees_Icon.svg");
-}
-
-.advantage:nth-child(6) a {
-    background-image: url("../../../../../img/Naming_System_icon.svg");
-}
-
-.advantage:nth-child(7) a {
-    background-image: url("../../../../../img/Private_Transaction_icon.svg");
-}
-
-.advantage:nth-child(8) a {
-    background-image: url("../../../../../img/Build_in_Oracles_icon.svg");
-}
-
-.advantage:nth-child(9) a {
-    background-image: url("../../../../../img/Highly_Flexible_Icon.svg");
 }
 
 .advantage:nth-child(1) {
@@ -141,24 +103,38 @@
     top: 76.78%;
 }
 
-.advantages-footer {
+#technical_advantages blockquote {
     align-items: center;
     display: flex;
     margin: 70px 20px 50px;
 }
 
-.advantages-footer img {
+#technical_advantages blockquote img {
     margin-right: 7px;
-    vertical-align: middle;
 }
 
-.advantages-footer a {
+#technical_advantages blockquote a {
     color: #f7296e;
 }
 
 @media screen and (max-width: 1366px) {
     #technical_advantages {
         padding-top: 86px;
+    }
+
+    #technical_advantages blockquote {
+        align-items: center;
+        font-size: 18px;
+        line-height: 22px;
+        margin: 112px 20px 104px;
+    }
+
+    #technical_advantages blockquote img {
+        float: left;
+    }
+
+    #technical_advantages blockquote p {
+        text-align: start;
     }
 
     .orbits {
@@ -170,12 +146,6 @@
         background-size: 105%;
         height: 57vw;
         max-height: none;
-    }
-
-    .advantages-footer {
-        font-size: 18px;
-        line-height: 22px;
-        margin: 112px 20px 100px;
     }
 
     .advantage {
@@ -235,12 +205,6 @@
         left: 45.32%;
         top: 77.28%;
     }
-
-    .advantages-footer {
-        align-items: center;
-        display: flex;
-        margin: 112px 20px 104px;
-    }
 }
 
 @media screen and (max-width: 1023px) {
@@ -291,41 +255,5 @@
     .advantage:nth-child(2n) span:before {
         left: auto;
         right: 16px;
-    }
-
-    .advantage:nth-child(1) a:focus {
-        background-image: url("../../../../../img/No_Scaling_Icon-alt.svg");
-    }
-
-    .advantage:nth-child(2) a:focus {
-        background-image: url("../../../../../img/Security_icon-alt.svg");
-    }
-
-    .advantage:nth-child(3) a:focus {
-        background-image: url("../../../../../img/Confirmation_Time_icon-alt.svg");
-    }
-
-    .advantage:nth-child(4) a:focus {
-        background-image: url("../../../../../img/Low_fees_Icon-alt.svg");
-    }
-
-    .advantage:nth-child(5) a:focus {
-        background-image: url("../../../../../img/No_fees_Icon-alt.svg");
-    }
-
-    .advantage:nth-child(6) a:focus {
-        background-image: url("../../../../../img/Naming_System_icon-alt.svg");
-    }
-
-    .advantage:nth-child(7) a:focus {
-        background-image: url("../../../../../img/Private_Transaction_icon-alt.svg");
-    }
-
-    .advantage:nth-child(8) a:focus {
-        background-image: url("../../../../../img/Build_in_Oracles_icon-alt.svg");
-    }
-
-    .advantage:nth-child(9) a:focus {
-        background-image: url("../../../../../img/Highly_Flexible_Icon-alt.svg");
     }
 }
