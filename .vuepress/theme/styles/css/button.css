@@ -1,3 +1,69 @@
+.section-buttons a {
+    align-items: center;
+    background: #f7296e;
+    border: 2px solid #f7296e;
+    box-sizing: border-box;
+    color: #fff;
+    display: flex;
+    flex-shrink: 0;
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 500;
+    height: 40px;
+    justify-content: center;
+    line-height: 25px;
+    text-decoration: none;
+    transition: all 0.2s;
+    width: 350px;
+}
+
+.section-buttons ul > li > p > a {
+    width: 165px;
+}
+
+.section-buttons a:hover {
+    background: transparent;
+    color: #f7296e;
+    text-decoration: none;
+}
+
+.section--hero .button:hover,
+.section--fancy .button:hover {
+    background: transparent;
+    color: #f7296e;
+}
+
+.section-buttons a:not([href]) {
+    color: #fff;
+    opacity: 0.4;
+}
+
+.section-buttons a:not([href]):hover {
+    color: #f7296e;
+    opacity: 0.7;
+}
+
+.section-buttons li p {
+    font-size: 14px;
+    line-height: 40px;
+}
+
+.section-buttons li p img {
+    margin-right: 5px;
+}
+
+@media screen and (max-width: 1366px) {
+    .section-buttons li p a {
+        line-height: 35px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .section-buttons li p a {
+        line-height: 45px;
+    }
+}
+
 .button {
     align-items: center;
     background: #f7296e;

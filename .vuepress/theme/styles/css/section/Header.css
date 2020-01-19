@@ -13,11 +13,23 @@
     width: 100%;
 }
 
+#header .section-buttons a {
+    font-size: 20px;
+    height: 60px;
+    line-height: 25px;
+    margin-top: 20px;
+    width: 450px;
+}
+
 @media screen and (max-width: 1366px) {
     #header {
         height: calc(100vh - 70px);
         padding-bottom: 123px;
         padding-top: 100px;
+    }
+
+    #header .section-buttons a {
+        height: 50px;
     }
 }
 
@@ -28,5 +40,13 @@
         justify-content: center;
         padding-bottom: 123px;
         padding-top: 100px;
+    }
+
+    #header .section-buttons a {
+        font-size: 16px;
+        height: 40px;
+        line-height: 16px;
+        max-width: 345px;
+        width: calc(100% - 30px);
     }
 }

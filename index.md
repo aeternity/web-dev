@@ -30,7 +30,7 @@ This page helps you to get started with æternity.
 
 ::: slot buttons
 
-<a href="#why" class="button button--large">Get started</a>
+[Get started](#why)
 
 :::
 
@@ -74,120 +74,109 @@ A full specification and documentation of the protocol can be found in the docum
 
 <Include path="sections/protocol" />
 
-<section id="sophia" class="section section--alt">
-    <div class="section-content section-content--alt">
-        <h2>Safe smart contract development with Sophia</h2>
-        <p class="sophia-caption">
-            Sophia is a language in the ML family. It is a strongly typed
-            and has a restricted mutable state. Sophia is a functional Ocaml like language which syntax most resembles that of Reason.
+<Section id="sophia" type="alt">
+<div class="section-content section-content--alt">
+    <h2>Safe smart contract development with Sophia</h2>
+    <p class="sophia-caption">
+        Sophia is a language in the ML family. It is a strongly typed
+        and has a restricted mutable state. Sophia is a functional Ocaml like language which syntax most resembles that of Reason.
+    </p>
+</div>
+<div class="sophia-content">
+    <div class="sophia-graphic">
+        <img src="./img/What_is_Sophia_Graphic.svg" alt="">
+    </div>
+    <div class="sophia-text">
+        <h3>What is Sophia?</h3>
+        <p><img src="./img/Sophia_Icon.svg" alt="">
+            Sophia is customized for smart contracts, which can be published to a blockchain (the æternity
+            BlockChain). Thus some features of conventional languages, such as floating point arithmetics, are
+            not present in Sophia, and some blockchain specific primitives, constructions and types have been
+            added.
         </p>
-    </div>
-    <div class="sophia-content">
-        <div class="sophia-graphic">
-            <img src="./img/What_is_Sophia_Graphic.svg" alt="">
-        </div>
-        <div class="sophia-text">
-            <h3>What is Sophia?</h3>
-            <p><img src="./img/Sophia_Icon.svg" alt="">
-                Sophia is customized for smart contracts, which can be published to a blockchain (the æternity
-                BlockChain). Thus some features of conventional languages, such as floating point arithmetics, are
-                not present in Sophia, and some blockchain specific primitives, constructions and types have been
-                added.
-            </p>
-            <h3>Links</h3>
-            <ul class="sophia-links">
-                <li>
-                    <a href="https://github.com/aeternity/protocol/blob/master/contracts/sophia.md">Documentation</a>
-                </li>
-                <li>
-                    <a href="https://github.com/aeternity/aepp-sophia-examples">Examples on GitHub</a>
-                </li>
-                <li>
-                    <a href="https://marketplace.visualstudio.com/items?itemName=MilenRadkov.sophia">Code
-                        Highlighting</a> for VSCode and other IDE’s
-                </li>
-            </ul>
-            <h3>Educational material</h3>
-            <p>
-                <img src="./img/Dacade_Icon.svg" alt="">
-                <small>
-                    <a href="https://dacade.org/ae-dev-101/introduction">Online Course from Dacade.org</a><br>
-                    Check out the highly recommended æternity 101 course on Dacade, a peer learning platform.
-                    Courses are free, a certificate will be given and you earn 100 AE token on completion.
-                </small>
-            </p>
-            <p>
-                <img src="./img/github-logo.svg" alt="">
-                <small>
-                    <a>Tutorials about Sophia</a><br>
-                    Available on GitHub but might be outdated.
-                </small>
-            </p>
-        </div>
-    </div>
-    <div class="section-buttons">
-        <div>
-            <div class="section-button">
-                <a href="https://forum.aeternity.com/c/development/sophia-smart-contracts" class="button button--small">Get help</a>
-                <div class="button-text button-text--logo">in The Forum</div>
-            </div>
-            <div class="section-button">
-                <a href="https://telegram.me/aeternity" class="button button--small">Chat</a>
-                <div class="button-text button-text--logo">in Telegram</div>
-            </div>
-        </div>
-    </div>
-</section>
-<section id="getting_started" class="section section--fancy">
-    <div class="section-content section-content--fancy">
-        <h2>Getting started</h2>
+        <h3>Links</h3>
+        <ul class="sophia-links">
+            <li>
+                <a href="https://github.com/aeternity/protocol/blob/master/contracts/sophia.md">Documentation</a>
+            </li>
+            <li>
+                <a href="https://github.com/aeternity/aepp-sophia-examples">Examples on GitHub</a>
+            </li>
+            <li>
+                <a href="https://marketplace.visualstudio.com/items?itemName=MilenRadkov.sophia">Code
+                    Highlighting</a> for VSCode and other IDE’s
+            </li>
+        </ul>
+        <h3>Educational material</h3>
         <p>
-            In order to get started, try out the community developed online IDE or setup your own development enviroment with the local development framework AEproject.
+            <img src="./img/Dacade_Icon.svg" alt="">
+            <small>
+                <a href="https://dacade.org/ae-dev-101/introduction">Online Course from Dacade.org</a><br>
+                Check out the highly recommended æternity 101 course on Dacade, a peer learning platform.
+                Courses are free, a certificate will be given and you earn 100 AE token on completion.
+            </small>
         </p>
-        <div class="try">
-            <div class="try-browser">
-                <h3><img src="./img/Try_it_in_browser_icon.svg" alt="">Try it in the browser</h3>
-                <h4>Just click the link below to launch the FireEditor, a Web-based IDE. Start to write and test Sophia smart contracts instantly.</h4>
-                <ul class="try-browser-options">
-                    <li>
-                        <img src="./img/FireEditor_Laptop.svg" alt="">
-                        <a href="http://fireeditor.nikitafuchs.de">FireEditor</a>
-                    </li>
-                </ul>
-            </div>
-            <div class="try-locally">
-                <h3><img src="./img/Try_it_locally_icon.svg" alt="">Try it locally</h3>
-                <h4>Try it locally and setup your development environment in no-time.</h4>
-                <ul class="try-locally-options">
-                    <li>
-                        <img src="./img/AEProject_Github.svg" alt="">
-
-#### Install
-
-`npm i -g aeproject`
-
-<div class="try-locally-aeproject">
-<img src="./img/AEProject_logo.svg" alt="">
-<a href="https://github.com/aeternity/aepp-aeproject-js">Documentation</a>
-</div>
-</li>
-</ul>
-</div>
-        </div>
-        <div class="section-buttons">
-            <div>
-                <div class="section-button">
-                    <a href="https://forum.aeternity.com/c/development/sophia-smart-contracts" class="button button--small">Get help</a>
-                    <div class="button-text button-text--logo">in The Forum</div>
-                </div>
-                <div class="section-button">
-                    <a href="https://telegram.me/aeternity" class="button button--small">Chat</a>
-                    <div class="button-text button-text--logo">in Telegram</div>
-                </div>
-            </div>
-        </div>
+        <p>
+            <img src="./img/github-logo.svg" alt="">
+            <small>
+                <a>Tutorials about Sophia</a><br>
+                Available on GitHub but might be outdated.
+            </small>
+        </p>
     </div>
-</section>
+</div>
+    
+::: slot buttons
+
+- [Get help](https://forum.aeternity.com/c/development/sophia-smart-contracts)
+
+  ![](./img/aeternity-logo-small.svg) in the Forum
+- [Chat](https://telegram.me/aeternity)
+
+  ![](./img/aeternity-logo-small.svg) in Telegram
+
+:::
+
+</Section>
+<Section id="getting_started" type="fancy">
+
+## Getting started
+
+In order to get started, try out the community developed online IDE or setup your own development enviroment with the local development framework AEproject.
+
+- 
+    ### ![](./img/Try_it_in_browser_icon.svg) Try it in the browser
+    Just click the link below to launch the FireEditor, a Web-based IDE. Start to write and test Sophia smart contracts instantly.
+    - ![](./img/FireEditor_Laptop.svg)
+
+      [FireEditor](http://fireeditor.nikitafuchs.de)
+
+-
+    ### ![](./img/Try_it_locally_icon.svg) Try it locally
+    Try it locally and setup your development environment in no-time.
+
+    - ![](./img/AEProject_Github.svg)
+
+      Install
+
+          npm i -g aeproject
+
+      ![](./img/AEProject_logo.svg)
+
+      [Documentation](https://github.com/aeternity/aepp-aeproject-js)
+
+::: slot buttons
+
+- [Get help](https://forum.aeternity.com/c/development/sophia-smart-contracts)
+
+  ![](./img/aeternity-logo-small.svg) in the Forum
+- [Chat](https://telegram.me/aeternity)
+
+  ![](./img/aeternity-logo-small.svg) in Telegram
+
+:::
+
+</Section>
 <section id="developer_tools" class="section section--normal">
     <div class="section-content section-content--normal">
         <h2>Developer tools</h2>
@@ -254,16 +243,20 @@ A full specification and documentation of the protocol can be found in the docum
         </div>
     </div>
     <div class="section-buttons">
-        <div>
-            <div class="section-button">
-                <a href="https://forum.aeternity.com/c/aepplications" class="button button--small">Get help</a>
-                <div class="button-text button-text--logo">in The Forum</div>
-            </div>
-            <div class="section-button">
-                <a href="https://telegram.me/aeternity" class="button button--small">Chat</a>
-                <div class="button-text button-text--logo">in Telegram</div>
-            </div>
-        </div>
+        <ul>
+            <li class="section-button">
+                <p>
+                    <a href="https://forum.aeternity.com/c/aepplications" class="button button--small">Get help</a>
+                </p>
+                <p class="button-text button-text--logo">in The Forum</p>
+            </li>
+            <li class="section-button">
+                <p>
+                    <a href="https://telegram.me/aeternity" class="button button--small">Chat</a>
+                </p>
+                <p class="button-text button-text--logo">in Telegram</p>
+            </li>
+        </ul>
     </div>
 </section>
 <section id="useful" class="section section--alt">
