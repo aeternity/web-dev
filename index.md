@@ -30,7 +30,7 @@ This page helps you to get started with æternity.
 
 ::: slot buttons
 
-[Get started](#why)
+- [Get started](#why)
 
 :::
 
@@ -47,12 +47,8 @@ A full specification and documentation of the protocol can be found in the docum
 
 ::: slot buttons
 
-- <a href="https://aeternity.com/documentation-hub/" class="button button--normal">Documentation</a>
-- <a href="https://github.com/aeternity/white-paper/blob/master/paper.pdf" class="button button--normal">White Paper </a> 
-
-:::
-
-::: slot footer
+- [Documentation](https://aeternity.com/documentation-hub/)
+- [White Paper](https://github.com/aeternity/white-paper/blob/master/paper.pdf) 
 
 [![](./img/view-at-github.svg)](https://github.com/aeternity)
 
@@ -113,7 +109,7 @@ A full specification and documentation of the protocol can be found in the docum
             <small>
                 <a href="https://dacade.org/ae-dev-101/introduction">Online Course from Dacade.org</a><br>
                 Check out the highly recommended æternity 101 course on Dacade, a peer learning platform.
-                Courses are free, a certificate will be given and you earn 100 AE token on completion.
+                Courses are free, a certificate will be given and you earn 75 USD on completion.
             </small>
         </p>
         <p>
@@ -153,15 +149,11 @@ In order to get started, try out the community developed online IDE or setup you
 
 -
     ### ![](./img/Try_it_locally_icon.svg) Try it locally
-    Try it locally and setup your development environment in no-time.
+    Install it locally and setup your development environment in no-time:
 
-    - ![](./img/AEProject_Github.svg)
+      npm i -g aeproject
 
-      Install
-
-          npm i -g aeproject
-
-      ![](./img/AEProject_logo.svg)
+    - ![](./img/AEProject_Laptop.svg)
 
       [Documentation](https://github.com/aeternity/aepp-aeproject-js)
 
@@ -177,164 +169,79 @@ In order to get started, try out the community developed online IDE or setup you
 :::
 
 </Section>
-<section id="developer_tools" class="section section--normal">
-    <div class="section-content section-content--normal">
-        <h2>Developer tools</h2>
-        <p class="developer_tools-caption">
-            Programming libraries are available. Any Javascript developer can build a simple æternity app in
-            one day. For a quick start and reference SDK it is recommended to use the JavaScript one.
-        </p>
-    </div>
-    <div class="cards counter apis">
-        <div class="card api">
-            <div class="card-content">
-                <img src="./img/Developers_Tools_Section_icons.svg" alt="">
-                <h3>Node HTTP API</h3>
-                <p>
-                    æternity <a href="https://api-docs.aeternity.io">Node API</a>
-                </p>
-            </div>
-        </div>
-        <div class="card api">
-            <div class="card-content">
-                <img src="./img/Developers_Tools_Section_icons.svg" alt="">
-                <h3>SDK Frontend APIs</h3>
-                <ul class="unstyled">
-                    <li>
-                        <a href="https://github.com/aeternity/aepp-sdk-js">JavaScript</a> (recommended)
-                    </li>
-                    <li>
-                        <a href="https://github.com/aeternity/aepp-sdk-python">Python</a>
-                    </li>
-                    <li>
-                        <a href="https://github.com/aeternity/aepp-sdk-go">Go</a>
-                    </li>
-                    <li>
-                        <a href="https://github.com/kryptokrauts/aepp-sdk-java">Java</a> (Community Maintained)
-                    </li>
-                    <li>
-                        <a href="https://github.com/aeternity/aepp-sdk-elixir">Elixir SDK</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-        <div class="card api">
-            <div class="card-content">
-                <img src="./img/Developers_Tools_Section_icons.svg" alt="">
-                <h3>æternal Backend API</h3>
-                <p>
-                    The <a href="https://github.com/aeternity/aeternal">æternal</a> is a caching and reporting
-                    layer which sits in front of the nodes of the æternity blockchain. Its purpose is to
-                    respond to queries faster than the node can do, and to support queries that for reasons of
-                    efficiency the node cannot or will not support itself.
-                </p>
-            </div>
-        </div>
-        <div class="card api">
-            <div class="card-content">
-                <img src="./img/Developers_Tools_Section_icons.svg" alt="">
-                <h3>CLI - Command Line Client</h3>
-                <p>
-                    Quickly test all of Aeternity’s blockchain features from your Terminal, you can Install and use
-                    our
-                    <a href="https://github.com/aeternity/aepp-cli-js">NodeJS CLI</a>!
-                </p>
-            </div>
-        </div>
-    </div>
-    <div class="section-buttons">
-        <ul>
-            <li class="section-button">
-                <p>
-                    <a href="https://forum.aeternity.com/c/aepplications" class="button button--small">Get help</a>
-                </p>
-                <p class="button-text button-text--logo">in The Forum</p>
-            </li>
-            <li class="section-button">
-                <p>
-                    <a href="https://telegram.me/aeternity" class="button button--small">Chat</a>
-                </p>
-                <p class="button-text button-text--logo">in Telegram</p>
-            </li>
-        </ul>
-    </div>
-</section>
-<section id="useful" class="section section--alt">
-    <div class="section-content section-content--alt">
-        <h2>Useful resources</h2>
-    </div>
-    <div class="cards counter resources">
-        <div class="card resource">
-            <div class="card-content">
-                <h3>Hosted API Server, Public Nodes and Services</h3>
-                <p>
-                    For convenience reasons, there are hosted services available to quick start the development of
-                    æternity blockchain applications on testnet. Even though all services are available for
-                    mainnet too, it is not advised to use these services in production. Therefore self-hosting
-                    critical infrastructure is recommended.
-                </p>
-                <ul>
-                    <li>
-                        Testnet API Gateway Nodes hosted on <a href="https://testnet.aeternity.io/api">https://testnet.aeternity.io</a>
-                    </li>
-                    <li>
-                        Testnet æternal API Server <a href="https://testnet.aeternal.io">https://testnet.aeternal.io</a>
-                    </li>
-                </ul>
-                <p class="faucet">
-                    To get some free AE tokens, use the testnet Token Faucet
-                    <a href="https://testnet.faucet.aepps.com">https://testnet.faucet.aepps.com</a>
-                </p>
-            </div>
-        </div>
-        <div class="card resource">
-            <div class="card-content">
-                <h3>Resources</h3>
-                <ul>
-                    <li>
-                        <h4>Blockchain Explorers (Testnet/Mainnet)</h4>
-                        <ul>
-                            <li>
-                                <b>æternal Explorer</b>
-                                <ul>
-                                    <li>
-                                        Mainnet <a href="https://aeternal.io">https://aeternal.io</a>
-                                    </li>
-                                    <li>
-                                        Testnet <a href="https://testnet.aeternal.io">https://testnet.aeternal.io</a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li>
-                                <b>AEknow</b>
-                                <ul>
-                                    <li><a href="https://aeknow.org">https://aeknow.org</a></li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </li>
-                    <li>
-                        <h4>Wallets</h4>
-                        <ul>
-                            <li>
-                                Browser Waellet <a href="https://waellet.com">https://waellet.com</a>
-                            </li>
-                            <li>
-                                Mobile Base <a href="https://base.aepps.com">https://base.aepps.com</a>
-                            </li>
-                            <li>
-                                AirGap <a href="https://airgap.it">https://airgap.it</a>
-                            </li>
-                            <li>
-                                TrustWallet <a href="https://trustwallet.com">https://trustwallet.com</a>
-                            </li>
-                        </ul>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </div>
-</section>
+
+<Section id="developer_tools">
+
+## Developer tools
+Programming libraries are available. Any Javascript developer can build a simple æternity app in one day. For a quick start and reference SDK it is recommended to use the JavaScript one.
+
+::: slot cards
+
+- ![](./img/Developers_Tools_Section_icons.svg)
+  ### Node HTTP API
+
+  æternity [Node API](https://api-docs.aeternity.io)
+- ![](./img/Developers_Tools_Section_icons.svg)
+  ### SDK Frontend APIs
+  - [JavaScript](https://github.com/aeternity/aepp-sdk-js) (recommended)
+  - [Python](https://github.com/aeternity/aepp-sdk-python)
+  - [Go](https://github.com/aeternity/aepp-sdk-go)
+  - [Java](https://github.com/kryptokrauts/aepp-sdk-java) (Community Maintained)
+  - [Elixir SDK](https://github.com/aeternity/aepp-sdk-elixir)
+- ![](./img/Developers_Tools_Section_icons.svg)
+  ### æternal Backend API
+
+  The [æternal](https://github.com/aeternity/aeternal) is a caching and reporting layer which sits in front of the nodes of the æternity blockchain. Its purpose is to respond to queries faster than the node can do, and to support queries that for reasons of efficiency the node cannot or will not support itself.
+- ![](./img/Developers_Tools_Section_icons.svg)
+  ### CLI - Command Line Client
+
+  Quickly test all of Aeternity’s blockchain features from your Terminal, you can Install and use our [NodeJS CLI](https://github.com/aeternity/aepp-cli-js).
+:::
+
+::: slot buttons
+
+- [Get help](https://forum.aeternity.com/c/aepplications)
+
+  ![](./img/aeternity-logo-small.svg) in the Forum
+- [Chat](https://telegram.me/aeternity)
+
+  ![](./img/aeternity-logo-small.svg) in Telegram
+
+:::
+
+</Section>
+
+<Section id="useful" type="alt">
+
+## Useful resources
+
+::: slot cards
+
+- ### Hosted API Server, Public Nodes and Services
+  For convenience reasons, there are hosted services available to quick start the development of æternity blockchain applications on testnet. Even though all services are available for mainnet too, it is not advised to use these services in production. Therefore self-hosting critical infrastructure is recommended.
+  - Testnet æternal API Server [https://testnet.aeternal.io](https://testnet.aeternal.io)
+  - Testnet API Gateway Nodes hosted on [https://testnet.aeternity.io/api](https://testnet.aeternity.io/api)
+
+  > ![](./img/Faucet.svg)
+  >
+  > To get some free AE tokens, use the testnet Token Faucet [https://testnet.faucet.aepps.com](https://testnet.faucet.aepps.com)
+
+- ### Resources
+  - #### Blockchain Explorers (Testnet/Mainnet)
+    - **æternal Explorer**
+      - Mainnet [https://aeternal.io](https://aeternal.io)
+      - Testnet [https://testnet.aeternal.io](https://testnet.aeternal.io)
+    - **AEknow**
+      - [https://aeknow.org](https://aeknow.org)
+  - #### Wallets
+    - Browser Waellet [https://waellet.com](https://waellet.com)
+    - Mobile Base [https://base.aepps.com](https://base.aepps.com)
+    - AirGap [https://airgap.it](https://airgap.it)
+    - TrustWallet [https://trustwallet.com](https://trustwallet.com)
+
+:::
+
+</Section>
 
 <Section id="interfaces">
 
@@ -342,17 +249,17 @@ In order to get started, try out the community developed online IDE or setup you
 
 Three major clients to interact with æternity blockchain applications, sign contract calls and do transactions.
 
-<Cards>
+::: slot cards
 
 - ### Base iOS/Android/Web Wallet and Browser
-  <a href="https://github.com/aeternity/aepp-base" class="button button--small">View on GitHub</a>
+  [View on GitHub](https://github.com/aeternity/aepp-base)
 - ### Wællet Browser Extension
-  <a href="https://github.com/aeternity/aepp-waellet" class="button button--small">View on GitHub</a>
+  [View on GitHub](https://github.com/aeternity/aepp-waellet)
 - ### Blockchain Explorers
-  - <a href="https://www.aeternal.io">www.aeternal.io</a>
-  - <a href="https://www.aeknow.org">www.aeknow.org</a>
+  - [aeternal.io](https://aeternal.io)
+  - [www.aeknow.org](https://www.aeknow.org)
 
-</Cards>
+:::
 
 A variety of community build wallets are available, such as:
 - [![](./img/Air_Gap_Icon.svg) Airgap Vault and Wallet](https://airgap.it)
@@ -367,65 +274,42 @@ others. A full list of markets can be found via: <a href="https://coinmarketcap.
 
 </Section>
 
-<section id="run_node" class="section section--alt">
-    <div class="section-content section-content--alt">
-        <h2>Run your own node and services</h2>
-    </div>
-    <div class="cards counter howtos">
-        <div class="card howto">
-            <div class="card-content">
-                <img src="./img/Host_a_Node_icon.svg" alt="">
-                <h3>How to host a Node</h3>
-                <a href="https://docs.aeternity.io/" class="button button--small">View docs</a>
-            </div>
-        </div>
-        <div class="card howto">
-            <div class="card-content">
-                <img src="./img/API_Server_Icon.svg" alt="">
-                <h3>How to host a Middleware API Server</h3>
-                <a href="https://github.com/aeternity/aeternal" class="button button--small">View on GitHub</a>
-            </div>
-        </div>
-    </div>
-</section>
-<section id="miners" class="section section--normal">
-    <div class="section-content section-content--normal">
-        <h2>For miners, pools and node operators</h2>
-        <p>
-            To get the latest version of æternity node, please check out the <a
-                href="https://github.com/aeternity/aeternity/releases">latest published packages</a> and the <a
-                href="https://github.com/aeternity/aeternity/tree/master/docs/release-notes">release notes</a>
-        </p>
-    </div>
-    <div class="cards counter miners">
-        <div class="card miner">
-            <div class="card-content">
-                <h3>Run a node</h3>
-                <a href="https://docs.aeternity.io/en/stable/installation/" class="button button--small">View on
-                    GitHub</a>
-            </div>
-        </div>
-        <div class="card miner">
-            <div class="card-content">
-                <h3>Run a mining pool</h3>
-                <a href="https://docs.aeternity.io/en/stable/stratum/" class="button button--small">View on
-                    GitHub</a>
-            </div>
-        </div>
-        <div class="card miner">
-            <div class="card-content">
-                <h3>Choose a mining client</h3>
-                <a href="https://www.aeknow.org/miner" class="button button--small">Choose</a>
-            </div>
-        </div>
-        <div class="card miner">
-            <div class="card-content">
-                <h3>Join an existing mining pool</h3>
-                <a href="https://www.aeknow.org/miner" class="button button--small">Join</a>
-            </div>
-        </div>
-    </div>
-</section>
+<Section id="run_node" type="alt">
+
+## Run your own node and services
+
+::: slot cards
+- ![](./img/Host_a_Node_icon.svg)
+  ### How to host a Node
+  [View docs](https://docs.aeternity.io)
+- ![](./img/API_Server_Icon.svg)
+  ### How to host a Middleware API Server
+  [View on GitHub](https://github.com/aeternity/aeternal)
+:::
+
+</Section>
+<Section id="miners">
+
+## For miners, pools and node operators
+
+To get the latest version of æternity node, please check out the [latest published packages](ttps://github.com/aeternity/aeternity/releases) and the [release notes](https://github.com/aeternity/aeternity/tree/master/docs/release-notes).
+
+::: slot cards
+
+- ### Run a node
+  [View on GitHub](https://docs.aeternity.io/en/stable/installation/)
+- ### Run a mining pool
+  [View on GitHub](https://docs.aeternity.io/en/stable/stratum/)
+- ### Choose a mining client
+  [Choose](https://www.aeknow.org/miner)
+- ### Run a node
+  [Join](https://www.aeknow.org/miner)
+
+:::
+
+
+</Section>
+
 <section id="community" class="section section--alt">
     <div class="section-content section-content--alt">
         <h2>Join the community</h2>

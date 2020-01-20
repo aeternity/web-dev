@@ -5,6 +5,9 @@
             <slot></slot>
         </div>
         <slot name="body"></slot>
+        <div class="cards">
+            <slot name="cards"></slot>
+        </div>
         <div class="section-buttons">
             <slot name="buttons"></slot>
         </div>

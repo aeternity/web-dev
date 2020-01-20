@@ -3,19 +3,14 @@
     padding-top: 50px;
 }
 
-.howtos {
+#run_node .cards > ul {
     position: relative;
 }
 
-.howto {
+#run_node .cards > ul > li {
     flex-basis: 320px;
     margin-right: 73px;
     padding: 38px 17px;
-}
-
-.howto .card-content {
-    align-items: center;
-    text-align: center;
 }
 
 @media screen and (max-width: 1366px) {

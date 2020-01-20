@@ -10,7 +10,7 @@
     margin: 40px 0 45px;
 }
 
-#sophia .section-buttons > * > * {
+#sophia .section-buttons > ul > li {
     flex-direction: column-reverse;
 }
 
@@ -46,6 +46,7 @@
     align-items: flex-start;
     display: inline-flex;
     margin-bottom: 41px;
+    text-align: justify;
 }
 
 .sophia-text p + p {

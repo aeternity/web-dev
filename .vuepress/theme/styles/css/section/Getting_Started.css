@@ -12,9 +12,15 @@
     max-width: 820px;
 }
 
+#getting_started .section-content code {
+    background: #333333a3;
+    border-radius: 5px;
+    padding: 8px 15px;
+}
+
 #getting_started .section-content > ul {
     display: flex;
-    margin: 67px 20px 90px;
+    margin: 67px 20px 60px;
     max-width: 1540px;
     width: 100%;
 }

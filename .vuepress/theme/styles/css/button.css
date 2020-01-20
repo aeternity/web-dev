@@ -1,4 +1,46 @@
-.section-buttons a {
+.section-buttons {
+    align-items: center;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+.section-buttons > ul {
+    align-items: center;
+    display: flex;
+    flex-basis: 100%;
+    justify-content: center;
+}
+
+.section-buttons > ul > li {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+    max-width: 450px;
+    padding: 0 20px;
+    text-align: center;
+}
+
+.section-buttons p {
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.section-buttons p:not(:first-child) {
+    margin-top: 30px;
+}
+
+.section-buttons > ul > li:first-child {
+    margin-left: 0;
+}
+
+.section-buttons > ul > li:last-child {
+    margin-right: 0;
+}
+
+.section-buttons > :not(p) a {
     align-items: center;
     background: #f7296e;
     border: 2px solid #f7296e;
@@ -21,24 +63,18 @@
     width: 165px;
 }
 
-.section-buttons a:hover {
+.section-buttons > :not(p) a:hover {
     background: transparent;
     color: #f7296e;
     text-decoration: none;
 }
 
-.section--hero .button:hover,
-.section--fancy .button:hover {
-    background: transparent;
-    color: #f7296e;
-}
-
-.section-buttons a:not([href]) {
+.section-buttons > :not(p) a:not([href]) {
     color: #fff;
     opacity: 0.4;
 }
 
-.section-buttons a:not([href]):hover {
+.section-buttons > :not(p) a:not([href]):hover {
     color: #f7296e;
     opacity: 0.7;
 }
@@ -53,98 +89,32 @@
 }
 
 @media screen and (max-width: 1366px) {
+    .section-buttons > ul > li {
+        margin-right: 56px;
+    }
+
     .section-buttons li p a {
         line-height: 35px;
     }
 }
 
 @media screen and (max-width: 1023px) {
+    .section-buttons > ul {
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .section-buttons > ul > li {
+        margin-bottom: 15px;
+        margin-right: 0 !important;
+        max-width: 345px;
+        width: calc(100% - 30px);
+    }
+
     .section-buttons li p a {
         line-height: 45px;
     }
-}
-
-.button {
-    align-items: center;
-    background: #f7296e;
-    border: 2px solid #f7296e;
-    box-sizing: border-box;
-    color: #fff;
-    display: flex;
-    flex-shrink: 0;
-    font-family: inherit;
-    font-weight: 500;
-    justify-content: center;
-    text-decoration: none;
-    transition: all 0.2s;
-}
-
-.button:hover {
-    background: #fff;
-    color: #f7296e;
-}
-
-.button--small {
-    font-size: 16px;
-    height: 40px;
-    line-height: 25px;
-    width: 165px;
-}
-
-.button--large {
-    font-size: 20px;
-    height: 60px;
-    line-height: 25px;
-    width: 450px;
-}
-
-.section--hero .button:hover,
-.section--fancy .button:hover {
-    background: transparent;
-    color: #f7296e;
-}
-
-a.button:not([href]) {
-    color: #fff;
-    opacity: 0.4;
-}
-
-a.button:not([href]):hover {
-    color: #f7296e;
-    opacity: 0.7;
-}
-
-.button--normal {
-    font-size: 16px;
-    height: 40px;
-    line-height: 25px;
-    width: 350px;
-}
-
-.button--wide {
-    cursor: pointer;
-    font-size: 16px;
-    height: 45px;
-    line-height: 25px;
-    width: 100%;
-}
-
-.button-text {
-    background-color: transparent;
-    background-position: left center;
-    background-repeat: no-repeat;
-    font-size: 14px;
-    line-height: 40px;
-}
-
-.button-text--logo {
-    background-image: url("../../../../img/aeternity-logo-small.svg");
-    padding-left: 38px;
-}
-
-.button-text--github {
-    background-image: url("../../../../img/Github_Icon.svg");
-    padding-left: 28px;
 }
 
 form input {
@@ -177,19 +147,5 @@ form input::-webkit-input-placeholder {
 @media screen and (max-width: 1023px) {
     form input {
         font-size: 14px;
-    }
-
-    .button-text {
-        line-height: 45px;
-    }
-
-    .button--normal,
-    .button--large {
-        font-size: 16px;
-        font-weight: 500;
-        height: 40px;
-        line-height: 16px;
-        max-width: 345px;
-        width: calc(100% - 30px);
     }
 }

@@ -2,91 +2,86 @@
     padding-top: 25px;
 }
 
-.resources {
+#useful .cards {
     margin: 15px 30px;
 }
 
-.resource {
+#useful .cards > ul > li {
     flex-basis: 648px;
     margin-right: 65px;
     padding: 35px 45px;
+    text-align: justify;
 }
 
-.resource h3 {
+#useful .cards > ul > li h3 {
     border-bottom: 2px solid #f7296e;
+    margin-top: 0;
     padding-bottom: 21px;
+    text-align: start;
 }
 
-.resource h4 {
+#useful .cards > ul > li h4 {
     font-size: 24px;
     font-weight: 700;
     line-height: 26px;
     margin: 0 0 10px;
 }
 
-.resource h5 {
+#useful .cards > ul > li h5 {
     font-size: 24px;
     font-weight: 700;
     line-height: 26px;
     margin: 0 0 10px;
 }
 
-.resource .card-content > * {
+#useful .cards > ul > li > * {
     align-items: start;
     box-sizing: border-box;
     width: 100%;
 }
 
-.resource .card-content > p {
+#useful .cards > ul > li > p {
     margin-bottom: 1em;
 }
 
-.resource .card-content > ul > li {
+#useful .cards > ul > li > ul > li {
     border-bottom: 1px solid #dcdcdc;
     padding: 20px 0;
 }
 
-.resource .card-content > ul:first-of-type > li:first-of-type {
+#useful .cards > ul > li > ul:first-of-type > li:first-of-type {
     padding-top: 0;
 }
 
-.resource .faucet {
-    background-image: url('../../../../../img/Faucet.svg');
-    background-position: top left;
-    box-sizing: border-box;
-    display: inline-block;
-    margin-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 4.5em;
-    padding-top: 0.5em;
-    vertical-align: middle;
-}
-
-.resource .card-content > ul ul {
+#useful .cards > ul > li > ul ul {
     margin-left: 40px;
 }
 
-.resource .card-content > ul ul li {
+#useful .cards > ul > li blockquote {
+    margin-top: 40px;
+}
+
+#useful .cards > ul > li > ul ul li {
     line-height: 34px;
 }
 
-.resource .card-content > ul:last-child > li:last-child {
+#useful .cards > ul > li > ul:last-child > li:last-child {
     border: 0;
     padding-bottom: 0;
 }
 
 @media screen and (max-width: 1366px) {
-    .resources {
+    #useful .cards {
         margin: 20px;
     }
 
-    .resource {
+    #useful .cards > ul > li {
         flex-basis: 550px;
         margin-right: 40px;
         padding: 30px 39px;
     }
 
-    .resource h3 {
+    #useful .cards > ul > li h3 {
         font-size: 20px;
         line-height: 28px;
         margin-bottom: 26px;
@@ -94,25 +89,25 @@
         width: 100%;
     }
 
-    .resource .card-content p {
+    #useful .cards > ul > li p {
         font-size: 16px;
         line-height: 26px;
         margin-bottom: 30px;
     }
 
-    .resource .card-content p:last-child {
+    #useful .cards > ul > li p:last-child {
         margin-bottom: 0;
     }
 
-    .resource .card-content > p + ul {
+    #useful .cards > ul > li > p + ul {
         font-size: 14px;
     }
 
-    .resource .faucet {
+    #useful .cards > ul > li blockquote {
         margin-top: 30px;
     }
 
-    .resource h4 {
+    #useful .cards > ul > li h4 {
         font-size: 20px;
         line-height: 26px;
         margin-bottom: 16px;
@@ -121,28 +116,28 @@
 }
 
 @media screen and (max-width: 1023px) {
-    .resources {
-        max-width: 550px;
+    #useful .cards {
+        max-width: 550px !important;
     }
 
-    .resource {
+    #useful .cards > ul > li {
         padding: 37px 17px;
     }
 
-    .resource .card-content {
+    #useful .cards > ul > li {
         text-align: start;
     }
 
-    .resource .card-content > ul ul {
+    #useful .cards > ul > li > ul ul {
         margin-left: 20px;
     }
 
-    .resource .card-content > ul > li {
+    #useful .cards > ul > li > ul > li {
         border: 0;
         padding: 10px 0;
     }
 
-    .resource .card-content > ul ul li {
+    #useful .cards > ul > li > ul ul li {
         line-height: 24px;
     }
 }

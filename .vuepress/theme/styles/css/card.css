@@ -5,21 +5,29 @@
     width: 100%;
 }
 
+.cards:empty {
+    display: none;
+}
+
 .cards > ul {
     display: flex;
     justify-content: center;
-    margin: 35px 30px;
     width: 100%;
 }
 
 .cards > ul > li {
+    align-items: center;
     background-color: #fff;
     border-radius: 10px;
     box-shadow: 0 4px 15px #072a441a;
     box-sizing: border-box;
     display: flex;
     flex-basis: 100%;
+    flex-direction: column;
     margin-right: 47px;
+    padding: 29px 17px 43px;
+    text-align: center;
+    width: 100%;
 }
 
 .cards > ul > li:first-child {
@@ -27,28 +35,14 @@
 }
 
 .cards > ul > li:last-child {
-    margin-right: 0;
-}
-
-.cards > ul > li {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-}
-
-.cards > ul > li > h3:nth-child(n+2) {
-    flex-grow: 1;
-}
-
-.cards > ul > li > a {
-    margin-top: 6px;
+    margin-right: 0 !important;
 }
 
 .cards p {
     margin: 0 auto;
 }
 
-.cards > ul > li > a {
+.cards > ul > li > a:only-of-type {
     align-items: center;
     background: #f7296e;
     border: 2px solid #f7296e;
@@ -62,22 +56,24 @@
     height: 40px;
     justify-content: center;
     line-height: 25px;
+    margin-top: 6px;
     text-decoration: none;
     transition: all 0.2s;
     width: 165px;
 }
 
-.cards > ul > li > a:hover {
+.cards > ul > li > a:only-of-type:hover {
     background: #fff;
     color: #f7296e;
+    text-decoration: none;
 }
 
-.cards > ul > li > a:not([href]) {
+.cards > ul > li > a:only-of-type:not([href]) {
     color: #fff;
     opacity: 0.4;
 }
 
-.cards > ul > li > a:not([href]):hover {
+.cards > ul > li > a:only-of-type:not([href]):hover {
     color: #f7296e;
     opacity: 0.7;
 }
@@ -106,7 +102,7 @@
     width: 100%;
 }
 
-.card-content h3:nth-child(n+2) {
+.cards > ul > li > img + h3 {
     flex-grow: 1;
 }
 
@@ -132,20 +128,23 @@
 @media screen and (max-width: 1023px) {
     .cards {
         box-sizing: border-box;
+        counter-reset: total;
         justify-content: normal;
         margin-top: 0;
         max-width: 360px;
         overflow-x: auto;
         overflow-y: hidden;
-        padding: 15px 0;
+        padding: 50px 0 0;
         scroll-snap-type: x mandatory;
         width: 100vw;
     }
 
+    .cards > ul {
+        justify-content: start;
+    }
+
     .cards > ul:before,
-    .cards > ul:after,
-    .cards:before,
-    .cards:after {
+    .cards > ul:after {
         content: '';
         flex: 0 0 auto;
         width: 1px;
@@ -161,18 +160,13 @@
         width: calc(100% - 30px);
     }
 
-    .counter {
-        counter-reset: total;
-        padding-top: 50px;
-    }
-
-    .counter > * {
+    .cards > ul > li {
         counter-increment: num;
         position: relative;
     }
 
-    .counter > :before {
-        content: "( " counter(num) " / " counter(total) " )";
+    .cards > ul > li:before {
+        content: "( " counter(num) " / " counter(total) " )" !important;
         font-size: 16px;
         font-weight: 500;
         left: 0;
@@ -189,7 +183,7 @@
 
     .cards > ul > li:last-child,
     .card:last-child {
-        margin-right: 15px;
+        margin-right: 15px !important;
     }
 
     .card-content {

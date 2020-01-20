@@ -48,6 +48,10 @@
     padding: 36px 39px 27px;
 }
 
+#interfaces .cards > ul > li:before {
+    display: none;
+}
+
 #interfaces .cards > ul > li > h3 {
     align-items: flex-end;
     display: flex;
@@ -59,7 +63,7 @@
     margin-top: 6px;
 }
 
-#interfaces .cards > ul > li > a {
+#interfaces .cards > ul > li > a:only-of-type {
     margin: 26px 0 16px;
 }
 
