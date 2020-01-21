@@ -71,50 +71,39 @@ A full specification and documentation of the protocol can be found in the docum
 <Include path="sections/protocol" />
 
 <Section id="sophia" type="alt">
-<div class="section-content section-content--alt">
-    <h2>Safe smart contract development with Sophia</h2>
-    <p class="sophia-caption">
-        Sophia is a language in the ML family. It is a strongly typed
-        and has a restricted mutable state. Sophia is a functional Ocaml like language which syntax most resembles that of Reason.
-    </p>
-</div>
+
+## Safe smart contract development with Sophia
+Sophia is a language in the ML family. It is a strongly typed and has a restricted mutable state. Sophia is a functional Ocaml like language which syntax most resembles that of Reason.
+
+::: slot body
+
 <div class="sophia-content">
     <div class="sophia-graphic">
         <img src="./img/What_is_Sophia_Graphic.svg" alt="">
     </div>
-    <div class="sophia-text">
-        <h3>What is Sophia?</h3>
-        <p><img src="./img/Sophia_Icon.svg" alt="">
-            Sophia is customized for smart contracts, which can be published to a blockchain (the æternity
-            BlockChain). Thus some features of conventional languages, such as floating point arithmetics, are
-            not present in Sophia, and some blockchain specific primitives, constructions and types have been
-            added.
-        </p>
-        <h3>Links</h3>
-        <ul class="sophia-links">
-            <li>
-                <a href="https://github.com/aeternity/protocol/blob/master/contracts/sophia.md">Documentation</a>
-            </li>
-            <li>
-                <a href="https://github.com/aeternity/aepp-sophia-examples">Examples on GitHub</a>
-            </li>
-            <li>
-                <a href="https://marketplace.visualstudio.com/items?itemName=MilenRadkov.sophia">Code
-                    Highlighting</a> for VSCode and other IDE’s
-            </li>
-        </ul>
-        <h3>Educational material</h3>
-        <p>
-            <img src="./img/Dacade_Icon.svg" alt="">
-            <small>
-                <a href="https://dacade.org/ae-dev-101/introduction">Online Course from Dacade.org</a><br>
-                Check out the highly recommended æternity 101 course on Dacade, a peer learning platform.
-                Courses are free, a certificate will be given and you earn 75 USD on completion.
-            </small>
-        </p>
-    </div>
+<div class="sophia-text">
+
+### What is Sophia?
+![](./img/Sophia_Icon.svg)Sophia is customized for smart contracts, which can be published to a blockchain (the æternity BlockChain). Thus some features of conventional languages, such as floating point arithmetics, are not present in Sophia, and some blockchain specific primitives, constructions and types have been added.
+
+### Links
+- [Documentation](https://github.com/aeternity/protocol/blob/master/contracts/sophia.md)
+- [Examples on GitHub](https://github.com/aeternity/aepp-sophia-examples)
+- [Code Highlighting](https://marketplace.visualstudio.com/items?itemName=MilenRadkov.sophia) for VSCode and other IDE’s
+
+### Educational material
+![](./img/Dacade_Icon.svg)
+<small>
+<a href="https://dacade.org/ae-dev-101/introduction">Online Course from Dacade.org</a><br>
+Check out the highly recommended æternity 101 course on Dacade, a peer learning platform.
+Courses are free, a certificate will be given and you earn 75 USD on completion.
+</small>
+
 </div>
-    
+</div>
+
+:::    
+
 ::: slot buttons
 
 - [Get help](https://forum.aeternity.com/c/development/sophia-smart-contracts)
