@@ -84,7 +84,7 @@ Sophia is a language in the ML family. It is a strongly typed and has a restrict
 <div class="sophia-text">
 
 ### What is Sophia?
-![](./img/Sophia_Icon.svg)Sophia is customized for smart contracts, which can be published to a blockchain (the æternity BlockChain). Thus some features of conventional languages, such as floating point arithmetics, are not present in Sophia, and some blockchain specific primitives, constructions and types have been added.
+![](./img/Sophia_Icon.svg) Sophia is customized for smart contracts, which can be published to a blockchain (the æternity blockchain). Thus some features of conventional languages, such as floating point arithmetics, are not present in Sophia, and some blockchain specific primitives, constructions and types have been added.
 
 ### Links
 - [Documentation](https://github.com/aeternity/protocol/blob/master/contracts/sophia.md)
@@ -294,40 +294,13 @@ To get the latest version of æternity node, please check out the [latest publis
 
 </Section>
 
-<section id="community" class="section section--alt">
-    <div class="section-content section-content--alt">
-        <h2>Join the community</h2>
-    </div>
-    <ul class="icons communities">
-        <li class="icon community">
-            <a href="https://www.youtube.com/channel/UCEsM0b7QPazeMR80DxNkzCA">
-                <img src="./img/Public_Developers_icon.svg" alt="">
-                <span>Youtube</span>
-            </a>
-        </li>
-        <li class="icon community">
-            <a href="https://twitter.com/aeternityg">
-                <img src="./img/Development_bounties_icon.svg" alt="">
-                <span>Twitter</span>
-            </a>
-        </li>
-        <li class="icon community">
-            <a href="https://forum.aeternity.com">
-                <img src="./img/Forum_icon.svg" alt="">
-                <span>Forum</span>
-            </a>
-        </li>
-        <li class="icon community">
-            <a href="https://telegram.me/aeternity">
-                <img src="./img/Devchat_icon.svg" alt="">
-                <span>Telegram</span>
-            </a>
-        </li>
-        <li class="icon community">
-            <a href="https://www.aeternity-foundation.org">
-                <img src="./img/Development_Grants_icon.svg" alt="">
-                <span>Development grants</span>
-            </a>
-        </li>
-    </ul>
-</section>
+<Section id="community" type="alt">
+
+## Join the community
+- [![](./img/Public_Developers_icon.svg) Youtube](https://www.youtube.com/channel/UCEsM0b7QPazeMR80DxNkzCA)
+- [![](./img/Development_bounties_icon.svg) Twitter](https://twitter.com/aeternity)
+- [![](./img/Forum_icon.svg) Forum](https://forum.aeternity.com)
+- [![](./img/Devchat_icon.svg) Telegram](https://telegram.me/aeternity)
+- [![](./img/Development_Grants_icon.svg) Development grants](https://www.aeternity-foundation.org)
+
+</Section>

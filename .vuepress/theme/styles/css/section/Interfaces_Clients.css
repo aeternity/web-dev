@@ -101,7 +101,7 @@
     }
 
     #interfaces .cards > ul > li > * {
-        text-align: center;
+        text-align: center !important;
     }
 
     #interfaces .section-content p {

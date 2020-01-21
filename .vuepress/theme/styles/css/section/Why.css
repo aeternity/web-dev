@@ -32,6 +32,7 @@
 
     #why .section-content p {
         max-width: 800px;
+        text-align: justify;
     }
 
     #why > img {
