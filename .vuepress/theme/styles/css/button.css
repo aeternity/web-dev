@@ -3,7 +3,12 @@
     display: flex;
     flex-flow: wrap;
     justify-content: center;
+    margin-top: 40px;
     text-align: center;
+}
+
+.section-buttons:empty {
+    display: none;
 }
 
 .section-buttons > ul {
@@ -17,9 +22,8 @@
     align-items: center;
     display: flex;
     flex-direction: column;
-    margin-right: 10px;
+    margin-right: 56px;
     max-width: 450px;
-    padding: 0 20px;
     text-align: center;
 }
 
@@ -28,8 +32,8 @@
     margin-top: 0;
 }
 
-.section-buttons p:not(:first-child) {
-    margin-top: 30px;
+.section-buttons > p:not(:first-child) {
+    margin-top: 20px;
 }
 
 .section-buttons > ul > li:first-child {
@@ -40,6 +44,7 @@
     margin-right: 0;
 }
 
+[type=submit],
 .section-buttons > :not(p) a {
     align-items: center;
     background: #f7296e;
@@ -63,10 +68,12 @@
     width: 165px;
 }
 
+[type=submit]:hover,
 .section-buttons > :not(p) a:hover {
     background: transparent;
     color: #f7296e;
     text-decoration: none;
+    cursor: pointer;
 }
 
 .section-buttons > :not(p) a:not([href]) {
@@ -89,10 +96,6 @@
 }
 
 @media screen and (max-width: 1366px) {
-    .section-buttons > ul > li {
-        margin-right: 56px;
-    }
-
     .section-buttons li p a {
         line-height: 35px;
     }
@@ -135,13 +138,6 @@ form input::-webkit-input-placeholder {
 }
 
 @media screen and (max-width: 1366px) {
-    .button--large {
-        height: 50px;
-    }
-
-    .button-text {
-        line-height: 35px;
-    }
 }
 
 @media screen and (max-width: 1023px) {

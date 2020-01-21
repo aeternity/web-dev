@@ -90,10 +90,6 @@
 }
 
 @media screen and (max-width: 1023px) {
-    #sophia {
-        padding: 30px 17px 50px;
-    }
-
     #sophia h2 {
         margin: 36px;
     }
@@ -127,6 +123,10 @@
         align-items: center;
         flex-direction: column;
         text-align: center;
+    }
+
+    .sophia-text p:first-of-type {
+        text-align: justify;
     }
 
     .sophia-content p img {

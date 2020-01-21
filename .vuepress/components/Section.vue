@@ -11,7 +11,9 @@
         <div class="section-buttons">
             <slot name="buttons"></slot>
         </div>
-        <slot name="footer"></slot>
+        <div class="section-content">
+            <slot name="footer"></slot>
+        </div>
     </section>
 </template>
 <script>

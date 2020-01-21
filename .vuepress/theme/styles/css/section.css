@@ -43,11 +43,21 @@
     text-align: start;
 }
 
+.section blockquote p img:only-child {
+    display: inline-block;
+    margin-right: 7px;
+    vertical-align: middle;
+}
+
 .section-content {
     align-items: center;
     display: flex;
     flex-direction: column;
     width: 100%;
+}
+
+.section-content:empty {
+    display: none;
 }
 
 /* --- Normal --- */
@@ -177,8 +187,8 @@
 
 @media screen and (max-width: 1023px) {
     .section {
-        padding-left: 0;
-        padding-right: 0;
+        padding-left: 17px;
+        padding-right: 17px;
     }
 
     .section--hero h1 {

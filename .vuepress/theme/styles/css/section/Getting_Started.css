@@ -71,18 +71,6 @@
     margin-top: 70px;
 }
 
-#getting_started .section-content > ul > li:first-child ul li {
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    flex-shrink: 1;
-    margin: 0 18px 45px 0;
-}
-
-#getting_started .section-content > ul > li:first-child ul li:last-child {
-    margin-right: 0;
-}
-
 #getting_started .section-content > ul > li:first-child ul li > img {
     width: 100%;
 }

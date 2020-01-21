@@ -17,7 +17,6 @@
     font-size: 20px;
     height: 60px;
     line-height: 25px;
-    margin-top: 20px;
     width: 450px;
 }
 
@@ -33,7 +32,7 @@
     }
 }
 
-@media screen and (max-width: 1366px) {
+@media screen and (max-width: 1023px) {
     #header {
         box-sizing: border-box;
         height: calc(100vh - 50px);

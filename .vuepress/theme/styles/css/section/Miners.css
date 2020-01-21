@@ -11,20 +11,7 @@
     margin-top: 24px;
 }
 
-.miners {
-    position: relative;
-}
-
-.miner {
+#miners .cards > ul > li {
     flex-basis: 360px;
     padding: 29px 17px 43px;
-}
-
-.miner .card-content {
-    align-items: center;
-    text-align: center;
-}
-
-.miner h3 {
-    flex-basis: 100%;
 }

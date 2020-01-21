@@ -116,7 +116,7 @@
 
 @media screen and (max-width: 1366px) {
     .cards {
-        margin: 35px 0;
+        margin: 35px 0 0;
     }
 
     .cards > ul > li,
@@ -134,7 +134,7 @@
         max-width: 360px;
         overflow-x: auto;
         overflow-y: hidden;
-        padding: 50px 0 0;
+        padding: 50px 0 30px;
         scroll-snap-type: x mandatory;
         width: 100vw;
     }

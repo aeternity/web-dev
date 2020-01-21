@@ -43,6 +43,7 @@
 }
 
 #interfaces .cards > ul > li {
+    align-items: start;
     flex-basis: 360px;
     margin-right: 47px;
     padding: 36px 39px 27px;
@@ -55,8 +56,8 @@
 #interfaces .cards > ul > li > h3 {
     align-items: flex-end;
     display: flex;
-    flex-grow: 1;
     margin: 0;
+    text-align: start;
 }
 
 #interfaces .cards > ul > li ul {
@@ -97,6 +98,10 @@
 
     #interfaces .section-content > ul > li {
         margin: 15px 30px;
+    }
+
+    #interfaces .cards > ul > li > * {
+        text-align: center;
     }
 
     #interfaces .section-content p {

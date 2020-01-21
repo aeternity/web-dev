@@ -69,28 +69,28 @@
 }
 
 .advantage:nth-child(3) {
-    left: 16.06%;
+    left: 14.06%;
     top: 30.67%;
 }
 
 .advantage:nth-child(4) {
     left: 79.10%;
-    top: 30.67%;
+    top: 27.67%;
 }
 
 .advantage:nth-child(5) {
-    left: 13%;
+    left: 7%;
     top: 53.27%;
 }
 
 .advantage:nth-child(6) {
     left: 87.30%;
-    top: 53.27%;
+    top: 56.27%;
 }
 
 .advantage:nth-child(7) {
-    left: 27.58%;
-    top: 70.65%;
+    left: 24.58%;
+    top: 67.65%;
 }
 
 .advantage:nth-child(8) {
@@ -104,13 +104,8 @@
 }
 
 #technical_advantages blockquote {
-    align-items: center;
     display: flex;
     margin: 70px 20px 50px;
-}
-
-#technical_advantages blockquote img {
-    margin-right: 7px;
 }
 
 #technical_advantages blockquote a {
@@ -127,14 +122,6 @@
         font-size: 18px;
         line-height: 22px;
         margin: 112px 20px 104px;
-    }
-
-    #technical_advantages blockquote img {
-        float: left;
-    }
-
-    #technical_advantages blockquote p {
-        text-align: start;
     }
 
     .orbits {
@@ -155,10 +142,10 @@
     }
 
     .advantage span {
-        left: -83%;
-        margin-top: 17%;
+        left: -46%;
+        margin-top: 5%;
         position: absolute;
-        width: 263%;
+        width: 196%;
     }
 
     .advantage:nth-child(1) {
@@ -172,33 +159,33 @@
     }
 
     .advantage:nth-child(3) {
-        left: 6.66%;
+        left: 9.66%;
         top: 29.07%;
     }
 
     .advantage:nth-child(4) {
-        left: 81.6%;
-        top: 30.37%;
+        left: 76.6%;
+        top: 27.37%;
     }
 
     .advantage:nth-child(5) {
         left: 5.8%;
-        top: 53.77%;
+        top: 52.77%;
     }
 
     .advantage:nth-child(6) {
-        left: 86.8%;
+        left: 84.8%;
         top: 57.77%;
     }
 
     .advantage:nth-child(7) {
-        left: 19.48%;
-        top: 71.25%;
+        left: 25.48%;
+        top: 66.25%;
     }
 
     .advantage:nth-child(8) {
         left: 67.4%;
-        top: 74.65%;
+        top: 66.65%;
     }
 
     .advantage:nth-child(9) {

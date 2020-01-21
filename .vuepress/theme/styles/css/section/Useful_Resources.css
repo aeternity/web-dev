@@ -7,6 +7,7 @@
 }
 
 #useful .cards > ul > li {
+    display: block;
     flex-basis: 648px;
     margin-right: 65px;
     padding: 35px 45px;
@@ -34,12 +35,6 @@
     margin: 0 0 10px;
 }
 
-#useful .cards > ul > li > * {
-    align-items: start;
-    box-sizing: border-box;
-    width: 100%;
-}
-
 #useful .cards > ul > li > p {
     margin-bottom: 1em;
 }
@@ -47,6 +42,7 @@
 #useful .cards > ul > li > ul > li {
     border-bottom: 1px solid #dcdcdc;
     padding: 20px 0;
+    text-align: start;
 }
 
 #useful .cards > ul > li > ul:first-of-type > li:first-of-type {
@@ -77,6 +73,9 @@
 
     #useful .cards > ul > li {
         flex-basis: 550px;
+        font-size: 16px;
+        line-height: 26px;
+        margin-bottom: 30px;
         margin-right: 40px;
         padding: 30px 39px;
     }
@@ -87,12 +86,6 @@
         margin-bottom: 26px;
         margin-top: 0;
         width: 100%;
-    }
-
-    #useful .cards > ul > li p {
-        font-size: 16px;
-        line-height: 26px;
-        margin-bottom: 30px;
     }
 
     #useful .cards > ul > li p:last-child {
@@ -122,9 +115,6 @@
 
     #useful .cards > ul > li {
         padding: 37px 17px;
-    }
-
-    #useful .cards > ul > li {
         text-align: start;
     }
 

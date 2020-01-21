@@ -193,8 +193,7 @@
                         maintenance or the development of new features. Nevertheless, the æternity crypto
                         foundation currently receive around 10.8% of the mining reward to support the long-term
                         development and maintenance of the core protocol and essential resources. There is an open
-                        R&D Grant program available at <a href="https://www.aeternity-foundation.org">www.aeternity-foundation.org</a>as
-                        well as a Development Bounty program for contributors. To enable entrepreneurs and business
+                        R&D Grant program available at <a href="https://www.aeternity-foundation.org">www.aeternity-foundation.org</a>. To enable entrepreneurs and business
                         to launch their own startup, there are programs for entrepreneurs <a
                             href="https://www.aeternitystarfleet.com">www.aeternityStarfleet.com</a> and a venture
                         fund <a href="https://www.aeternity-ventures.com">www.aeternity-ventures.com</a> to

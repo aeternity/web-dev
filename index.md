@@ -112,13 +112,6 @@ A full specification and documentation of the protocol can be found in the docum
                 Courses are free, a certificate will be given and you earn 75 USD on completion.
             </small>
         </p>
-        <p>
-            <img src="./img/github-logo.svg" alt="">
-            <small>
-                <a>Tutorials about Sophia</a><br>
-                Available on GitHub but might be outdated.
-            </small>
-        </p>
     </div>
 </div>
     
@@ -138,24 +131,22 @@ A full specification and documentation of the protocol can be found in the docum
 
 ## Getting started
 
-In order to get started, try out the community developed online IDE or setup your own development enviroment with the local development framework AEproject.
+In order to get started, try out the community developed online IDE or setup your own development enviroment with the local development framework **AEproject**.
 
-- 
-    ### ![](./img/Try_it_in_browser_icon.svg) Try it in the browser
-    Just click the link below to launch the FireEditor, a Web-based IDE. Start to write and test Sophia smart contracts instantly.
-    - ![](./img/FireEditor_Laptop.svg)
+- ### ![](./img/Try_it_in_browser_icon.svg) Try it in the browser
+  Just click the link below to launch the FireEditor, a Web-based IDE. Start to write and test Sophia smart contracts instantly.
+  - ![](./img/FireEditor_Laptop.svg)
 
-      [FireEditor](http://fireeditor.nikitafuchs.de)
+    [FireEditor](http://fireeditor.nikitafuchs.de)
 
--
-    ### ![](./img/Try_it_locally_icon.svg) Try it locally
-    Install it locally and setup your development environment in no-time:
+- ### ![](./img/Try_it_locally_icon.svg) Try it locally
+  Install it locally and setup your development environment in no-time:
+  ```
+  npm i -g aeproject
+  ```
+  - ![](./img/Terminal_Laptop.svg)
 
-      npm i -g aeproject
-
-    - ![](./img/AEProject_Laptop.svg)
-
-      [Documentation](https://github.com/aeternity/aepp-aeproject-js)
+    [Documentation](https://github.com/aeternity/aepp-aeproject-js)
 
 ::: slot buttons
 
@@ -224,7 +215,7 @@ Programming libraries are available. Any Javascript developer can build a simple
 
   > ![](./img/Faucet.svg)
   >
-  > To get some free AE tokens, use the testnet Token Faucet [https://testnet.faucet.aepps.com](https://testnet.faucet.aepps.com)
+  > To get some free AE tokens, use the testnet Token Faucet [https://faucet.aepps.com](https://faucet.aepps.com)
 
 - ### Resources
   - #### Blockchain Explorers (Testnet/Mainnet)
@@ -256,14 +247,17 @@ Three major clients to interact with æternity blockchain applications, sign con
 - ### Wællet Browser Extension
   [View on GitHub](https://github.com/aeternity/aepp-waellet)
 - ### Blockchain Explorers
-  - [aeternal.io](https://aeternal.io)
+  - [mainnet.aeternal.io](https://mainnet.aeternal.io)
+  - [testnet.aeternal.io](https://testnet.aeternal.io)
   - [www.aeknow.org](https://www.aeknow.org)
 
 :::
 
+::: slot footer
+
 A variety of community build wallets are available, such as:
-- [![](./img/Air_Gap_Icon.svg) Airgap Vault and Wallet](https://airgap.it)
-- [![](./img/Trust_Wallet_Icon.svg) Trust Wallet](https://trustwallet.com)
+- [![](./img/Air_Gap_Icon.svg) **Airgap Vault and Wallet**](https://airgap.it)
+- [![](./img/Trust_Wallet_Icon.svg) **Trust Wallet**](https://trustwallet.com)
 
 It is possible to buy æternity tokens on exchanges like Binance, OKex, Huobi, gate.io and many
 others. A full list of markets can be found via: <a href="https://coinmarketcap.com">coinmarketcap</a>
@@ -271,6 +265,8 @@ others. A full list of markets can be found via: <a href="https://coinmarketcap.
 - [![](./img/Okex_icon.svg) okex](https://www.okex.com)
 - [![](./img/Huobi_icon.svg) huobi](https://www.huobi.com)
 - [![](./img/Gateio_icon.svg) gate.io](https://www.gate.io)
+
+:::
 
 </Section>
 
@@ -302,11 +298,10 @@ To get the latest version of æternity node, please check out the [latest publis
   [View on GitHub](https://docs.aeternity.io/en/stable/stratum/)
 - ### Choose a mining client
   [Choose](https://www.aeknow.org/miner)
-- ### Run a node
+- ### Join an existing mining pool
   [Join](https://www.aeknow.org/miner)
 
 :::
-
 
 </Section>
 
