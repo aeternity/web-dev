@@ -3,7 +3,7 @@ title: æternity - a blockchain for scalable, secure and decentralised æpps
 description: "æternity is a permissionless, public, decentralised open source smart contract platform."
 lang: en-US
 announcement: |
-  Welcome to our brand new website, <a href="https://forum.aeternity.com/c/announcements" target="_blank">read more about it in the forum</a>.
+  Welcome to our brand new website, <a href="https://forum.aeternity.com/t/a-website-that-fits-introducing-aeternity-s-new-website/5898" target="_blank">read more about it in the forum</a>.
 advantages:
   - image: /img/No_Scaling_Icon.svg
     text: No scaling limits with built-in trustless, off-chain State Channels
