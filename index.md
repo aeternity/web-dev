@@ -1,6 +1,6 @@
 ---
 title: æternity - a blockchain for scalable, secure and decentralised æpps
-description: "æternity Blockchain : Lightning Smart Contracts, Turing-complete state channels, oracles"
+description: "æternity is a permissionless, public, decentralised open source smart contract platform."
 lang: en-US
 announcement: |
   Welcome to our brand new website, <a href="https://forum.aeternity.com/c/announcements" target="_blank">read more about it in the forum</a>.
