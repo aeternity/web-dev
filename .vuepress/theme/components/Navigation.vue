@@ -31,8 +31,8 @@
                         <a href="https://github.com/aeternity">
                             <img src="../../../img/Social_GitHub.svg" alt="">
                         </a>
-                        <a href="https://www.reddit.com/r/Aeternity/">
-                            <img src="../../../img/Social_Reddit.svg" alt="">
+                        <a href="https://forum.aeternity.com">
+                            <img src="../../../img/Social_Forum.svg" alt="">
                         </a>
                         <a href="https://blog.aeternity.com">
                             <img src="../../../img/Social_Medium.svg" alt="">

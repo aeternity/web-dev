@@ -14,8 +14,8 @@
                 <li class="footer-icon"><a href="https://github.com/aeternity">
                     <img src="../../../img/Footer_Github.svg" alt=""><span>GitHub</span></a>
                 </li>
-                <li class="footer-icon"><a href="https://www.reddit.com/r/Aeternity/">
-                    <img src="../../../img/Footer_Reddit.svg" alt=""><span>Reddit</span></a>
+                <li class="footer-icon"><a href="https://forum.aeternity.com">
+                    <img src="../../../img/Footer_Forum.svg" alt=""><span>Forum</span></a>
                 </li>
                 <li class="footer-icon"><a href="https://blog.aeternity.com">
                     <img src="../../../img/Footer_Medium.svg" alt=""><span>Medium</span></a>
