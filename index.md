@@ -118,7 +118,7 @@ In order to get started, try out the community developed online IDE or setup you
   Start writing and testing Sophia Smart Contracts instantly. Click on the link below to launch the Contract compiler.
   - ![](./img/FireEditor_Laptop.svg)
 
-    [Contract compiler](http://contracts.aepps.com)
+    [Contract compiler](https://contracts.aepps.com)
 
 - ### ![](./img/Try_it_locally_icon.svg) Try it locally
   Use AEproject to set up your local development environment in minutes.
