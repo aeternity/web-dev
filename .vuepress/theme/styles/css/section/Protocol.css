@@ -101,10 +101,6 @@
     width: 50%;
 }
 
-.protocol-content > div {
-    max-height: 460px;
-}
-
 .protocol-content > img:first-child {
     position: absolute;
     top: 45px;
@@ -118,10 +114,15 @@
 }
 
 .protocol-content p {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     margin-top: 0;
     overflow-wrap: break-word;
     text-align: start;
+}
+
+.protocol-content > div {
+    height: 400px;
+    overflow-y: auto;
 }
 
 @media screen and (max-width: 1366px) {
@@ -148,10 +149,6 @@
         width: 47%;
     }
 
-    .protocol-content > div {
-        max-height: 460px;
-    }
-
     .protocol-content > img:first-child {
         top: 35px;
         width: 60px;
@@ -164,7 +161,18 @@
     }
 
     .protocol-content p {
-        line-height: 20px;
+        line-height: 26px;
+    }
+
+    .protocol-content > div:after {
+        background-image: linear-gradient(0deg, #fff, transparent);
+        bottom: 50px;
+        content: '';
+        height: 40px;
+        left: 0;
+        pointer-events: none;
+        position: absolute;
+        right: 0;
     }
 }
 
@@ -183,7 +191,7 @@
 
     .protocol-menu {
         animation: fadein 0.1s 0.3s linear backwards;
-        height: 667px;
+        height: 530px;
         overflow: hidden;
         position: relative;
         scroll-padding: 0 0 0 1000%;
@@ -210,6 +218,10 @@
         width: 100%;
         will-change: transform, opacity;
         z-index: 2;
+    }
+
+    .protocol-content > div:after {
+        bottom: 0;
     }
 
     .protocol-menu :checked + .protocol-menu-item {
@@ -286,5 +298,9 @@
         line-height: 24px;
         margin-bottom: 20px;
         margin-top: 10px;
+    }
+
+    .protocol-content > div {
+        height: 325px;
     }
 }
