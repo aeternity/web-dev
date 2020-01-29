@@ -154,6 +154,10 @@ main {
         font-size: 20px;
         line-height: 26px;
     }
+
+    a[href] {
+        text-decoration: underline;
+    }
 }
 
 @media screen and (max-width: 1023px) {

@@ -3,10 +3,6 @@
     padding-top: 50px;
 }
 
-#run_node .cards > ul {
-    position: relative;
-}
-
 #run_node .cards > ul > li {
     flex-basis: 320px;
     margin-right: 73px;
@@ -14,7 +10,27 @@
 }
 
 @media screen and (max-width: 1023px) {
+    #run_node {
+        padding-bottom: 50px;
+    }
+
+    #run_node .cards {
+        padding: 0;
+    }
+
+    #run_node .cards > ul > li:before {
+        display: none;
+    }
+
     #run_node .cards > ul > li {
-        margin-right: 15px;
+        margin: 0 0 30px;
+    }
+
+    #run_node .cards > ul {
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 25px 0 15px;
+        padding: 0;
+        width: calc(100vw - 30px);
     }
 }
