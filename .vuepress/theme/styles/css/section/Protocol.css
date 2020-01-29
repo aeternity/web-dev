@@ -220,10 +220,6 @@
         z-index: 2;
     }
 
-    .protocol-content > div:after {
-        bottom: 0;
-    }
-
     .protocol-menu :checked + .protocol-menu-item {
         opacity: 1;
         transform: translate3d(0px, 0px, 0px);
@@ -302,5 +298,9 @@
 
     .protocol-content > div {
         height: 325px;
+    }
+
+    .protocol-content > div:after {
+        bottom: 0;
     }
 }
