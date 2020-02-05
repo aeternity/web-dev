@@ -83,6 +83,28 @@ Full specifications and documentation of the protocol are in the [Documentation 
 
 <Metrics/>
 
+<Section id="state_channels">
+
+## State Channels
+
+State channels make it possible to execute smart contracts off-chain. The blockchain enforces the 
+smart contract code, only in the case of a disagreement between the contracting parties. 
+
+::: slot bottom
+
+![](./img/State_Channels.svg)
+
+> ### State Channels
+> 
+> aeternity can scale to billions
+> of transactions with off-chain
+> State Channels. [Read more](https://github.com/aeternity/protocol/tree/master/channels)
+
+:::
+
+</Section>
+
+
 <Include path="sections/protocol" />
 
 <Section id="sophia" type="alt">

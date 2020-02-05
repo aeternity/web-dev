@@ -1,5 +1,6 @@
 #why {
-    padding-top: 34px;
+    padding-bottom: 10vh;
+    padding-top: 10vh;
 }
 
 #why h2 {
@@ -22,10 +23,6 @@
 }
 
 @media (max-width: 1366px) {
-    #why {
-        padding-top: 36px;
-    }
-
     #why h2 {
         margin-bottom: 34px;
     }

@@ -22,7 +22,6 @@
 
 @media (max-width: 1366px) {
     #header {
-        height: calc(100vh - 70px);
         padding-bottom: unset;
     }
 
@@ -34,7 +33,6 @@
 @media screen and (max-width: 1023px) {
     #header {
         box-sizing: border-box;
-        height: calc(100vh - 50px);
         justify-content: center;
         padding-top: 50px;
     }
