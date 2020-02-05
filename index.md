@@ -23,6 +23,22 @@ advantages:
     text: Built-in Oracles for accessing external API’s and real world data
   - image: /img/Highly_Flexible_Icon.svg
     text: Highly flexible generalized account model supporting all types of signing options
+metrics:
+  - image: /img/Metrics_Commits.svg
+    text: GitHub Commits
+    value: 5496
+  - image: /img/Metrics_Transactions.svg
+    text: Total Transactions
+    value: 1218537
+  - image: /img/Metrics_Names.svg
+    text: Names Claimed
+    value: 1654
+  - image: /img/Metrics_Mined.svg
+    text: Blocks Mined
+    value: 200694
+  - image: /img/Metrics_Accounts.svg
+    text: Active Accounts
+    value: 1218537
 ---
 
 <Section id="header" type="hero">
@@ -64,6 +80,8 @@ Full specifications and documentation of the protocol are in the [Documentation 
 > Reference implementation written in Erlang by industry experts, the language that powers 90% of today’s world wide web. [Learn more](https://en.wikipedia.org/wiki/Erlang_(programming_language))
 
 </Section>
+
+<Metrics/>
 
 <Include path="sections/protocol" />
 

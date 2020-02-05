@@ -1,7 +1,6 @@
 .section {
     align-items: center;
     box-sizing: border-box;
-    color: #fff;
     display: flex;
     flex-direction: column;
     justify-content: center;

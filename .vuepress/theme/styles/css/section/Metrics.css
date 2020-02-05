@@ -1,0 +1,102 @@
+#metrics {
+    background: #fff;
+    padding: 0;
+    z-index: 1;
+}
+
+#metrics > div {
+    max-width: 1460px;
+    width: 100%;
+}
+
+#metrics > div:before {
+    border-bottom: 1px solid #dcdcdc;
+    content: '';
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    z-index: -1;
+}
+
+.metrics {
+    display: flex;
+    justify-content: start;
+    max-width: 1776px;
+    overflow-x: overlay;
+    width: 100%;
+}
+
+.metrics li {
+    align-items: center;
+    background: #f5f5f5;
+    border: 1px solid #dcdcdc;
+    box-sizing: border-box;
+    display: grid;
+    flex-basis: 260px;
+    flex-shrink: 0;
+    height: 110px;
+    margin: 30px 15px;
+    white-space: nowrap;
+}
+
+.metrics li > img {
+    align-self: center;
+    grid-row: span 2;
+    justify-self: end;
+    margin-right: 15px;
+}
+
+.metrics li > div:first-of-type {
+    align-self: end;
+    color: #f7296e;
+    font-size: 30px;
+    font-weight: 700;
+    grid-column: 2;
+    line-height: 30px;;
+    white-space: nowrap;
+}
+
+.metrics li > div:last-of-type {
+    align-self: start;
+    font-size: 14px;
+    font-weight: 500;
+    grid-column: 2;
+    line-height: 16px;
+    padding-top: 5px;
+    white-space: nowrap;
+}
+
+@media (max-width: 1366px) {
+    #metrics > div {
+        max-width: 1300px;
+    }
+
+    .metrics li {
+        flex-basis: 230px;
+        height: 90px;
+    }
+
+    .metrics li > div:first-of-type {
+        font-size: 24px;
+    }
+
+    .metrics li > div:last-of-type {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .metrics li {
+        flex-basis: 210px;
+        height: 75px;
+    }
+
+    .metrics li > div:first-of-type {
+        font-size: 24px;
+    }
+
+    .metrics li > div:last-of-type {
+        font-size: 12px;
+    }
+}

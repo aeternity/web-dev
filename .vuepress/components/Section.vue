@@ -1,5 +1,5 @@
 <template>
-    <section :id="id" :class="classes">
+    <section :id="id" :class="['section', 'section--' + type]">
         <slot name="header"></slot>
         <div class="section-content top">
             <slot></slot>
@@ -20,20 +20,11 @@
 <script>
     export default {
         props: {id: String, type: {type: String, default: 'normal'}},
-        computed: {
-            classes() {
-                return 'section section--' + this.type
-            }
-        },
         mounted() {
-            this.$nextTick(function () {
-                // reset css counter "total" for each UL so we can use it in CSS
-                this.$el
-                    .querySelectorAll('.cards > ul')
-                    .forEach(el => {
-                        el.style.cssText = `--total: '${el.childElementCount}'`;
-                    });
-            })
+            this.$el.querySelectorAll('.cards > ul')
+                .forEach(el => {
+                    el.style.cssText = `--total: '${el.childElementCount}'`;
+                });
         }
     }
 </script>

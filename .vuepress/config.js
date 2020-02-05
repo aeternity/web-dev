@@ -50,11 +50,8 @@ module.exports = {
         'GA_ID': process.env.GA_ID || 'UA-89489770-3',
         search: false,
         nav: [
-            {text: 'Developers', link: '/'},
-            {text: 'Entrepreneurs', link: ''},
-            {text: 'Æternity Consulting', link: ''},
-            {text: 'Community', link: ''},
-            {text: `Dæmo`, link: ''},
+            {text: 'Forum', link: 'https://forum.aeternity.com'},
+            {text: 'Blog', link: 'https://blog.aeternity.com'},
         ]
     },
     locales: {
