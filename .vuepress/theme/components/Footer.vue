@@ -40,6 +40,20 @@
                 </li>
             </ul>
         </div>
-        <div class="legal"><a href="./cookies-policy.html">Legal imprint</a></div>
+        <div class="legal">
+            <a @click="resetCookies()">Cookies</a> |
+            <a href="./cookies-policy.html">Legal imprint</a>
+        </div>
     </footer>
 </template>
+<script>
+    import EventBus from '@theme/plugins/EventBus';
+
+    export default {
+        methods: {
+            resetCookies() {
+                EventBus.$emit('optReset', true);
+            },
+        },
+    }
+</script>
