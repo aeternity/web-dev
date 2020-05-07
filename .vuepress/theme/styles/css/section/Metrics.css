@@ -1,33 +1,44 @@
 #metrics {
-    background: transparent;
+    background: #dcdcdc17;
+    display: flex;
+    overflow: hidden;
     padding: 0;
     z-index: 1;
 }
 
+@keyframes marquee {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
 .metrics {
+    animation: marquee 10s linear infinite;
     display: flex;
-    justify-content: center;
-    overflow-x: overlay;
-    scroll-snap-type: x mandatory;
-    width: 100%;
+    flex: 1 0 100%;
+}
+
+#metrics:hover .metrics {
+    animation-play-state: paused;
 }
 
 .metrics li {
-    flex-basis: 21vw;
-    flex-grow: 0;
-    flex-shrink: 0;
-    height: 110px;
-    margin: 30px 15px;
-    max-width: 400px;
-    scroll-snap-align: center;
+    flex: 1 0 auto;
+    font-size: 30px;
+    height: 50px;
+    line-height: 30px;
+    margin: 30px 50px 30px 0;
 }
 
 .metrics li a {
     align-items: center;
-    background: #dcdcdc17;
     box-sizing: border-box;
     color: #f7f7f7;
-    display: grid;
+    display: flex;
     height: 100%;
     text-decoration: none;
     white-space: nowrap;
@@ -42,30 +53,23 @@
 }
 
 .metrics a img {
-    align-self: center;
-    grid-row: span 2;
-    justify-self: end;
+    height: 100%;
     margin-right: 15px;
 }
 
-.metrics a div:first-of-type {
-    align-self: end;
-    color: #f7296e;
-    font-size: 30px;
-    font-weight: 700;
-    grid-column: 2;
-    line-height: 30px;;
+.metrics a div {
     white-space: nowrap;
 }
 
+.metrics a div:first-of-type {
+    color: #f7f7f7;
+    font-weight: 700;
+    margin-right: 10px;
+}
+
 .metrics a div:last-of-type {
-    align-self: start;
-    font-size: 14px;
+    color: #f7296e;
     font-weight: 500;
-    grid-column: 2;
-    line-height: 16px;
-    padding-top: 5px;
-    white-space: nowrap;
 }
 
 @media (max-width: 1366px) {
@@ -74,34 +78,17 @@
     }
 
     .metrics li {
-        flex-basis: 230px;
-        height: 90px;
-    }
-
-    .metrics a div:first-of-type {
         font-size: 24px;
-    }
-
-    .metrics a div:last-of-type {
-        font-size: 14px;
+        height: 30px;
+        line-height: 24px;
     }
 }
 
 @media screen and (max-width: 1023px) {
     .metrics li {
-        flex-basis: 200px;
-        height: 75px;
-    }
-
-    .metrics a div:first-of-type {
-        font-size: 22px;
-    }
-
-    .metrics a div:last-of-type {
-        font-size: 12px;
-    }
-
-    .metrics {
-        justify-content: start;
+        font-size: 20px;
+        height: 25px;
+        line-height: 20px;
+        margin: 10px 30px;
     }
 }

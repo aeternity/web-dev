@@ -1,11 +1,20 @@
 <template>
-    <div :id="id">
+    <div :id="id" class="marquee">
         <ul class="metrics">
             <li v-for="metric in this.metrics">
                 <a :href="metric.link || '#'" target="_blank">
                     <img :src="$withBase(metric.image)" alt="">
+                    <div>{{ metric.text }}:</div>
                     <div>{{ (metric.value * 1).toLocaleString() }}</div>
-                    <div>{{ metric.text }}</div>
+                </a>
+            </li>
+        </ul>
+        <ul class="metrics">
+            <li v-for="metric in this.metrics">
+                <a :href="metric.link || '#'" target="_blank">
+                    <img :src="$withBase(metric.image)" alt="">
+                    <div>{{ metric.text }}:</div>
+                    <div>{{ (metric.value * 1).toLocaleString() }}</div>
                 </a>
             </li>
         </ul>
