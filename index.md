@@ -191,6 +191,47 @@ Featured in Electric Capital’s Report for being among the projects with the mo
 
 <Particles id="particles-protocol" />
 
+
+<Section id="assets">
+
+## Use cases
+* Documents, contracts, invoices, receipts
+* Decentralized Finance (DeFi) 
+* Payments, Loans, Shares
+* Decentralized autonomous organization (DAO)
+* Votes
+* Identity
+* IOT blockchain identities. HARDWARE
+* Games
+
+::: slot cards
+
+- ### FUNGIBLE TOKENS
+  * In Game Points
+  * Stable Coins
+  * Loyalty Points
+  * System Credits
+  * Cryptocurrencies
+- ### NON-FUNGIBLE TOKENS
+  * In Game Items
+  * Supply Chain
+  * Real Estate
+  * Identity
+  * Certifications
+  * Collectables
+- ### RESTRICTED FUNGIBLE TOKENS
+  * Securities
+  * Government Issued Fiat
+  * Certifications
+- ### RESTRICTED NON-FUNGIBLE TOKENS
+  * Real Estate
+  * Ownership Registries
+  * Regulatory Certifications
+
+:::
+
+</Section>
+
 <Section id="sophia" type="alt">
 
 ## Safe Smart Contracts with Sophia

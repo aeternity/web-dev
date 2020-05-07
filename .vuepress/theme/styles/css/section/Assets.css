@@ -1,0 +1,28 @@
+#assets {
+    padding-bottom: 6vh;
+    padding-top: 0;
+}
+
+#assets .section-content ul {
+    columns: 2;
+    list-style: inside;
+}
+
+#assets .cards {
+    max-width: 1600px;
+}
+
+#assets .cards > ul > li {
+    align-items: center;
+}
+
+#assets .cards > ul > li > h3 {
+    color: #f7296e;
+    flex-basis: 52px;
+    flex-grow: 0;
+}
+
+#assets .cards > ul > li > ul {
+    list-style: initial;
+    width: 70%;
+}
