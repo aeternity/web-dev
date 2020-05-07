@@ -105,7 +105,17 @@ By redesigning blockchain technology at the protocol level, the æternity develo
 :::
 
 </Section>
+<Section id="brief_history">
 
+## History
+
+- **2016** initial company forms in Liechtenstein
+- **2017** crowdfunding over BTC and ETH
+- **2018** æternity Mainnet blockchain launch
+- **2019** æternity universe ecosystem and first tokens on æ
+- **2020** forecast a million æpp transactions, by legal blockchain entities
+
+</Section>
 <Section id="technical_advantages" type="fancy">
 
 <video autoplay loop muted playsinline onload="this.play()" preload="metadata">

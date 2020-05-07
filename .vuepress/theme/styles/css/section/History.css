@@ -1,0 +1,12 @@
+#brief_history {
+    padding: 0 0 6vh;
+}
+
+#brief_history li {
+    padding-bottom: 10px;
+}
+
+#brief_history li strong {
+    color: #f7296e;
+    font-size: 24px;
+}
