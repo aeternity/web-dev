@@ -30,7 +30,7 @@
         },
         methods: {
             fetchData() {
-                let metrics = this.$frontmatter['metrics'];
+                let metrics = this.$frontmatter['metrics'] || [];
 
                 Object.entries(metrics).map(async ([id, metric]) => {
                     let src = Object.assign({}, { type: 'json', 'path': '', regex: '' }, metric['src'] || {});

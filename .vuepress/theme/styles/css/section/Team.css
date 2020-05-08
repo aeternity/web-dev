@@ -12,3 +12,129 @@
 #team p:last-of-type {
     max-width: none;
 }
+
+.team > ul {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+    max-width: 1170px;
+}
+
+.team > ul > li {
+    display: flex;
+    flex-basis: 226px;
+    flex-direction: column;
+    margin: 0 30px 100px;
+    position: relative;
+    text-align: center;
+    width: 226px;
+}
+
+.team > ul > li > p {
+    text-align: center;
+}
+
+.team > ul > li p {
+    font-size: 16px;
+    line-height: 25px;
+    margin: 0;
+}
+
+.team > ul > li h2 {
+    font-size: 24px;
+    line-height: 22px;
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+
+.team > ul > li > blockquote {
+    background: #fff;
+    box-shadow: 1px 1px 6px #00000029;
+    display: none;
+    flex-flow: wrap;
+    max-width: 500px;
+    padding: 40px 20px 40px 20px;
+    position: absolute;
+    top: 236px;
+    width: 70vw;
+    z-index: 1;
+}
+
+.team > ul > li.active > blockquote {
+    display: flex;
+}
+
+.team > ul > li.active:nth-child(4n) > blockquote {
+    right: 0;
+}
+
+.team > ul > li.active img {
+    filter: sepia(1) saturate(1) brightness(1) hue-rotate(-72deg);
+}
+
+.team > ul > li blockquote h3 {
+    align-items: center;
+    display: flex;
+    font-size: 24px;
+    line-height: 22px;
+    margin-bottom: 15px;
+    margin-top: 0;
+    width: 100%;
+}
+
+.team > ul > li blockquote strong {
+    flex: 0;
+    white-space: nowrap;
+}
+
+.team > ul > li blockquote h3 em {
+    color: #dcdcdc;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    margin-left: 10px;
+}
+
+.team > ul > li blockquote h3:after {
+    content: " ";
+    flex: 1 0 auto;
+    order: 1;
+}
+
+.team > ul > li blockquote a {
+    margin-left: 10px;
+    order: 2;
+    width: 20px;
+    height: 20px;
+    overflow: hidden;
+}
+
+.team > ul > li blockquote a:before {
+    background-repeat: no-repeat;
+    content: " ";
+    height: 20px;
+    width: 20px;
+    display: inline-flex;
+}
+
+.team > ul > li blockquote a[href*="facebook.com"]:before {
+    background-image: url("../../../../../img/Team_Facebook.svg");
+}
+
+.team > ul > li blockquote a[href*="linkedin.com"]:before {
+    background-image: url("../../../../../img/Team_Linkedin.svg");
+}
+
+.team > ul > li blockquote h3 em:before {
+    border-left: 1px solid #dcdcdc;
+    content: "";
+    margin-right: 10px;
+}
+
+.team > ul > li > img,
+.team > ul > li > p > img {
+    border-radius: 100%;
+    margin-bottom: 17px;
+    width: 100%;
+}

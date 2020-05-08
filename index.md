@@ -501,6 +501,8 @@ envisioned powerful algorithms on blockchains. Now, with æternity, a new versio
 
 [![](./img/team-preview.jpg)](img/team.jpg)
 
+[View team](./team.html)
+
 </Section>
 
 <Particles id="particles-who" />
