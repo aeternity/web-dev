@@ -2,6 +2,7 @@
     overflow: hidden;
     padding-bottom: 70px;
     padding-top: 70px;
+    z-index: 0;
 }
 
 #footer:before {

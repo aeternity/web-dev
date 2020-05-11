@@ -25,7 +25,6 @@
     flex-basis: 226px;
     flex-direction: column;
     margin: 0 30px 100px;
-    position: relative;
     text-align: center;
     width: 226px;
 }
@@ -55,17 +54,12 @@
     max-width: 500px;
     padding: 40px 20px 40px 20px;
     position: absolute;
-    top: 236px;
-    width: 70vw;
+    margin-top: 236px;
     z-index: 1;
 }
 
 .team > ul > li.active > blockquote {
     display: flex;
-}
-
-.team > ul > li.active:nth-child(4n) > blockquote {
-    right: 0;
 }
 
 .team > ul > li.active img {
@@ -103,19 +97,19 @@
 }
 
 .team > ul > li blockquote a {
+    height: 20px;
     margin-left: 10px;
     order: 2;
-    width: 20px;
-    height: 20px;
     overflow: hidden;
+    width: 20px;
 }
 
 .team > ul > li blockquote a:before {
     background-repeat: no-repeat;
     content: " ";
+    display: inline-flex;
     height: 20px;
     width: 20px;
-    display: inline-flex;
 }
 
 .team > ul > li blockquote a[href*="facebook.com"]:before {
@@ -137,4 +131,42 @@
     border-radius: 100%;
     margin-bottom: 17px;
     width: 100%;
+}
+
+@media screen and (min-width: 1250px) {
+    .team {
+        max-width: 1170px;
+    }
+
+    .team > ul > li.active:nth-child(4n) > blockquote {
+        right: 20px;
+    }
+}
+
+@media screen and (max-width: 1249px) {
+    .team {
+        max-width: 860px;
+    }
+    .team > ul > li.active:nth-child(3n) > blockquote {
+        right: 20px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .team {
+        max-width: 572px;
+    }
+    .team > ul > li.active:nth-child(2n) > blockquote {
+        right: 20px;
+    }
+}
+
+@media screen and (max-width: 609px) {
+    .team {
+        max-width: 286px;
+    }
+    .team > ul > li.active > blockquote {
+        left: 20px;
+        right: 20px;
+    }
 }

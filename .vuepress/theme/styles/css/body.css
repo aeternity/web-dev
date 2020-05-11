@@ -70,6 +70,11 @@ body + div[style] {
     display: none !important;
 }
 
+.content__default {
+    position: relative;
+    z-index: 1;
+}
+
 section ul li > a > img {
     transition: all 0.1s;
 }
