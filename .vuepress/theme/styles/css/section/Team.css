@@ -22,11 +22,11 @@
 
 .team > ul > li {
     display: flex;
-    flex-basis: 226px;
+    flex-basis: 220px;
     flex-direction: column;
     margin: 0 30px 100px;
     text-align: center;
-    width: 226px;
+    width: 220px;
 }
 
 .team > ul > li > p {
@@ -41,24 +41,56 @@
 
 .team > ul > li h2 {
     font-size: 24px;
+    font-weight: 700;
     line-height: 22px;
     margin-bottom: 10px;
     margin-top: 0;
 }
 
-.team > ul > li > blockquote {
+.team > ul > li blockquote {
     background: #fff;
     box-shadow: 1px 1px 6px #00000029;
     display: none;
     flex-flow: wrap;
+    margin-top: 236px;
     max-width: 500px;
     padding: 40px 20px 40px 20px;
     position: absolute;
-    margin-top: 236px;
+    width: 40vw;
     z-index: 1;
 }
 
-.team > ul > li.active > blockquote {
+/* Triangle shadow */
+.team > ul > li.active > :first-child:before {
+    border-bottom: solid 15px #fff;
+    border-left: solid 15px transparent;
+    border-right: solid 15px transparent;
+    content: "";
+    display: inline-block;
+    filter: drop-shadow(0 -3px 6px #00000029);
+    height: 0;
+    margin-left: 94px;
+    margin-top: 222px;
+    position: absolute;
+    width: 0;
+}
+
+/* Triangle cutout */
+.team > ul > li.active > :first-child:after {
+    border-bottom: solid 15px #fff;
+    border-left: solid 15px transparent;
+    border-right: solid 15px transparent;
+    content: "";
+    display: inline-block;
+    height: 0;
+    margin-left: -126px;
+    margin-top: 222px;
+    position: absolute;
+    width: 0;
+    z-index: 3;
+}
+
+.team > ul > li.active blockquote {
     display: flex;
 }
 
@@ -129,8 +161,10 @@
 .team > ul > li > img,
 .team > ul > li > p > img {
     border-radius: 100%;
+    height: 220px;
     margin-bottom: 17px;
-    width: 100%;
+    object-fit: cover;
+    width: 220px;
 }
 
 @media screen and (min-width: 1250px) {
@@ -141,12 +175,21 @@
     .team > ul > li.active:nth-child(4n) > blockquote {
         right: 20px;
     }
+
+    .team > ul > li.active:last-of-type > blockquote {
+        right: 20px;
+    }
 }
 
 @media screen and (max-width: 1249px) {
     .team {
         max-width: 860px;
     }
+
+    .team > ul > li.active:nth-child(4n) > blockquote {
+        right: auto;
+    }
+
     .team > ul > li.active:nth-child(3n) > blockquote {
         right: 20px;
     }
@@ -156,6 +199,20 @@
     .team {
         max-width: 572px;
     }
+
+    .team > ul > li > blockquote {
+        width: auto;
+    }
+
+    .team > ul > li h2 {
+        font-size: 20px;
+    }
+
+    .team > ul > li.active:nth-child(3n) > blockquote {
+        right: auto;
+        width: auto;
+    }
+
     .team > ul > li.active:nth-child(2n) > blockquote {
         right: 20px;
     }
@@ -165,8 +222,14 @@
     .team {
         max-width: 286px;
     }
+
+    .team > ul > li.active:nth-child(2n) > blockquote {
+        right: auto;
+    }
+
     .team > ul > li.active > blockquote {
-        left: 20px;
-        right: 20px;
+        left: 5vw;
+        right: 5vw;
+        width: 80vw;
     }
 }
