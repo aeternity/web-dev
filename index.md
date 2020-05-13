@@ -109,11 +109,11 @@ By redesigning blockchain technology at the protocol level, the æternity develo
 
 ## History
 
-- **2016** initial company forms in Liechtenstein
-- **2017** crowdfunding over BTC and ETH
-- **2018** æternity Mainnet blockchain launch
+- **2020+** forecast a million æpp transactions, by legal blockchain entities
 - **2019** æternity universe ecosystem and first tokens on æ
-- **2020** forecast a million æpp transactions, by legal blockchain entities
+- **2018** æternity Mainnet blockchain launch
+- **2017** crowdfunding over BTC and ETH
+- **2016** initial company forms in Liechtenstein
 
 </Section>
 <Section id="technical_advantages" type="fancy">
@@ -360,7 +360,7 @@ Programming libraries are available. Any Javascript developer can build a simple
 - ### Hosted API Server, Public Nodes and Services
   Several hosted services are available to enable quick-start development of blockchain applications on the Testnet. Although all services are also available for the Mainnet, it is not advisable to use them in production environments. <b>Self-hosting critical infrastructure is recommended</b>.
   - Mainnet æternal API Server [https://mainnet.aeternal.io](https://mainnet.aeternal.io)
-  - Mainnet API Gateway Nodes hosted on [https://testnet.aeternity.io/api](https://mainnet.aeternity.io/api)
+  - Mainnet API Gateway Nodes hosted on [https://mainnet.aeternity.io/api](https://mainnet.aeternity.io/api)
   - Testnet æternal API Server [https://testnet.aeternal.io](https://testnet.aeternal.io)
   - Testnet API Gateway Nodes hosted on [https://testnet.aeternity.io/api](https://testnet.aeternity.io/api)
 
