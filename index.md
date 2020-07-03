@@ -462,6 +462,7 @@ others.
 - [![](./img/logos/Gateio_icon.svg) gate.io](https://www.gate.io)
 - [![](./img/logos/Changelly_icon.svg) changelly](https://changelly.com)
 - [![](./img/logos/JellySwap_icon.svg) jelly swap](https://jelly.market)
+- [![](./img/logos/BcBitcoin_icon.png) bcbitcoin](https://www.bcbitcoin.co.uk)
 
 A list of exchanges can be found at <a href="https://coinmarketcap.com/currencies/aeternity/markets">CoinMarketCap</a>
 
