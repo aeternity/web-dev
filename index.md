@@ -116,6 +116,12 @@ By redesigning blockchain technology at the protocol level, the æternity develo
 
 ## Use cases
 
+::: slot github-edit
+
+- [![](./img/Github_Icon.svg) Edit](https://github.com/aeternity/web-dev/edit/master/index.md)
+
+:::
+
 Having corrected the fundamental scalability flaws in earlier blockchains, the æternity protocol is engineered to accommodate large-scale enterprise use cases. æternity boasts of advanced features that connect real-world data from the Internet with the blockchain-at soft real-time.
 
 Below are a few use cases that would be highly beneficial for most organizations:
@@ -128,14 +134,6 @@ Below are a few use cases that would be highly beneficial for most organizations
 * Identity
 * IoT blockchain identities and hardware
 * Games
-
-::: slot buttons
-
-- [Edit this site](https://github.com/aeternity/web-dev/edit/master/index.md)
-
-  ![](./img/Github_Icon.svg) Create a PR
-
-:::
 
 ::: slot bottom
 
@@ -336,6 +334,13 @@ In order to get started, try out the community developed online IDE or set up yo
 <Section id="developer_tools">
 
 ## More developer tools
+
+::: slot github-edit
+
+- [![](./img/Github_Icon.svg) Edit](https://github.com/aeternity/web-dev/edit/master/index.md)
+
+:::
+
 Programming libraries are available. Any Javascript developer can build a simple æternity app in one day. For a quick start and reference, it is recommended to use the JavaScript SDK.
 
 ::: slot cards
@@ -522,6 +527,12 @@ To get the latest version of æternity node, please check out the [latest publis
 <Section id="team" type="default">
 
 ## Hundreds of contributors, friends and partners
+
+::: slot github-edit
+
+- [![](./img/Github_Icon.svg) Edit](https://github.com/aeternity/web-dev/edit/master/index.md)
+
+:::
 
 Founded by Yanislav Malahov, the community has grown to hundreds of contributors 
 and thousands of people all over the world. Having exchanged ideas and pursued blockchain endeavors with many of the greatest minds, 
@@ -879,14 +890,6 @@ envisioned powerful algorithms on blockchains. Now, with æternity, a new versio
   Lead æmbassador Bulgaria/Baltics
   > ### **Arjan van Eersel** [in](https://www.linkedin.com/in/arjanvaneersel/)
   > Arjan van Eersel comes from the world of corporate services and has been a consultant for international businesses and taxation for many years. During the same time, he was also coding for internal open-source software projects. Now with his business domain knowledge and coding experience, he runs a company working on delivering software, which uses modern technologies such as blockchain and self-sovereign identity for the corporate services sector. He currently propels the æternity community in Bulgaria and the Baltics.
-
-:::
-
-::: slot buttons
-
-- [Edit this site](https://github.com/aeternity/web-dev/edit/master/index.md)
-
-  ![](./img/Github_Icon.svg) Create a PR
 
 :::
 

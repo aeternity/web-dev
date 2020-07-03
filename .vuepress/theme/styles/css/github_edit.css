@@ -1,0 +1,37 @@
+.github-edit {
+    position: absolute;
+    right: 40px;
+    top: 15px;
+}
+
+.github-edit ul li a {
+    align-items: center;
+    border: 2px solid #c5c3c0;
+    box-sizing: border-box;
+    color: #c5c3c0;
+    display: flex;
+    font-family: inherit;
+    font-size: 12px;
+    justify-content: center;
+    line-height: 25px;
+    text-decoration: none;
+    width: 60px;
+}
+
+.github-edit ul li a:hover {
+    filter: invert(29%) sepia(56%) saturate(4785%) hue-rotate(324deg) brightness(98%) contrast(98%);
+    text-decoration: none;
+}
+
+.github-edit ul li img {
+    filter: invert(85%);
+    height: 15px;
+    margin-right: 5px;
+}
+
+@media screen and (max-width: 1023px) {
+    .github-edit {
+        right: 10px;
+        top: 10px;
+    }
+}
