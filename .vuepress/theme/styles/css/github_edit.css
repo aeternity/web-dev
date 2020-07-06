@@ -19,7 +19,7 @@
 }
 
 .github-edit ul li a:hover {
-    filter: invert(29%) sepia(56%) saturate(4785%) hue-rotate(324deg) brightness(98%) contrast(98%);
+    filter: brightness(0) saturate(100%) invert(26%) sepia(65%) saturate(4374%) hue-rotate(326deg) brightness(101%) contrast(94%);
     text-decoration: none;
 }
 
