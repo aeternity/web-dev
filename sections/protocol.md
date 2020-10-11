@@ -108,7 +108,7 @@
                     <h3>Open Source</h3>
                     <div>
                         <p>
-                            The æternity protocol and all essential developer resources are fully open source. There are no proprietary licenses whatsoever. The development process is transparent, and anyone can start contributing via <a href="https://github.com/aeternity">GitHub</a> and <a href="forum.aeternity.com">the Forum</a>.
+                            The æternity protocol and all essential developer resources are fully open source. There are no proprietary licenses whatsoever. The development process is transparent, and anyone can start contributing via <a href="https://github.com/aeternity">GitHub</a> and <a href="https://forum.aeternity.com">the Forum</a>.
                         </p>
                     </div>
                 </div>
