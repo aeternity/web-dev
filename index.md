@@ -277,9 +277,11 @@ Sophia is a functional Smart Contract language in the ML family. It is strongly-
 ![](./img/Sophia_Icon.svg) The Sophia language was created to easily utilize the potentials of the æternity protocol. Some features of conventional languages, such as floating point arithmetics for example, are not present, while some blockchain-specific primitives, constructions, and types have been added.
 
 ### Links
-- [Documentation](https://github.com/aeternity/aesophia/blob/lima/README.md)
+- [Documentation](https://aeternity-sophia.readthedocs.io/en/latest/)
 - [Examples on GitHub](https://github.com/aeternity/aepp-sophia-examples)
 - [Code Highlighting](https://marketplace.visualstudio.com/items?itemName=MilenRadkov.sophia) for VSCode and other IDE’s
+- [Aestudio](https://studio.aepps.com/)
+
 
 ### Educational material
 ![](./img/Dacade_Icon.svg) [Online Course from Dacade.org](https://dacade.org/ae-dev-101/introduction)<br>
@@ -356,7 +358,7 @@ Programming libraries are available. Any Javascript developer can build a simple
   Hosted and auto-generated [æternity Node API](https://api-docs.aeternity.io) documentation
 - ![](./img/Frontend_icon.svg)
   ### SDK Frontend APIs
-  - [JavaScript](https://github.com/aeternity/aepp-sdk-js) (recommended)
+  - [JavaScript](https://aeternity-js-sdk.readthedocs.io/en/latest/#intro) (recommended)
   - [Python](https://github.com/aeternity/aepp-sdk-python) (community maintained)
   - [Go](https://github.com/aeternity/aepp-sdk-go) (community maintained)
   - [Java](https://github.com/kryptokrauts/aepp-sdk-java) (community maintained)
@@ -416,6 +418,8 @@ Programming libraries are available. Any Javascript developer can build a simple
     - Waellet (browser extension) [https://waellet.com](https://waellet.com)
     - AirGap (iOS/Android) [https://airgap.it](https://airgap.it)
     - ArkaneNetwork [https://arkane.network](https://arkane.network)
+    - Atomic Wallet [https://atomicwallet.io/](https://atomicwallet.io/)
+    
   - #### Development grants
     - [Aeternity Foundation](https://www.aeternity-foundation.org)
 
@@ -461,6 +465,7 @@ A wide selection of open source wallets and clients have been created by members
 - [![](./img/logos/Base_Aepps_icon.svg) **Base Wallet**](https://base.aepps.com)
 - [![](./img/logos/Waellet_icon.svg) **Waellet**](https://waellet.com)
 - [![](./img/logos/Arkane_Wallet_icon.svg) **Arkane Wallet**](https://arkane.network)
+- [![](./img/logos/Atomic_Wallet_icon.jpeg) **Atomic Wallet**](https://atomicwallet.io/)
 
 ## Get AE tokens
 
@@ -882,8 +887,6 @@ Here are some projects that are powered by æternity technology.
     Trusted recommendation service
 - [![](./img/logos/logo_assetify.svg)Assetify](https://www.assetify.net)
     Lending framework optimized for entry into new markets
-- [![](./img/logos/logo_yair.png)YAIR](https://yair.art)
-    Platform for artwork tokenization and shared ownership
 - [![](./img/logos/logo_arkane.png)Arkane](https://arkane.network)
     User-friendly blockchain transition platform for businesses
 - [![](./img/logos/logo_kingfootbal.png)King Football](https://kingfootball.com)
