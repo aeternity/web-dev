@@ -476,7 +476,6 @@ A wide selection of open source wallets and clients have been created by members
 
 AE tokens are accessible through many exchanges worldwide.  
 
-- [![](./img/logos/Binance_icon.svg) binance](https://www.binance.com)
 - [![](./img/logos/Okex_icon.svg) okex](https://www.okex.com)
 - [![](./img/logos/Huobi_icon.svg) huobi](https://www.huobi.com)
 - [![](./img/logos/Gateio_icon.svg) gate.io](https://www.gate.io)
