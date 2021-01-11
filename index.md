@@ -79,7 +79,7 @@ By redesigning blockchain technology at the protocol level, the æternity develo
   - ### Smart contracts: Sophia
     æternity smart contract programming is unique: Sophia is a typed functional programming language in the ML family that makes it easier to write correct programs.
 
-    [Read more](https://github.com/aeternity/protocol/blob/master/contracts/contracts.md)
+    [Read more](https://aeternity-sophia.readthedocs.io/en/latest/)
 - ![](./img/Ribbon_FATE.svg) FATE VM
   - ### FATE Virtual Machine: faster, simpler, safer code
     The Fast æternity Transaction Engine, or FATE VM, uses a higher level of abstraction and automatically minimizes error with type checking, delivering a simpler, easier, safer programming environment.
@@ -666,9 +666,9 @@ envisioned powerful algorithms on blockchains. Now, with æternity, a new versio
   > Keno Dreßel started his software career 13 years ago with web development. Since then, he completed a bachelor's and master's degree in computer science and has been working on various full stack projects after this. After his studies, he moved to freelance fullstack projects and joined æternity development in 2018. He developed his interest in blockchain in 2015 and has been an avid user and supporter of the technology since. 
 
 - ![](./img/team/philipp.jpg)
-  ## Philipp Piwowarsky
+  ## Philipp
   Superhero Developer
-  > ### **Philipp Piwowarsky** *philipp.chain*
+  > ### **Philipp** *philipp.chain*
   > Fascinated by the vision, ideology, and technology of æternity, Philipp joined to take part in developing the future of blockchain. As a full stack software engineer, his previous work included full-stack development and system administration in various functional and object-oriented languages. He currently works as a Blockchain Engineer, managing the technical and logistical aspects of multiple projects within the organization in an effort to provide a blockchain platform on which others can easily integrate their products. Philipp’s passion for self-sovereignty and the empowerment of individuals makes him a great fit for introducing more developers to the blockchain world.
 
 - ![](./img/team/denis-davidyuk.jpg)
