@@ -168,7 +168,7 @@
                             By using the AENS, aeternity.chain can be used instead of the public key <i>ak_2ruXgsLy9jM...BfCsR6qtpQYkektWB</i>.
                         </p>
                         <p>
-                            This significantly improves the user experience for both users and developers. Names in the AENS are registered through a <a href="https://chainna.me/">trustless auction process</a>.
+                            This significantly improves the user experience for both users and developers. Names in the AENS are registered through a trustless auction process.
                         </p>
                     </div>
                 </div>
