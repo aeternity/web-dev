@@ -482,7 +482,6 @@ AE tokens are accessible through many exchanges worldwide.
 - [![](./img/logos/Huobi_icon.svg) huobi](https://www.huobi.com)
 - [![](./img/logos/Gateio_icon.svg) gate.io](https://www.gate.io)
 - [![](./img/logos/Changelly_icon.svg) changelly](https://changelly.com)
-- [![](./img/logos/JellySwap_icon.svg) jelly swap](https://jelly.market)
 - [![](./img/logos/BcBitcoin_icon.png) bcbitcoin](https://www.bcbitcoin.co.uk)
 
 More exchanges can be found at <a href="https://coinmarketcap.com/currencies/aeternity/markets">CoinMarketCap</a>
@@ -857,8 +856,6 @@ Here are some projects that are powered by æternity technology.
     Digital identity verification and document authentication for added online security. 
 - [![](./img/logos/logo_lexon.png)*Lexon*](http://lexon.tech)
     Human readable programming language
-- [![](./img/logos/logo_jelly_swap.png)*JELLY*](https://jelly.market)
-    Atomic swaps from ETH, BTC to AE
 - [![](./img/logos/logo_ampnet.png)*AMPnet*](https://ampnet.io)
     All-in-one platform for running energy cooperatives
 - [![](./img/logos/logo_cryptotask.png)*Crypto Task*](https://www.cryptotask.org/)
