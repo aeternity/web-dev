@@ -481,9 +481,6 @@ AE tokens are accessible through many exchanges worldwide.
 - [![](./img/logos/Okex_icon.svg) okex](https://www.okex.com)
 - [![](./img/logos/Huobi_icon.svg) huobi](https://www.huobi.com)
 - [![](./img/logos/Gateio_icon.svg) gate.io](https://www.gate.io)
-- [![](./img/logos/Changelly_icon.svg) changelly](https://changelly.com)
-- [![](./img/logos/JellySwap_icon.svg) jelly swap](https://jelly.market)
-- [![](./img/logos/BcBitcoin_icon.png) bcbitcoin](https://www.bcbitcoin.co.uk)
 
 More exchanges can be found at <a href="https://coinmarketcap.com/currencies/aeternity/markets">CoinMarketCap</a>
 
