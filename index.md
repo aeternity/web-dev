@@ -481,8 +481,6 @@ AE tokens are accessible through many exchanges worldwide.
 - [![](./img/logos/Okex_icon.svg) okex](https://www.okex.com)
 - [![](./img/logos/Huobi_icon.svg) huobi](https://www.huobi.com)
 - [![](./img/logos/Gateio_icon.svg) gate.io](https://www.gate.io)
-- [![](./img/logos/Changelly_icon.svg) changelly](https://changelly.com)
-- [![](./img/logos/BcBitcoin_icon.png) bcbitcoin](https://www.bcbitcoin.co.uk)
 
 More exchanges can be found at <a href="https://coinmarketcap.com/currencies/aeternity/markets">CoinMarketCap</a>
 
@@ -676,9 +674,9 @@ envisioned powerful algorithms on blockchains. Now, with æternity, a new versio
   > Denis joined the team because he saw it as an opportunity to learn how to solve complex technical challenges. Having studied at the Far Eastern Federal University with a bachelor's degree in Applied Mathematics and Computer Science, he began building web applications using modern web technologies. Currently, he is working as part of æternity's aepps development team, his focus is on refining and optimizing the Superhero wallet. His previous work in building decentralized applications helps him  make accurate technical decisions. Although Denis believes that scalability is the most significant problem that this technology currently faces, he also believes that æternity can solve it.
 
 - ![](./img/team/yuri-shapkarin.jpg)
-  ## Yuri Shapkarin
+  ## Yury Shapkarin
   Superhero Developer
-  > ### **Yuri Shapkarin**
+  > ### **Yury Shapkarin** [g](https://github.com/shapkarin) [in](https://www.linkedin.com/in/shapkarin/)
   > Yury likes and believes in Open Source and thinks that this ideology can change the world we live in. Before æternity he was involved in great projects about bioinformatics and machine learning. He has a nice background and experience with JavaScript. Several years ago he was involved in several open-source projects and started to work on his own project. He was excited when æternity suggested to work together. He believes that the only way for the future Internet is decentralization, blockchain technologies and hard crypto protection. Also, he likes the idea of code being an art, generative art and other types of creative coding.
 
 - ![](./img/team/nikita-cedrik.jpg)
