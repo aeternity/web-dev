@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="60" height="61" viewBox="0 0 60 61">
+  <g id="Dacade_Icon" transform="translate(-0.273)">
+    <ellipse id="Ellipse_694" data-name="Ellipse 694" cx="30" cy="30.5" rx="30" ry="30.5" transform="translate(0.273)" fill="#53d1af"/>
+    <g id="LOGO" transform="translate(6.487 24.867)">
+      <g id="Artboard-Copy">
+        <g id="logo-font-white">
+          <path id="Combined-Shape" d="M560.6,55.766h2.883a3.591,3.591,0,1,1,.648-1.442h-5.571A2.163,2.163,0,0,0,560.6,55.766Zm-2.039-2.883h4.079a2.163,2.163,0,0,0-4.079,0Z" transform="translate(-516.853 -46.396)" fill="#fff" fill-rule="evenodd"/>
+          <path id="Combined-Shape-2" data-name="Combined-Shape" d="M450.91,4.439V0h1.442V10.812H450.91V9.977a3.6,3.6,0,1,1,0-5.538ZM448.6,9.37a2.162,2.162,0,1,0-2.162-2.162A2.162,2.162,0,0,0,448.6,9.37Z" transform="translate(-412.925)" fill="#fff" fill-rule="evenodd"/>
+          <path id="Combined-Shape-3" data-name="Combined-Shape" d="M338.91,50.835V50h1.442v7.208H338.91v-.835a3.6,3.6,0,1,1,0-5.538ZM336.6,55.766a2.162,2.162,0,1,0-2.162-2.162A2.162,2.162,0,0,0,336.6,55.766Z" transform="translate(-308.998 -46.396)" fill="#fff" fill-rule="evenodd"/>
+          <path id="Combined-Shape-4" data-name="Combined-Shape" d="M231.136,52.883a3.6,3.6,0,1,0,0,1.442h-1.493a2.162,2.162,0,1,1,0-1.442Z" transform="translate(-207.855 -46.396)" fill="#fff" fill-rule="evenodd"/>
+          <path id="Combined-Shape-5" data-name="Combined-Shape" d="M117.91,50.835V50h1.442v7.208H117.91v-.835a3.6,3.6,0,1,1,0-5.538ZM115.6,55.766a2.162,2.162,0,1,0-2.162-2.162A2.162,2.162,0,0,0,115.6,55.766Z" transform="translate(-103.927 -46.396)" fill="#fff" fill-rule="evenodd"/>
+          <path id="Combined-Shape-6" data-name="Combined-Shape" d="M5.91,4.439V0H7.352V10.812H5.91V9.977a3.6,3.6,0,1,1,0-5.538ZM3.6,9.37A2.162,2.162,0,1,0,1.442,7.208,2.162,2.162,0,0,0,3.6,9.37Z" fill="#fff" fill-rule="evenodd"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
