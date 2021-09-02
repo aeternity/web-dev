@@ -7,7 +7,7 @@ metrics:
     image: /img/Metrics_Commits.svg
     text: GitHub Commits
     link: https://github.com/aeternity/aeternity
-    value: 5855
+    value: 5955
     src:
       url: https://api.github.com/repositories/99802036/commits?per_page=1
       type: headers
@@ -17,18 +17,18 @@ metrics:
   blocks:
     image: /img/Metrics_Mined.svg
     text: Blocks Mined
-    link: https://mainnet.aeternal.io/generations
-    value: 420940
+    link: https://explorer.aeternity.io/generations
+    value: 481440
     src:
-      url: https://mainnet.aeternal.io/v2/key-blocks/current/height
+      url: https://mainnet.aeternity.io/mdw/stats
       type: json
-      path: result.height
+      path: result.data[0].height
       fetch-mode: cors
   transactions:
     image: /img/Metrics_Transactions.svg
     text: Total Transactions
-    link: https://mainnet.aeternal.io/transactions
-    value: 21583841
+    link: https://explorer.aeternity.io/transactions
+    value: 25461081
     src:
       url: https://mainnet.aeternity.io/mdw/txs/count
       type: text
@@ -36,12 +36,12 @@ metrics:
   names:
     image: /img/Metrics_Names.svg
     text: Names Claimed
-    link: https://mainnet.aeternal.io/names
-    value: 2980
+    link: https://explorer.aeternity.io/names
+    value: 2530
     src:
-      url: https://mainnet.aeternal.io/middleware/names
+      url: https://mainnet.aeternity.io/mdw/stats
       type: json
-      path: result.length
+      path: result.data[0].active_names
       fetch-mode: cors
 ---
 
