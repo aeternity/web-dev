@@ -69,7 +69,7 @@ metrics:
 <Section id="innovative">
 
 ## Why is æternity so innovative?
-æternity blockchain is an Erlang-based scalable smart contract platform engineered by programming pioneers to address some of the most fundamental challenges native to earlier blockchains. 
+æternity blockchain is an Erlang-based scalable smart contract platform engineered by programming pioneers to address some of the most fundamental challenges native to earlier blockchains.
 By redesigning blockchain technology at the protocol level, the æternity developer community has enabled the core protocol to understand and integrate a rich set of functionalities out of the box.
 
 ::: slot ribbon
@@ -86,7 +86,7 @@ By redesigning blockchain technology at the protocol level, the æternity develo
     [Read more](https://github.com/aeternity/protocol/blob/master/contracts/fate.md)
 - ![](./img/Ribbon_State_Channels.svg) Advanced state channels
   - ### Advanced State Channels Technology
-    Unlike most blockchains, æternity’s core protocol was re-engineered specifically so it can accommodate state channels on a protocol level, making it easier to build applications for global-scale enterprise use cases. 
+    Unlike most blockchains, æternity’s core protocol was re-engineered specifically so it can accommodate state channels on a protocol level, making it easier to build applications for global-scale enterprise use cases.
 
     [Read more](https://github.com/aeternity/protocol/blob/master/channels/README.md)
 - ![](./img/Ribbon_Oracles.svg) Oracles
@@ -130,7 +130,7 @@ Having corrected the fundamental scalability flaws in earlier blockchains, the �
 Below are a few use cases that would be highly beneficial for most organizations:
 
 * Documents, contracts, invoices, receipts
-* Decentralized Finance (DeFi) 
+* Decentralized Finance (DeFi)
 * Payments, loans, shares
 * Decentralized Autonomous Organization (DAO)
 * Voting and governance
@@ -212,8 +212,8 @@ including, but not limited to:
 - ![](./img/Highly_Flexible_Icon.svg)
   Highly flexible generalized account model supporting all types of signing options
 
-> ![](./img/Erlang_Icon-alt.svg) 
-> 
+> ![](./img/Erlang_Icon-alt.svg)
+>
 > Reference implementation written in Erlang by industry experts, the language that powers 90% of today’s world wide web. [Learn more](https://en.wikipedia.org/wiki/Erlang_(programming_language))
 
 </Section>
@@ -224,15 +224,15 @@ including, but not limited to:
 
 ## State Channels
 
-State channels make it possible to execute smart contracts off-chain. The blockchain enforces the 
-smart contract code only in the case of a disagreement between the contracting parties. 
+State channels make it possible to execute smart contracts off-chain. The blockchain enforces the
+smart contract code only in the case of a disagreement between the contracting parties.
 
 ::: slot bottom
 
 ![](./img/State_Channels.svg)
 
 > ### State Channels
-> 
+>
 > æternity can scale to billions
 > of transactions with off-chain
 > State Channels. [Read more](https://github.com/aeternity/protocol/blob/master/channels/README.md)
@@ -293,7 +293,7 @@ Courses are free and you will be given a certificate upon completion.
 </div>
 </div>
 
-:::    
+:::
 
 ::: slot buttons
 
@@ -422,7 +422,7 @@ Programming libraries are available. Any Javascript developer can build a simple
     - ArkaneNetwork [https://arkane.network](https://arkane.network)
     - Atomic Wallet [https://atomicwallet.io/](https://atomicwallet.io/)
 
-    
+
   - #### Development grants
     - [Aeternity Foundation](https://www.aeternity-foundation.org)
 
@@ -441,7 +441,7 @@ Programming libraries are available. Any Javascript developer can build a simple
 
 ## Interfaces and clients
 
-A wide selection of open source wallets and clients have been created by members of the community. Everyone is encouraged to collaborate and contribute to further development of these tools. 
+A wide selection of open source wallets and clients have been created by members of the community. Everyone is encouraged to collaborate and contribute to further development of these tools.
 
 ::: slot cards
 
@@ -479,7 +479,7 @@ A wide selection of open source wallets and clients have been created by members
 
 ## Get AE tokens
 
-AE tokens are accessible through many exchanges worldwide.  
+AE tokens are accessible through many exchanges worldwide.
 
 - [![](./img/logos/Okex_icon.svg) okex](https://www.okex.com)
 - [![](./img/logos/Huobi_icon.svg) huobi](https://www.huobi.com)
@@ -547,9 +547,9 @@ To get the latest version of æternity node, please check out the [latest publis
 
 :::
 
-Founded by Yanislav Malahov, the community has grown to hundreds of contributors 
-and thousands of people all over the world. Having exchanged ideas and pursued blockchain endeavors with many of the greatest minds, 
-Yanislav is a true veteran of the blockchain space. Back in 2013, the "godfather of ethereum" 
+Founded by Yanislav Malahov, the community has grown to hundreds of contributors
+and thousands of people all over the world. Having exchanged ideas and pursued blockchain endeavors with many of the greatest minds,
+Yanislav is a true veteran of the blockchain space. Back in 2013, the "godfather of ethereum"
 envisioned powerful algorithms on blockchains. Now, with æternity, a new version of his vision is becoming a reality once more.
 
 [![](./img/team-preview.jpg)](img/team.jpg)
@@ -565,68 +565,56 @@ envisioned powerful algorithms on blockchains. Now, with æternity, a new versio
 - ![](./img/team/tino-breddin.jpg)
   ## Tino Breddin
   Core Contributor
-  > ### **Tino Breddin** *botanicalcarebot.chain* 
+  > ### **Tino Breddin** *botanicalcarebot.chain*
   > Tino started his career as a Systems Engineer at Erlang Solutions, where he helped build soft-realtime transaction systems and databases. After serving as Technical Director at Travelping, building the next-generation of SDN-enabled AAA appliances for telecoms, he founded daogames. At daogames, Tino built a scalable multi-tenant infrastructure for multiplayer games used by mobile game developers globally. Currently Tino serves as Chief Architect for AR/VR system development at Vragments, while helping move æternity Core development forward.
 
 - ![](./img/team/ulf-w.jpg)
   ## Ulf Wiger
   Core Developer
   > ### **Ulf Wiger** *uwigeroferlang.chain*
-  > Ulf Wiger became one of the first commercial users of Erlang when he bought a license in 1993. In 1996, he joined Ericsson and became Chief Designer of the AXD 301 development, arguably the most complex system ever built in Erlang. In recent years, Ulf has been involved in products based on the AXD 301 architecture, and has been an active member of the Open Source Erlang community. In February 2009, he became CTO of Erlang Solutions. He is currently working on æternity blockchain. 
+  > Ulf Wiger became one of the first commercial users of Erlang when he bought a license in 1993. In 1996, he joined Ericsson and became Chief Designer of the AXD 301 development, arguably the most complex system ever built in Erlang. In recent years, Ulf has been involved in products based on the AXD 301 architecture, and has been an active member of the Open Source Erlang community. In February 2009, he became CTO of Erlang Solutions. He is currently working on æternity blockchain.
 
 - ![](./img/team/hans.jpg)
   ## Hans Svensson
   Core Developer
   > ### **Hans Svensson** *hanssv.chain* [g](https://github.com/hanssv)
-  > Hans joined the project for the challenge and fun of building a state-of-the-art blockchain in Erlang. With a master's degree in Engineering Physics and a PhD in Computer Science, he previously worked in research, testing and verifying distributed software in Erlang. Hans has consulted for major European companies, including Ericsson and Volvo. Currently he works as a QuickCheck Expert working on contracts and the Sophia language, as well as improving stability and performance during load. His fascination with new technology, and expertise in researching, developing and testing distributed software makes him an excellent addition to our team. Hans would like to see his work contribute to solving hard software development problems for æternity, through designing a versatile, modern blockchain. 
-
-- ![](./img/team/karol-skocik.jpg)
-  ## Karol Skocik
-  Core Developer
-  > ### **Karol Skocik** [y](https://www.youtube.com/watch?v=tLyKHY7-X5A)
-  > Karol is freelancing since finishing university, working on web backends, telco, gaming, messaging and crypto areas. He is most proud of introducing Erlang to Gooddata (business intelligence) by writing most of their core services, as well as writing services for signalling emergencies for Everything Everywhere. Most enjoyable personal projects would be a microkernel OS and a realtime strategy game in Lisp & Erlang. He is interested in tech areas (compilers, languages, graph matching/rewriting, AI) but also like to read about history, psychology, business, mathematics and economy.
+  > Hans joined the project for the challenge and fun of building a state-of-the-art blockchain in Erlang. With a master's degree in Engineering Physics and a PhD in Computer Science, he previously worked in research, testing and verifying distributed software in Erlang. Hans has consulted for major European companies, including Ericsson and Volvo. Currently he works as a QuickCheck Expert working on contracts and the Sophia language, as well as improving stability and performance during load. His fascination with new technology, and expertise in researching, developing and testing distributed software makes him an excellent addition to our team. Hans would like to see his work contribute to solving hard software development problems for æternity, through designing a versatile, modern blockchain.
 
 - ![](./img/team/dimitar.jpg)
   ## Dimitar Ivanov
   Core Developer
   > ### **Dimitar Ivanov** *dimitar.chain*
-  > Dimitar joined the project because he was impressed both by æternity’s balanced approach and the star team of developers already involved in it. With a bachelor’s degree in Software Engineering, he spent a couple of years writing banking software and as a result, now maintains a distinct mistrust of banks. He currently works as a software engineer and has participated in the development of every part of the æternity node. His ability to build rock-solid software, coupled with his fascination for the differences between traditional server software and blockchain (with regard to malicious nodes) makes him a valuable member of the team. He is happy to re-wire his brain to rise to this very interesting challenge. Through this work, Dimitar would like to make the world a better place. 
+  > Dimitar joined the project because he was impressed both by æternity’s balanced approach and the star team of developers already involved in it. With a bachelor’s degree in Software Engineering, he spent a couple of years writing banking software and as a result, now maintains a distinct mistrust of banks. He currently works as a software engineer and has participated in the development of every part of the æternity node. His ability to build rock-solid software, coupled with his fascination for the differences between traditional server software and blockchain (with regard to malicious nodes) makes him a valuable member of the team. He is happy to re-wire his brain to rise to this very interesting challenge. Through this work, Dimitar would like to make the world a better place.
 
 - ![](./img/team/grzegorz-uriasz.jpg)
   ## Grzegorz Uriasz
   Core Developer
   > ### **Grzegorz Uriasz**
-  > Grzegorz’s fascination with blockchain started when Bitcoin first came out - he carefully tracked the advancements of the technology and amazing projects which were built using it. With a background in cybersecurity and numerical simulations, his love for cryptography, hunting for security bugs in the wild, and analyzing malware in his free time, he decided to join the æternity team and help advance the technology. Excited by scalability challenges, he is currently working on state channels. 
-
-- ![](./img/team/radoslaw-rowicki.jpg)
-  ## Radosław Rowicki
-  Core Developer
-  > ### **Radosław Rowicki** *radrowaeternity.chain*
-  > Radosław is a fan of programming languages and paradigms, especially functional ones. He did his bachelor's degree at the University of Warsaw in 2019 and joined æternity to fulfill his destiny of compiler construction by working on Sophia. He provides ideas, bug fixes, and introduces new features to the language in the purpose of making it as comfortable to use as possible. He is also the creator of the interactive shell for Sophia which simplifies the process of learning and testing smart contracts. 
+  > Grzegorz’s fascination with blockchain started when Bitcoin first came out - he carefully tracked the advancements of the technology and amazing projects which were built using it. With a background in cybersecurity and numerical simulations, his love for cryptography, hunting for security bugs in the wild, and analyzing malware in his free time, he decided to join the æternity team and help advance the technology. Excited by scalability challenges, he is currently working on state channels.
 
 - ![](./img/team/ulf-n.jpg)
   ## Ulf Norell
   Core Developer
-  > ### **Ulf Norell** 
-  > Ulf is an expert programmer and the brain behind the Agda programming language. He has more than ten years of experience in Erlang. Ulf implemented several challenging parts of QuickCheck and tested Riak, Ejabberd, TCP/IP, Sidejob as well as distributed systems that were deemed difficult to test. He holds a PhD in Computer Science and is an expert in understanding complex scientific papers, as well as implementing their concepts in any programming language. 
+  > ### **Ulf Norell**
+  > Ulf is an expert programmer and the brain behind the Agda programming language. He has more than ten years of experience in Erlang. Ulf implemented several challenging parts of QuickCheck and tested Riak, Ejabberd, TCP/IP, Sidejob as well as distributed systems that were deemed difficult to test. He holds a PhD in Computer Science and is an expert in understanding complex scientific papers, as well as implementing their concepts in any programming language.
 
 - ![](./img/team/thomasarts.jpg)
   ## Thomas Arts
   Core Developer
   > ### **Thomas Arts** [g](https://github.com/ThomasArts) [in](https://www.linkedin.com/in/thomasarts/)
-  > Thomas joined the æternity team because of his desire to learn more about cryptography, software security, and blockchain technology. Holding a PhD in Computer Science and working as a Professor in software engineering, he has over 20 years of experience programming Erlang. Currently, he develops backend code for æternity, whilst writing and analyzing QuickCheck tests, including security analysis and the creation of a threat-model. As a senior computer scientist and Erlang expert, his easygoing and curious nature combine well with his strong mathematical background, allowing him to bring both theoretical and practical experience to the team. Thomas’ analytical skills are invaluable in detecting any errors in the system, thereby increasing the scope and abilities for the future of trustless applications. 
- 
+  > Thomas joined the æternity team because of his desire to learn more about cryptography, software security, and blockchain technology. Holding a PhD in Computer Science and working as a Professor in software engineering, he has over 20 years of experience programming Erlang. Currently, he develops backend code for æternity, whilst writing and analyzing QuickCheck tests, including security analysis and the creation of a threat-model. As a senior computer scientist and Erlang expert, his easygoing and curious nature combine well with his strong mathematical background, allowing him to bring both theoretical and practical experience to the team. Thomas’ analytical skills are invaluable in detecting any errors in the system, thereby increasing the scope and abilities for the future of trustless applications.
+
 - ![](./img/team/michal.jpg)
   ## Michal Zajda
   Core Developer
   > ### **Michał Zajda** *transcontinental.chain*
-  > Michal joined æternity to take part in the dynamic phase of blockchain evolution. Holding a master's degree in Computer Science, his work background has been focused on the scalability of backend systems that support mobile communication, markets, and IoT. Currently he works as an architect, coordinating æternity's decentralized team of developers that work together to bridge the blockchain world and real-world software capabilities. His experience in navigating the complexity of knowledge around network and state, and his fascination with things like permaculture prime him to organize the self-sustaining capabilities of his work for æternity. By enabling new ways of interacting via state channels, Michal is looking forward to seeing the new value that blockchains will bring to the world. 
+  > Michal joined æternity to take part in the dynamic phase of blockchain evolution. Holding a master's degree in Computer Science, his work background has been focused on the scalability of backend systems that support mobile communication, markets, and IoT. Currently he works as an architect, coordinating æternity's decentralized team of developers that work together to bridge the blockchain world and real-world software capabilities. His experience in navigating the complexity of knowledge around network and state, and his fascination with things like permaculture prime him to organize the self-sustaining capabilities of his work for æternity. By enabling new ways of interacting via state channels, Michal is looking forward to seeing the new value that blockchains will bring to the world.
 
 - ![](./img/team/artur.jpg)
   ## Artur Kratt
   Core Developer
   > ### **Artur Kratt**
-  > Artur Kratt is an Elixir Developer, currently studying blockchain and associated technologies. Artur believes blockchain innovation is the future of money and economics, and is quickly expanding his understanding and engagement with the field. 
+  > Artur Kratt is an Elixir Developer, currently studying blockchain and associated technologies. Artur believes blockchain innovation is the future of money and economics, and is quickly expanding his understanding and engagement with the field.
 
 - ![](./img/team/nikita-fuchs.jpg)
   ## Nikita Fuchs
@@ -650,7 +638,7 @@ envisioned powerful algorithms on blockchains. Now, with æternity, a new versio
   ## Dincho Todorov
   Technical support
   > ### **Dincho Todorov** *dincho.chain*
-  > Dincho joined the project because of his passion for cryptography and excitement to work with a “dream team” of large-scale technology. With a bachelor's degree in Computer Systems and Technologies, and a master's degree in Software Engineering, he has worked in web and mobile development and as the CTO of both a web startup and a mobile development agency. Currently working in SRE, he is responsible for configuring, running and deploying our testnet/mainnet/dev environments. His expertise in networks, web, and mobile make him uniquely suited to helping the team build better products. Through his work, Dincho would like to see the development of fully autonomous processes, contribute to a great user experience, and ultimately provide an innovative, secure, and stable technology. 
+  > Dincho joined the project because of his passion for cryptography and excitement to work with a “dream team” of large-scale technology. With a bachelor's degree in Computer Systems and Technologies, and a master's degree in Software Engineering, he has worked in web and mobile development and as the CTO of both a web startup and a mobile development agency. Currently working in SRE, he is responsible for configuring, running and deploying our testnet/mainnet/dev environments. His expertise in networks, web, and mobile make him uniquely suited to helping the team build better products. Through his work, Dincho would like to see the development of fully autonomous processes, contribute to a great user experience, and ultimately provide an innovative, secure, and stable technology.
 
 - ![](./img/team/milen-radkov.jpg)
   ## Milen Radkov
@@ -662,7 +650,7 @@ envisioned powerful algorithms on blockchains. Now, with æternity, a new versio
   ## Keno Dreßel
   Superhero Developer
   > ### **Keno Dreßel** *kenodressel.chain*
-  > Keno Dreßel started his software career 13 years ago with web development. Since then, he completed a bachelor's and master's degree in computer science and has been working on various full stack projects after this. After his studies, he moved to freelance fullstack projects and joined æternity development in 2018. He developed his interest in blockchain in 2015 and has been an avid user and supporter of the technology since. 
+  > Keno Dreßel started his software career 13 years ago with web development. Since then, he completed a bachelor's and master's degree in computer science and has been working on various full stack projects after this. After his studies, he moved to freelance fullstack projects and joined æternity development in 2018. He developed his interest in blockchain in 2015 and has been an avid user and supporter of the technology since.
 
 - ![](./img/team/philipp.jpg)
   ## Philipp Bierbrauer
@@ -673,20 +661,20 @@ envisioned powerful algorithms on blockchains. Now, with æternity, a new versio
 - ![](./img/team/denis-davidyuk.jpg)
   ## Denis Davidyuk
   Superhero Developer
-  > ### **Denis Davidyuk** *davidyuk.chain* [g](https://github.com/davidyuk) [in](https://www.linkedin.com/in/denis-davidyuk-9a9330141) 
+  > ### **Denis Davidyuk** *davidyuk.chain* [g](https://github.com/davidyuk) [in](https://www.linkedin.com/in/denis-davidyuk-9a9330141)
   > Denis joined the team because he saw it as an opportunity to learn how to solve complex technical challenges. Having studied at the Far Eastern Federal University with a bachelor's degree in Applied Mathematics and Computer Science, he began building web applications using modern web technologies. Currently, he is working as part of æternity's aepps development team, his focus is on refining and optimizing the Superhero wallet. His previous work in building decentralized applications helps him  make accurate technical decisions. Although Denis believes that scalability is the most significant problem that this technology currently faces, he also believes that æternity can solve it.
 
 - ![](./img/team/nikita-cedrik.jpg)
   ## Nikita Tsedrik
   Superhero Developer
   > ### **Nikita Tsedrik**
-  > Nikita has a master's degree in Applied Mathematics and Computer Science. He is an enthusiastic learner, currently in the process of earning his PhD. After participating in a recent blockchain Hackathon, Nikita created a Ledger app for æternity and is currently working as a developer for the æpps team, focusing on refining both the Ledger and base-æpps. Nikita’s background in AR/VR and image recognition primes him for understanding how this technical medium can intersect with its human users. Nikita is fascinated by the limitless potential of blockchain. 
+  > Nikita has a master's degree in Applied Mathematics and Computer Science. He is an enthusiastic learner, currently in the process of earning his PhD. After participating in a recent blockchain Hackathon, Nikita created a Ledger app for æternity and is currently working as a developer for the æpps team, focusing on refining both the Ledger and base-æpps. Nikita’s background in AR/VR and image recognition primes him for understanding how this technical medium can intersect with its human users. Nikita is fascinated by the limitless potential of blockchain.
 
 - ![](./img/team/dmitry-kostin.jpg)
   ## Dmitry Kostin
   Superhero Developer
   > ### **Dmitry Kostin** *paradise.chain*
-  > Dmitry was educated with capability to solve problems on any language or framework. He found the idea of decentralized applications—widely used in cryptocurrency projects—very interesting for testing his skills. After more than a year of supporting the development of the Base Aepp, connecting it with other wallets and improving ease of use for dApp developers, he seeks to further improve cryptowallets and expand their usage. 
+  > Dmitry was educated with capability to solve problems on any language or framework. He found the idea of decentralized applications—widely used in cryptocurrency projects—very interesting for testing his skills. After more than a year of supporting the development of the Base Aepp, connecting it with other wallets and improving ease of use for dApp developers, he seeks to further improve cryptowallets and expand their usage.
 
 - ![](./img/team/ivaylo-badinov.jpg)
   ## Ivaylo Badinov
@@ -700,17 +688,11 @@ envisioned powerful algorithms on blockchains. Now, with æternity, a new versio
   > ### **Atanas Krondev**
   > Atanas is fascinated how blockchain brings innovations to every aspect of life. Mostly by the opportunity it brings for start-ups and new ventures to scale. He has been educated in software engineering and has a bachelor degree in marketing. As a Superhero front-end developer he strives to bring the best experience to the end users. He believes that a quality UI/UX will help show the true potential of æternity blockchain to the world.
 
-- ![](./img/team/vjacheslav-brichkovskiy.jpg)
-  ## Vjacheslav Brichkovskiy
-  Blockchain Developer
-  > ### **Vjacheslav Brichkovskiy**
-  > Vjacheslav was initially impressed by people, who developed æternity, their passion and creativity. That's why he decided to join the incredible community and be part of them. Vjacheslav is a software architect with more than 9 years of Erlang experience in development of high loaded and distributed systems (mostly focused on trading domain). Usually Vjacheslav thinks of Erlang not like language itself but as technology instead. Designed with distributed systems in mind and combined with the idea of asynchronous and message driven environments, this solution will serve as the right choice for closest decades.
-
 - ![](./img/team/tsvetan-kolev.jpg)
   ## Tsvetan Kolev
   Senior Designer
-  > ### **Tsvetan Kolev** *tsvetan.chain* 
-  > Tsvetan is a Sofia-based web and visual designer focused on UI/UX, implementing the best practices of user-centered design in his work. He has over 10 years of experience in the design field, ranging from digital agencies and personal clients to product companies. He is excited about blockchain technology and its disruptive potential for innovation and transformation of different sectors of the global society and economy. He considers blockchain to be one of the leading technology trends defining the next decade and further. This particular interest led him to discover æternity blockchain, joining the team in the end of 2019 as a Senior Designer. 
+  > ### **Tsvetan Kolev** *tsvetan.chain*
+  > Tsvetan is a Sofia-based web and visual designer focused on UI/UX, implementing the best practices of user-centered design in his work. He has over 10 years of experience in the design field, ranging from digital agencies and personal clients to product companies. He is excited about blockchain technology and its disruptive potential for innovation and transformation of different sectors of the global society and economy. He considers blockchain to be one of the leading technology trends defining the next decade and further. This particular interest led him to discover æternity blockchain, joining the team in the end of 2019 as a Senior Designer.
 
 - ![](./img/team/lale-mahrt.jpg)
   ## Lale Mahrt
@@ -722,19 +704,13 @@ envisioned powerful algorithms on blockchains. Now, with æternity, a new versio
   ## Liubov Sharga
   Growth Hacker
   > ### **Liubov Sharga** *sinonimboga.chain*
-  > Liubov is an experienced marketing professional with expertise in the digital marketing area. For the past years, she has been working with blockchain startups. She was also involved in the preparation and presentation of blockchain conferences around the world. Passionate for what she does as a lifestyle, Liubov is interested in innovations that bring real benefits to business. She is impressed with the whole range of opportunities that æternity's technology offers the world and its practical implementation. Her goal is to involve more and more people to use the unique technologies that æternity provides. 
-
- - ![](./img/team/alex-casas.jpg)
-    ## Alex Casas
-    Ecosystem Lead
-    > ### **Alex Casas**
-    > Alex was an early member of the æternity community since he knew the project in March 2017 and realized his alignment with the vision and technological potential of æternity blockchain. He has been devoted to the BPO/ITO industry related to Business development, operations, and management roles for over 17 years, scaling a company from scratch to 3.000 employees and 13 facilities in 4 countries in two years as its general manager. Passionate about blockchain potential to achieve a more balanced and fair world, he has founded or co-founded several social impact initiatives, some to be built on the æternity network. As a highly committed and hard worker, he is supporting the æcosystem growth, product development and operations to contribute together with the team to the mass adoption of æternity.
+  > Liubov is an experienced marketing professional with expertise in the digital marketing area. For the past years, she has been working with blockchain startups. She was also involved in the preparation and presentation of blockchain conferences around the world. Passionate for what she does as a lifestyle, Liubov is interested in innovations that bring real benefits to business. She is impressed with the whole range of opportunities that æternity's technology offers the world and its practical implementation. Her goal is to involve more and more people to use the unique technologies that æternity provides.
 
 - ![](./img/team/erik-v.jpg)
   ## Erik Vollstädt
   Æmbassador Manager
   > ### **Erik Vollstädt** *erikvollstaedt.chain*
-  > Erik joined the team because he saw æternity’s potential to improve on Ethereum and Bitcoin's deficits through state channels and functional programming languages like Erlang and Elixir. With a master's degree in Science in Business Innovation & Technology Management from Girona, Catalunya, he has experience in lead generation for apps marketing, product testing and content editing and has worked as the Co-Founder and Community Director of Bitnation. Currently working as æmbassador Manager, he coordinates and engages community feedback and ambassador collaborations both on and offline. Erik ultimately hopes to counteract to the abuse of power by politicians and the banking sector by growing æternity’s user base and expanding the projects’ reach, worldwide. 
+  > Erik joined the team because he saw æternity’s potential to improve on Ethereum and Bitcoin's deficits through state channels and functional programming languages like Erlang and Elixir. With a master's degree in Science in Business Innovation & Technology Management from Girona, Catalunya, he has experience in lead generation for apps marketing, product testing and content editing and has worked as the Co-Founder and Community Director of Bitnation. Currently working as æmbassador Manager, he coordinates and engages community feedback and ambassador collaborations both on and offline. Erik ultimately hopes to counteract to the abuse of power by politicians and the banking sector by growing æternity’s user base and expanding the projects’ reach, worldwide.
 
 - ![](./img/team/omar-saadoun.jpg)
   ## Omar Saadoun
@@ -776,13 +752,13 @@ envisioned powerful algorithms on blockchains. Now, with æternity, a new versio
   ## Marco Walz
   Stuttgart æmbassador
   > ### **Marco Walz** [g](https://github.com/marc0olo) [t](https://twitter.com/marc0olo) [in](https://www.linkedin.com/in/marco-walz-776844141/)
-  > Marco is a software developer (full-stack) with a strong drive to make everybody's life more comfortable. He got interested in blockchain and cryptocurrencies in the spring of 2017. In early 2018, he co-founded Kryptokrauts which develops SDKs and tools for the æternity ecosystem. 
+  > Marco is a software developer (full-stack) with a strong drive to make everybody's life more comfortable. He got interested in blockchain and cryptocurrencies in the spring of 2017. In early 2018, he co-founded Kryptokrauts which develops SDKs and tools for the æternity ecosystem.
 
 - ![](./img/team/stephen-sunday.jpg)
   ## Stephen Sunday
   Lead æmbassador Nigeria
   > ### **Stephen Sunday** [t](https://twitter.com/steviekusu) [in](https://www.linkedin.com/in/stephen-sunday-kusu-8673a6173/)
-  > Based in Jos, Nigeria with a background in Computer Science, Stephen is a crypto enthusiast who runs a blockchain consulting firm called KusuConsult. Stephen has a passion for promoting blockchain-related grassroot projects and gets regularly invited as a speaker for blockchain events in Nigeria. Stephen has led some of the most successful æmbassador meet-ups, tapping on developer groups and local communities. 
+  > Based in Jos, Nigeria with a background in Computer Science, Stephen is a crypto enthusiast who runs a blockchain consulting firm called KusuConsult. Stephen has a passion for promoting blockchain-related grassroot projects and gets regularly invited as a speaker for blockchain events in Nigeria. Stephen has led some of the most successful æmbassador meet-ups, tapping on developer groups and local communities.
 
 - ![](./img/team/ashish-chawla.jpg)
   ## Ashish Chawla
@@ -800,7 +776,7 @@ envisioned powerful algorithms on blockchains. Now, with æternity, a new versio
   ## Manel Ruiz
   Lead æmbassador Spain
   > ### **Manel Ruiz** [t](https://twitter.com/manelomanu)
-  > Manel Ruiz has a strong background as a social activist in Catalonia. He saw cryptocurrencies as the right path to follow for humanity go further in a more connected and free world. As a passionate educator, he likes to share the possibilities that Blockchain technology can offer to everyone. 
+  > Manel Ruiz has a strong background as a social activist in Catalonia. He saw cryptocurrencies as the right path to follow for humanity go further in a more connected and free world. As a passionate educator, he likes to share the possibilities that Blockchain technology can offer to everyone.
 
 - ![](./img/team/emmanuel-joseph.jpg)
   ## Emmanuel Joseph
@@ -838,7 +814,7 @@ envisioned powerful algorithms on blockchains. Now, with æternity, a new versio
 ## Projects that use æternity
 
 æternity's powerful features attract a long range of applications—with more being added to the list.
-Here are some projects that are powered by æternity technology. 
+Here are some projects that are powered by æternity technology.
 
 
 <input type="checkbox" id="more-logos">
@@ -848,7 +824,7 @@ Here are some projects that are powered by æternity technology.
 - [![](./img/logos/logo_airgap.png)*Airgap*](https://airgap.it)
     Open source wallet that turns old, offline smartphone into a hardware wallet
 - [![](./img/logos/logo_vereign.svg)*Vereign*](https://www.vereign.com)
-    Digital identity verification and document authentication for added online security. 
+    Digital identity verification and document authentication for added online security.
 - [![](./img/logos/logo_lexon.png)*Lexon*](http://lexon.tech)
     Human readable programming language
 - [![](./img/logos/logo_ampnet.png)*AMPnet*](https://ampnet.io)
@@ -856,7 +832,7 @@ Here are some projects that are powered by æternity technology.
 - [![](./img/logos/logo_cryptotask.png)*Crypto Task*](https://www.cryptotask.org/)
     Decentralized freelance market ecosystem
 - [![](./img/logos/logo_smartcredit.png)*Smart credit*](https://smartcredit.io)
-    Low collateral, transferable crypto loans 
+    Low collateral, transferable crypto loans
 - [![](./img/aeternity-logo-small.svg)*AEknow*](https://aeknow.org)
     æternity explorer and resource center
 - [![](./img/logos/logo_recheck.png)*ReCheck*](https://recheck.io)
@@ -880,7 +856,7 @@ Here are some projects that are powered by æternity technology.
 - [![](./img/logos/logo_kingfootbal.png)King Football](https://kingfootball.com)
     Verify football merchandise authenticity
 - [![](./img/logos/logo_crowdholding.svg)Crowdholding](https://www.crowdholding.com)
-    Open innovation platform 
+    Open innovation platform
 
 <label for="more-logos">Show more</label>
 
