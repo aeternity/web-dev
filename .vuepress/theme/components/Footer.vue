@@ -45,6 +45,8 @@
             </a>
             <a @click.prevent="resetCookies()" href="#">Cookies</a>
             <a href="./cookies-policy.html">Legal imprint</a>
+             <a @click.prevent="resetCookies()" href="#">Verification</a>
+            <a href="https://etherscan.io/address/0xb22d1f1006aa02ee755e794d9c93dbec4b0bc8ae">Verification</a>
         </div>
     </footer>
 </template>
